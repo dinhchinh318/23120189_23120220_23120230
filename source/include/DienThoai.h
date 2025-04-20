@@ -1,7 +1,7 @@
 #ifndef _DIEN_THOAI_H_
 #define _DIEN_THOAI_H_
 
-#include "../lib/lib.cpp"
+#include "libSrc.h"
 
 struct CauHinh
 {
@@ -19,12 +19,12 @@ private:
     string _ten;                    // Tên điện thoại
     string _hang;                   // Hãng sản xuất
     CauHinh _cauHinh;               // Cấu hình điện thoại
-    double _gia;                    // Giá tiền (triệu VND)
+    string _gia;                    // Giá tiền (triệu VND)
 
 public:
     DienThoai();
     DienThoai(const DienThoai&);
-    DienThoai(const int, const string, const string, const CauHinh, const double);
+    DienThoai(const int, const string, const string, const CauHinh, const string);
     ~DienThoai();
 
     ///// --- Getter ---
@@ -48,7 +48,7 @@ public:
         return _cauHinh;
     }
 
-    double getGia() const 
+    string getGia() const 
     {
         return _gia;
     }

@@ -1,4 +1,4 @@
-#include "DienThoai.h"
+#include "../include/DienThoai.h"
 
 void DienThoai::nhapDuLieu() {
     cout << "Nhap ID dien thoai: ";
@@ -29,10 +29,12 @@ void DienThoai::nhapDuLieu() {
     cout << "Nhap dung luong pin (mAh): ";
     cin >> _cauHinh.dungLuongPin;
 
-    cout << "Nhap gia tien (trieu VND): ";
-    cin >> _gia;
+    cin.ignore();
 
-    cin.ignore(); // Chuẩn bị cho nhập tiếp nếu cần
+    cout << "Nhap gia tien (trieu VND): ";
+    getline(cin, _gia);
+
+    _gia = ChuanHoaGia(_gia);
 }
 
 
@@ -58,9 +60,9 @@ DienThoai::DienThoai(const DienThoai& dt)
 }
 
 DienThoai::DienThoai() 
-                    : _id(0), _ten(""), _hang(""), _cauHinh(), _gia(0.0) {}
+                    : _id(0), _ten(""), _hang(""), _cauHinh(), _gia("0") {}
 
-DienThoai::DienThoai(const int id, const string ten, const string hang, const CauHinh cauHinh, double gia) 
+DienThoai::DienThoai(const int id, const string ten, const string hang, const CauHinh cauHinh, string gia) 
                     : _id(0), _ten(ten), _hang(hang), _cauHinh(cauHinh), _gia(gia) {}
 
 DienThoai::~DienThoai() 
@@ -75,7 +77,7 @@ ostream& operator<<(ostream& os, const DienThoai dt)
         << "Hang            : " << dt._hang << "\n"
         << "Ten             : " << dt._ten << "\n"
         << dt._cauHinh << "\n"
-        << "Gia             : " << dt._gia;
+        << "Gia             : " << dt._gia << " VND";
     return os;
 }
 

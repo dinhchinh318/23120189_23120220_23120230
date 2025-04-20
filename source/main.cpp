@@ -1,4 +1,4 @@
-#include "../source/managers/QuanLyDienThoai.h"
+#include "lib/lib.h"
 
 int main() {
     QuanLyDienThoai ql;
@@ -44,6 +44,6 @@ int main() {
     cout << "👋 Tạm biệt!\n";
 
     exitProgram();
-    
+
     return 0;
 }

@@ -9,8 +9,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "source/main.cpp",
-                "source/models/*.cpp",
-                "source/managers/*.cpp",
+                "source/src/*.cpp",
                 "source/lib/*.cpp",
                 "-o",
                 "${fileDirname}/../release/${fileBasenameNoExtension}"

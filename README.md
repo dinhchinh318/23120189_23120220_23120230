@@ -8,6 +8,36 @@
 | **23120220** | *Trần Vũ Đình Chính*      |Nhóm trưởng
 | **23120230** | *Nguyễn Thế Đạt*          |Thành viên
 
+# 📱 Quản Lý Điện Thoại - Hướng Dẫn Biên Dịch và Chạy Chương Trình
+
+## 📦 Yêu cầu
+
+- Trình biên dịch **g++ version 13** hoặc mới hơn.
+- Hệ điều hành: Windows/Linux/macOS.
+- Đã cài đặt `g++-13` và có thể gọi từ terminal.
+
+## 🗂️ Cấu trúc thư mục dự án
+```bash
+project/   
+├── source/  
+│ ├── main.cpp  
+│ ├── src/  
+│ │ ├── *.cpp   
+│ ├── lib/  
+│ │ ├── *.cpp  
+├── release/  
+└── README.md  
+```
+> **Lưu ý:** Tất cả các file `.cpp` của bạn phải nằm trong `source/src/` và `source/lib/`.
+
+## ⚙️ Cách biên dịch
+
+Mở terminal (cmd hoặc bash) và di chuyển đến thư mục gốc của project:
+
+```bash
+cd đường_dẫn_đến_thư_mục_project
+g++-13 -std=c++2b -g source/main.cpp source/src/*.cpp source/lib/*.cpp -o release/out
+```
 ---
 
 ## 📝 Mô tả dự án

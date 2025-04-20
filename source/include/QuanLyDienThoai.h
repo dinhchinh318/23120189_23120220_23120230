@@ -1,8 +1,7 @@
 #ifndef _QUAN_LY_DIEN_THOAI_H_
 #define _QUAN_LY_DIEN_THOAI_H_
 
-#include "../lib/lib.cpp"
-#include "../models/DienThoai.h"
+#include "DienThoai.h"
 
 class QuanLyDienThoai {
 private:
@@ -92,6 +91,7 @@ public:
         }
     };
 
+public:
     /// Constructor
     QuanLyDienThoai();
 
@@ -117,6 +117,16 @@ public:
     }
 
     /// Operator
+    DienThoai& operator[](const int i)
+    {
+        Node* newNode = _pHead;
+        for (int j = 0; j < i; j++)
+        {
+            newNode = newNode->_pNext;
+        }
+        return newNode->info;
+    }
+
     friend ostream& operator<<(ostream& os, const QuanLyDienThoai& ll)
     {
         Node* node = ll._pHead;
@@ -130,7 +140,7 @@ public:
         while (node != nullptr)
         {
             os << "Dien thoai " << stt++ << endl;
-            os << node->info << "\n\n";
+            os << node->info << "\n";
             node = node->_pNext;
         }
         return os;
