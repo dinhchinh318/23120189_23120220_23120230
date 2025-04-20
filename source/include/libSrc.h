@@ -11,11 +11,14 @@
 #include <algorithm>
 #include <exception>
 #include <stdexcept>
-#include <windows.h>
 
-using std::cin, std::cout, std::endl, std::string;
+using std::cin;
+using std::cout;
+using std::endl;
+using std::string;
 using std::ostream;
-using std::out_of_range, std::forward_iterator_tag;
+using std::out_of_range;
+using std::forward_iterator_tag;
 
 string ChuanHoaGia(string& gia);
 
