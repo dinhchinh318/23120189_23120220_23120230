@@ -11,6 +11,7 @@
 #include <algorithm>
 #include <exception>
 #include <stdexcept>
+#include <windows.h>
 
 using std::cin, std::cout, std::endl, std::string;
 using std::ostream;

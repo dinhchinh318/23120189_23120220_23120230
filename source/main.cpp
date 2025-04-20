@@ -18,7 +18,7 @@ int main() {
         {
             DienThoai dtTemp;
             dtTemp.nhapDuLieu();
-            ql.AddTail(dtTemp);
+            ql.Push_back(dtTemp);
         } 
         else if (luaChon == 2) 
         {
