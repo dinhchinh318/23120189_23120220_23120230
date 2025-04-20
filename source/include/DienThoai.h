@@ -56,6 +56,8 @@ public:
     void nhapDuLieu();
 
     friend ostream& operator<<(ostream& os, const DienThoai);
+    bool operator==(const DienThoai);
+    bool operator!=(const DienThoai);
 };
 
 #endif

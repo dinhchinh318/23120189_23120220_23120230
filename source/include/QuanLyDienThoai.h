@@ -99,10 +99,10 @@ public:
     ~QuanLyDienThoai();
 
     /// Function
-    void AddHead(const DienThoai&);
-    void AddTail(const DienThoai&);
+    void Push_back(const DienThoai&);
     void RemoveHead();
     void RemoveTail();
+    void Remove(const DienThoai&);
     void Clear();
 
     /// --- Iterator ---
@@ -132,10 +132,10 @@ public:
         Node* node = ll._pHead;
         if (node == nullptr)
         {
-            os << "📭 Không có điện thoại nào trong danh sách.\n";
+            os << "📭 Khong co dien thoai nao trong danh sach\n";
             return os;
         }
-        os << "\n📱 Danh sách điện thoại:\n";
+        os << "\n📱 Danh sach dien thoai\n";
         int stt = 1;
         while (node != nullptr)
         {

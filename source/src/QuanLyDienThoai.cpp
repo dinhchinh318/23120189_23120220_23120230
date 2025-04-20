@@ -8,86 +8,94 @@ QuanLyDienThoai::QuanLyDienThoai()
 
 QuanLyDienThoai::~QuanLyDienThoai()
 {
-    Clear();
-}
-
-void QuanLyDienThoai::Clear()
-{
-    while (_pHead != nullptr)
+    while(_pHead)
     {
-        RemoveHead();
+        Node* tmp = _pHead;
+        _pHead = _pHead->_pNext;
+        delete tmp;
+        _soLuong--;
     }
 }
 
-void QuanLyDienThoai::AddTail(const DienThoai& value)
+void QuanLyDienThoai::Push_back(const DienThoai& dt)
 {
-    Node* node = CreateNode(value);
-    if (node == nullptr)
-    {
-        return;
-    }
-    if (_pHead == nullptr)
-    {
-        _pHead = _pTail = node;
-        _soLuong++;
-        return;
-    }
-    _pTail->_pNext = node;
-    _pTail = node;
-    _soLuong++;
-}
-
-void QuanLyDienThoai::AddHead(const DienThoai& value)
-{
-    Node* node = CreateNode(value);
-    if (!node) return;
-
-    if (_pHead == nullptr)
+    Node* node = new Node {dt, nullptr};
+    if(!_pHead)
     {
         _pHead = _pTail = node;
     }
     else
     {
-        node->_pNext = _pHead;
-        _pHead = node;
+        _pTail->_pNext = node;
+        _pTail = node;
     }
     _soLuong++;
 }
 
 void QuanLyDienThoai::RemoveHead()
 {
-    if (_pHead == nullptr) return;
-
-    Node* temp = _pHead;
+    if(!_pHead) return;
+    Node* tmp = _pHead;
     _pHead = _pHead->_pNext;
-    delete temp;
-    _soLuong--;
-
-    if (_pHead == nullptr)
+    delete tmp;
+    if(!_pHead)
     {
-        _pTail = nullptr;
+        _pTail == nullptr;
     }
+    _soLuong--;
 }
 
 void QuanLyDienThoai::RemoveTail()
 {
-    if (_pTail == nullptr) return;
+    if (_pHead == nullptr)
+    return;
 
     if (_pHead == _pTail)
     {
-        delete _pTail;
+        Node* node = _pHead;
         _pHead = _pTail = nullptr;
+        _soLuong--;
+        return;
     }
-    else
+
+    Node* prev = _pHead;
+    while (prev->_pNext != _pTail)
     {
-        Node* prev = _pHead;
-        while (prev->_pNext != _pTail)
+        prev = prev->_pNext;
+    }
+    Node* node = _pTail;
+    _pTail = prev;
+    _pTail->_pNext = nullptr;
+    _soLuong--;
+    return;
+}
+
+void QuanLyDienThoai::Remove(const DienThoai& dt)
+{
+    if(!_pHead) return;
+    if(_pHead->info == dt) RemoveHead();
+    else if(_pTail->info == dt) RemoveTail();
+    else 
+    {
+        Node* tmp = _pHead;
+        while(tmp->info != dt)
         {
-            prev = prev->_pNext;
+            tmp = tmp->_pNext;
         }
-        delete _pTail;
-        _pTail = prev;
-        _pTail->_pNext = nullptr;
+        Node* del = tmp;
+        tmp = tmp->_pNext;
+        delete del;
     }
     _soLuong--;
+}
+
+void QuanLyDienThoai::Clear()
+{
+    while(_pHead)
+    {
+        Node* tmp = _pHead;
+        _pHead = _pHead->_pNext;
+        delete tmp;
+        _soLuong--;
+    }
 }

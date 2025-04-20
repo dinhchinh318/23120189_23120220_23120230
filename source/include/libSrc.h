@@ -7,7 +7,6 @@
 #include <math.h>
 #include <cstdlib>
 #include <stdlib.h>
-#include <unistd.h>
 #include <thread>
 #include <algorithm>
 #include <exception>
