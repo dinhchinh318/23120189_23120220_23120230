@@ -21,32 +21,89 @@ private:
     }
 
 public:
-class Iterator {
+    //////////////////// --- class Iterator ---/////////////////////
+    class Iterator 
+    {
+    public:
+        // Các type alias cần thiết cho iterator traits (để tương thích STL)
+        using iterator_category = forward_iterator_tag;
+        using difference_type = ptrdiff_t;
+        using value_type = DienThoai;
+        using pointer = DienThoai*;
+        using reference = DienThoai&;
+
     private:
         Node* current;
-    public:
         Iterator(Node* p) : current(p) {}
-        Iterator& operator++() {
-            current = current->_pNext;
+        friend class QuanLyDienThoai;
+    public:
+        Iterator() : current(nullptr) {}
+
+        reference operator*() const
+        {
+            if (!current)
+            {
+                throw out_of_range("Dereference end() or null iterator");
+            }
+            return current->info;
+        }
+
+        pointer operator->() const
+        {
+            if (!current)
+            {
+                throw out_of_range("Accessing member via end() or null iterator");
+            }
+            return &(current->info);
+        }
+
+        Iterator& operator++()
+        {
+            if (current)
+            {
+                current = current->_pNext;
+            }
+            else
+            {
+                throw out_of_range("Incrementing end() or null iterator");
+            }
             return *this;
         }
-        bool operator!=(const Iterator& it) const {
-            return current != it.current;
+
+        Iterator operator++(int)
+        {
+            if (!current)
+            {
+                throw out_of_range("Incrementing end() or null iterator");
+            }
+            Iterator temp = *this;
+            current = current->_pNext;
+            return temp;
         }
-        const DienThoai& operator*() const {
-            return current->info;
+
+        bool operator==(const Iterator& other) const
+        {
+            return current == other.current;
+        }
+
+        bool operator!=(const Iterator& other) const
+        {
+            return !(*this == other);
         }
     };
 
+    /// Constructor
     QuanLyDienThoai();
+
+    /// Destructor
     ~QuanLyDienThoai();
 
+    /// Function
     void AddHead(const DienThoai&);
     void AddTail(const DienThoai&);
     void RemoveHead();
     void RemoveTail();
     void Clear();
-
 
     /// --- Iterator ---
     Iterator begin()
@@ -59,6 +116,7 @@ class Iterator {
         return Iterator(nullptr); // Iterator end() trỏ tới nullptr
     }
 
+    /// Operator
     friend ostream& operator<<(ostream& os, const QuanLyDienThoai& ll)
     {
         Node* node = ll._pHead;
@@ -68,9 +126,11 @@ class Iterator {
             return os;
         }
         os << "\n📱 Danh sách điện thoại:\n";
+        int stt = 1;
         while (node != nullptr)
         {
-            os << node->info << ", ";
+            os << "Dien thoai " << stt++ << endl;
+            os << node->info << "\n\n";
             node = node->_pNext;
         }
         return os;

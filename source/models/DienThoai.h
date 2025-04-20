@@ -15,15 +15,16 @@ struct CauHinh
 
 class DienThoai {
 private:
-    int _id;                  // ID điện thoại
-    string _ten;                 // Tên điện thoại
-    string _hang;                // Hãng sản xuất
-    CauHinh _cauHinh;            // Cấu hình điện thoại
-    double _gia;                 // Giá tiền (triệu VND)
+    int _id;                        // ID điện thoại
+    string _ten;                    // Tên điện thoại
+    string _hang;                   // Hãng sản xuất
+    CauHinh _cauHinh;               // Cấu hình điện thoại
+    double _gia;                    // Giá tiền (triệu VND)
 
 public:
     DienThoai();
-    DienThoai(const string, const string, const CauHinh, const double);
+    DienThoai(const DienThoai&);
+    DienThoai(const int, const string, const string, const CauHinh, const double);
     ~DienThoai();
 
     ///// --- Getter ---
@@ -51,6 +52,8 @@ public:
     {
         return _gia;
     }
+
+    void nhapDuLieu();
 
     friend ostream& operator<<(ostream& os, const DienThoai);
 };

@@ -8,8 +8,10 @@
                 "-std=c++2b",
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
-                "../lib/*.cpp",
+                "source/main.cpp",
+                "source/models/*.cpp",
+                "source/managers/*.cpp",
+                "source/lib/*.cpp",
                 "-o",
                 "${fileDirname}/../release/${fileBasenameNoExtension}"
             ],

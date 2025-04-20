@@ -59,4 +59,4 @@ Hệ thống mô phỏng hoạt động cơ bản trong một cửa hàng bán �
 - [ ] Viết báo cáo và hướng dẫn sử dụng  
 
 ---
-$ g++-13 -std=c++2b -fdiagnostics-color=always -g main.cpp -o ../release/out
+g++-13 -std=c++2b -g source/main.cpp source/models/*.cpp source/managers/*.cpp source/lib/*.cpp -o release/out
