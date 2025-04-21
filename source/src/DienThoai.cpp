@@ -83,12 +83,12 @@ ostream& operator<<(ostream& os, const DienThoai dt)
 
 bool DienThoai::operator==(const DienThoai dt)
 {
-    if(_id == dt.getId()) return true;
+    if(_id == dt.getID()) return true;
     return false;
 }
 
 bool DienThoai::operator!=(const DienThoai dt)
 {
-    if(_id != dt.getId()) return true;
+    if(_id != dt.getID()) return true;
     return false;
 }
