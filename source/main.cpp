@@ -24,14 +24,19 @@ int main() {
         {
             cout << ql << endl;
         } 
-        // else if (luaChon == 3) 
-        // {
-        //     string tuKhoa;
-        //     cin.ignore();
-        //     cout << "Nhập từ khóa tìm kiếm: ";
-        //     getline(cin, tuKhoa);
-        //     ql.timKiemTheoTen(tuKhoa);
-        // } 
+        else if (luaChon == 3) 
+        {
+            string key;
+            cout << "Nhập tên hoặc ID cần tìm: ";
+            cin.ignore(); 
+            getline(cin, key);
+            DienThoai dt = ql.TimKiem(key);
+            if (dt.getID() != 0) {
+                cout << "Điện thoại tìm thấy:\n" << dt << endl;
+            } else {
+                cout << "Không tìm thấy điện thoại với tên hoặc ID: " << key << endl;
+            }
+        } 
         // else if (luaChon == 4) 
         // {
         //     int id;

@@ -103,6 +103,9 @@ public:
     void RemoveHead();
     void RemoveTail();
     void Remove(const DienThoai&);
+    // DienThoai TimKiemTheoID(const int&);
+    // DienThoai TimKiemTheoTen(const string&);
+    DienThoai TimKiem(const string&);
     void Clear();
 
     /// --- Iterator ---
@@ -145,6 +148,9 @@ public:
         }
         return os;
     }
+
+    
+    
 };
 
 #endif

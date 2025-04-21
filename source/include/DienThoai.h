@@ -28,7 +28,7 @@ public:
     ~DienThoai();
 
     ///// --- Getter ---
-    int getId() const 
+    int getID() const 
     {
         return _id;
     }

@@ -99,3 +99,51 @@ void QuanLyDienThoai::Clear()
         _soLuong--;
     }
 }
+
+// DienThoai QuanLyDienThoai::TimKiemTheoID(const int& id)
+// {
+//     Node* tmp = _pHead;
+//     while(tmp)
+//     {
+//         if(tmp->info.getID() == id) return tmp->info;
+//         tmp = tmp->_pNext;
+//     }
+//     return DienThoai();
+// }
+
+// DienThoai QuanLyDienThoai::TimKiemTheoTen(const string& ten)
+// {
+//     Node* tmp = _pHead;
+//     while(tmp)
+//     {
+//         if(tmp->info.getTen() == ten) return tmp->info;
+//         tmp = tmp->_pNext;
+//     }
+//     return DienThoai();
+// }
+
+DienThoai QuanLyDienThoai::TimKiem(const string& key)
+{
+    // Kiểm tra xem key có phải là một dãy số hay không
+    bool isNumber = !key.empty() && all_of(key.begin(), key.end(), ::isdigit);
+
+    Node* tmp = _pHead;
+    if(isNumber)
+    {
+        int id = stoi(key);
+        while(tmp)
+        {
+            if(tmp->info.getID() == id) return tmp->info;
+            tmp = tmp->_pNext;
+        }
+    }
+    else
+    {
+        while(tmp)
+        {
+            if(tmp->info.getTen() == key) return tmp->info;
+            tmp = tmp->_pNext;
+        }
+    }
+    return DienThoai(); // Trả về đối tượng rỗng nếu không tìm thấy
+}
