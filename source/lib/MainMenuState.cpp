@@ -1,19 +1,18 @@
-#include "PhoneManager.h"
 #include "WindowState.hpp"
-#include "app.h"
+#include "PhoneManager.h"
 
 MainMenuState::MainMenuState()
 {
 }
 
-void MainMenuState::pollEvents(PhoneManager *PMan)
+void MainMenuState::pollEvents(PhoneManager *gameMan)
 {
     sf::Event ev;
-    while (PMan->getRenderWindow().pollEvent(ev))
+    while (gameMan->getRenderWindow().pollEvent(ev))
     {
         if (ev.type == sf::Event::Closed)
         {
-            PMan->getRenderWindow().close();
+            gameMan->getRenderWindow().close();
         }
         else if (ev.type == sf::Event::MouseButtonPressed)
         {
@@ -21,42 +20,42 @@ void MainMenuState::pollEvents(PhoneManager *PMan)
             {
             case 0:
                 std::cout << "Resume" << std::endl;
-                PMan->getSelectionSound().play();
-                PMan->clearScreen();
-                PMan->setState(PMan->getPhoneManagementState());
+                gameMan->getSelectionSound().play();
+                gameMan->clearScreen();
+                //gameMan->setState(gameMan->getGameState());
                 break;
 
-            // case 1:
-            //     std::cout << "New game" << std::endl;
-            //     PMan->getSelectionSound().play();
-            //     if (PMan->hasGameInProgress && !PMan->getGameState()->endGame()) {
-            //         PMan->showSaveGamePopup2 = true;
-            //     }else {
-            //         PMan->showPlayModePopup = true;
-            //     }
-            //     break;
+            case 1:
+                std::cout << "New game" << std::endl;
+                gameMan->getSelectionSound().play();
+                // if (gameMan->hasGameInProgress && !gameMan->getGameState()->endGame()) {
+                //     gameMan->showSaveGamePopup2 = true;
+                // }else {
+                //     gameMan->showPlayModePopup = true;
+                // }
+                break;
                 
-            // case 2:
-            //     std::cout << "Load game" << std::endl;
-            //     PMan->getSelectionSound().play();
-            //     if (!PMan->hasGameInProgress) {
-            //         PMan->initGameState();
-            //     }
-            //     PMan->getGameState()->loadGame();
-            //     PMan->getGameState()->resetGameState();
-            //     PMan->hasGameInProgress = true;
-            //     PMan->setState(PMan->getGameState());
-            //     break;
+            case 2:
+                std::cout << "Load game" << std::endl;
+                gameMan->getSelectionSound().play();
+                // if (!gameMan->hasGameInProgress) {
+                //     gameMan->initGameState();
+                // }
+                // gameMan->getGameState()->loadGame();
+                // gameMan->getGameState()->resetGameState();
+                // gameMan->hasGameInProgress = true;
+                // gameMan->setState(gameMan->getGameState());
+                break;
                 
-            // case 3:
-            //     std::cout << "Setting" << std::endl;
-            //     PMan->getSelectionSound().play();
-            //     PMan->clearScreen();
-            //     PMan->setState(PMan->getSettingState());
-            //     return;
+            case 3:
+                std::cout << "Setting" << std::endl;
+                gameMan->getSelectionSound().play();
+                gameMan->clearScreen();
+                //gameMan->setState(gameMan->getSettingState());
+                return;
             case 4:
                 std::cout << "Exit" << std::endl;
-                PMan->getSelectionSound().play();
+                gameMan->getSelectionSound().play();
                 exit(2);
                 break;
             default:
@@ -65,21 +64,21 @@ void MainMenuState::pollEvents(PhoneManager *PMan)
         }
     }
 
-    // // live mouse
-    // int i = PMan->hasGameInProgress ? 0 : 1;
+    // live mouse
+    // int i = gameMan->hasGameInProgress ? 0 : 1;
     // for (; i < this->numberOfButtons; ++i)
     // {
-    //     if (button[i].isMouseOver(PMan->getRenderWindow()))
+    //     if (button[i].isMouseOver(gameMan->getRenderWindow()))
     //     {
     //         currentChoice = i;
-    //         update(PMan);
+    //         update(gameMan);
     //         break;
     //     }
     //     currentChoice = -1;
     // }
 }
 
-void MainMenuState::init(PhoneManager *PMan)
+void MainMenuState::init(PhoneManager *gameMan)
 {
 
     // Load sound effect
@@ -90,26 +89,26 @@ void MainMenuState::init(PhoneManager *PMan)
     }
     else
     {
-        PMan->getSelectionSound().setBuffer(this->soundBuffer);
+        gameMan->getSelectionSound().setBuffer(this->soundBuffer);
     }
 
     // Game title
     if (!this->font.loadFromFile("Asset/Pacifico.ttf"))
     {
     }
-    this->background.setSize(sf::Vector2f(PMan->getRenderWindow().getSize().x,
-                                          PMan->getRenderWindow().getSize().y));
+    this->background.setSize(sf::Vector2f(gameMan->getRenderWindow().getSize().x,
+                                          gameMan->getRenderWindow().getSize().y));
     this->bg_texture.loadFromFile("Asset/bg_image.jpg");
     this->background.setTexture(&this->bg_texture);
 
-    this->gameTitle.setString("Chess Game");
-    this->gameTitle.setCharacterSize(32);
-    this->gameTitle.setFont(this->font);
-    this->gameTitle.setFillColor(sf::Color::Magenta);
-    this->gameTitle.setOrigin(this->gameTitle.getLocalBounds().width / 2,
-                              this->gameTitle.getLocalBounds().height / 2);
-    this->gameTitle.setPosition(PMan->getRenderWindow().getSize().x / 2,
-                                PMan->getRenderWindow().getSize().y / 2 - 200);
+    // this->gameTitle.setString("Chess Game");
+    // this->gameTitle.setCharacterSize(32);
+    // this->gameTitle.setFont(this->font);
+    // this->gameTitle.setFillColor(sf::Color::Magenta);
+    // this->gameTitle.setOrigin(this->gameTitle.getLocalBounds().width / 2,
+    //                           this->gameTitle.getLocalBounds().height / 2);
+    // this->gameTitle.setPosition(gameMan->getRenderWindow().getSize().x / 2,
+    //                             gameMan->getRenderWindow().getSize().y / 2 - 200);
 
     // Option buttons
     this->currentChoice = 0;
@@ -127,38 +126,42 @@ void MainMenuState::init(PhoneManager *PMan)
         button[i].setTextColor(sf::Color::White);
         button[i].setFont(this->font);
         button[i].setTextSize(28);
-        button[i].setPosition(PMan->getRenderWindow().getSize().x / 2,
-        PMan->getRenderWindow().getSize().y / 2 - 60 + 45 * i);
+        button[i].setPosition(gameMan->getRenderWindow().getSize().x / 2,
+                              gameMan->getRenderWindow().getSize().y / 2 - 60 + 45 * i);
     }
 
 }
 
-// void MainMenuState::draw(PhoneManager *PMan)
-// {
-//     PMan->getRenderWindow().draw(this->background);
-//     PMan->getRenderWindow().draw(this->gameTitle);
+void MainMenuState::draw(PhoneManager *gameMan)
+{
+    gameMan->getRenderWindow().draw(this->background);
+    //gameMan->getRenderWindow().draw(this->gameTitle);
 
-//     int i = PMan->hasGameInProgress ? 0 : 1;
-//     for (; i < this->numberOfButtons; ++i)
-//     {
-//         button[i].drawTo(PMan->getRenderWindow());
-//     }
-// }
+    // int i = gameMan->hasGameInProgress ? 0 : 1;
+    // for (; i < this->numberOfButtons; ++i)
+    // {
+    //     button[i].drawTo(gameMan->getRenderWindow());
+    // }
+}
 
-// void MainMenuState::update(PhoneManager *PMan)
-// {
-//     int i = PMan->hasGameInProgress ? 0 : 1;
-//     for (; i < this->numberOfButtons; ++i)
-//     {
-//         button[i].setTextSize(20);
-//         button[i].setTextColor(sf::Color::White);
-//         button[i].setOriginToCenterForText();
-//         if (i == currentChoice)
-//         {
-//             button[i].setTextSize(25);
-//             button[i].setTextColor(sf::Color::Green);
-//             button[i].setOriginToCenterForText();
-//         }
-//     }
+void MainMenuState::update(PhoneManager *gameMan)
+{
+    // int i = gameMan->hasGameInProgress ? 0 : 1;
+    // for (; i < this->numberOfButtons; ++i)
+    // {
+    //     button[i].setTextSize(20);
+    //     button[i].setTextColor(sf::Color::White);
+    //     button[i].setOriginToCenterForText();
+    //     if (i == currentChoice)
+    //     {
+    //         button[i].setTextSize(25);
+    //         button[i].setTextColor(sf::Color::Green);
+    //         button[i].setOriginToCenterForText();
+    //     }
+    // }
 
-// }
+}
+
+
+
+

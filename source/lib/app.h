@@ -4,13 +4,6 @@
 #include "../include/QuanLyDienThoai.h"
 #include "../include/utils.h"
 
-class Menu
-{
-public:
-    Menu();
-    ~Menu();
-};
-
 #ifdef _WIN32
     #include <windows.h>
     inline void GotoXY(int x, int y) {
