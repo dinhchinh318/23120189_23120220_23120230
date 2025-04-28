@@ -1,7 +1,7 @@
 #ifndef _DIEN_THOAI_H_
 #define _DIEN_THOAI_H_
 
-#include "libSrc.h"
+#include "lib.h"
 
 struct CauHinh
 {
