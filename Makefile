@@ -1,34 +1,19 @@
-# CXX = g++
-# CXXFLAGS = -std=c++17 -Wall -I./source/include
+SRC = $(wildcard source/*.cpp)
+OBJ = $(SRC:.cpp=.o)
+TARGET = PhoneManagement
 
-# SRC_DIR = source/src
-# LIB_DIR = source/lib
-# INC_DIR = source/include
-# OUT_DIR = release
-# TARGET = $(OUT_DIR)/out
+# ⚡ Bổ sung dòng này:
+CXXFLAGS = -I./SFML/include
 
-# SRCS = $(wildcard $(SRC_DIR)/*.cpp) $(wildcard $(LIB_DIR)/*.cpp) source/main.cpp
-# OBJS = $(SRCS:.cpp=.o)
+all: $(TARGET)
 
-# all: $(TARGET)
+# Compile từng file .cpp thành file .o
+%.o: %.cpp
+	g++ -c $< -o $@ $(CXXFLAGS)
 
-# $(TARGET): $(SRCS)
-# 	@mkdir -p $(OUT_DIR)
-# 	$(CXX) $(CXXFLAGS) -o $@ $^
-
-# run: $(TARGET)
-# 	./$(TARGET)
-
-# clean:
-# 	rm -f $(TARGET)
-
-all: compile link clean
-
-compile: 
-	g++ -c source/src/*.cpp source/lib/*.cpp source/main.cpp -ISFML\include
-
-link:
-	g++ *.o -o PhoneManagement -LSFML\lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+# Link tất cả .o thành chương trình
+$(TARGET): $(OBJ)
+	g++ $(OBJ) -o $(TARGET) -L./SFML/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 
 clean:
-	del *.o
+	del /Q $(OBJ) $(TARGET).exe
