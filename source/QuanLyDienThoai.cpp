@@ -1,4 +1,4 @@
-#include "../include/QuanLyDienThoai.h"
+#include "QuanLyDienThoai.h"
 
 QuanLyDienThoai::QuanLyDienThoai()
 {

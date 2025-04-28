@@ -1,4 +1,4 @@
-#include "../include/DienThoai.h"
+#include "DienThoai.h"
 
 void DienThoai::nhapDuLieu() {
     cout << "Nhap ID dien thoai: ";

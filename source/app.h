@@ -1,8 +1,8 @@
 #ifndef _APP_H_
 #define _APP_H_
 
-#include "../include/QuanLyDienThoai.h"
-#include "../include/utils.h"
+#include "QuanLyDienThoai.h"
+#include "utils.h"
 
 #ifdef _WIN32
     #include <windows.h>

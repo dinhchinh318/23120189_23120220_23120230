@@ -1,4 +1,4 @@
-#include "../include/lib.h"
+#include "lib.h"
 
 string ChuanHoaGia(string& gia) {
     // Bước 1: Lọc chỉ lấy chữ số
