@@ -25,7 +25,7 @@ public:
     MainMenuState *getMenuState();
 
     WindowState *getCurrentState();
-    sf::Sound &getSelectionSound();
+    //sf::Sound &getSelectionSound();
     void drawCurrentState();
 
     // Window process

@@ -60,3 +60,9 @@ sf::RenderWindow &PhoneManager::getRenderWindow()
 {
     return this->window;
 }
+
+void PhoneManager::pollEvents() {}
+
+void PhoneManager::update() {}
+
+void PhoneManager::draw() {}

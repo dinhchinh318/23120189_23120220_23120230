@@ -20,14 +20,14 @@ void MainMenuState::pollEvents(PhoneManager *gameMan)
             {
             case 0:
                 std::cout << "Resume" << std::endl;
-                gameMan->getSelectionSound().play();
+                //gameMan->getSelectionSound().play();
                 gameMan->clearScreen();
                 //gameMan->setState(gameMan->getGameState());
                 break;
 
             case 1:
                 std::cout << "New game" << std::endl;
-                gameMan->getSelectionSound().play();
+                //gameMan->getSelectionSound().play();
                 // if (gameMan->hasGameInProgress && !gameMan->getGameState()->endGame()) {
                 //     gameMan->showSaveGamePopup2 = true;
                 // }else {
@@ -37,7 +37,7 @@ void MainMenuState::pollEvents(PhoneManager *gameMan)
                 
             case 2:
                 std::cout << "Load game" << std::endl;
-                gameMan->getSelectionSound().play();
+                //gameMan->getSelectionSound().play();
                 // if (!gameMan->hasGameInProgress) {
                 //     gameMan->initGameState();
                 // }
@@ -49,13 +49,13 @@ void MainMenuState::pollEvents(PhoneManager *gameMan)
                 
             case 3:
                 std::cout << "Setting" << std::endl;
-                gameMan->getSelectionSound().play();
+                //gameMan->getSelectionSound().play();
                 gameMan->clearScreen();
                 //gameMan->setState(gameMan->getSettingState());
                 return;
             case 4:
                 std::cout << "Exit" << std::endl;
-                gameMan->getSelectionSound().play();
+                //gameMan->getSelectionSound().play();
                 exit(2);
                 break;
             default:
@@ -89,7 +89,7 @@ void MainMenuState::init(PhoneManager *gameMan)
     }
     else
     {
-        gameMan->getSelectionSound().setBuffer(this->soundBuffer);
+        //gameMan->getSelectionSound().setBuffer(this->soundBuffer);
     }
 
     // Game title
