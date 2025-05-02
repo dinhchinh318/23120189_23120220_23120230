@@ -92,3 +92,31 @@ bool DienThoai::operator!=(const DienThoai dt)
     if(_id != dt.getID()) return true;
     return false;
 }
+
+void DienThoai::insertToDB(SQLHDBC db) {
+    SQLHSTMT stmt;
+    SQLAllocHandle(SQL_HANDLE_STMT, db, &stmt);
+
+    // Tạo câu truy vấn SQL 
+    std::wstring query = L"INSERT INTO DIENTHOAI(ID, Ten, Hang, Gia, HeDieuHanh, CPU, RAM, ROM, KichThuocManHinh, DungLuongPin) VALUES ("
+        + std::to_wstring(_id) + L", N'"
+        + std::wstring(_ten.begin(), _ten.end()) + L"', N'"
+        + std::wstring(_hang.begin(), _hang.end()) + L"', "
+        + std::to_wstring(std::stof(_gia)) + L", N'"  // Convert _gia string to float
+        + std::wstring(_cauHinh.heDieuHanh.begin(), _cauHinh.heDieuHanh.end()) + L"', N'"
+        + std::wstring(_cauHinh.cpu.begin(), _cauHinh.cpu.end()) + L"', "
+        + std::to_wstring(_cauHinh.ram) + L", "
+        + std::to_wstring(_cauHinh.rom) + L", "
+        + std::to_wstring(_cauHinh.kichThuocManHinh) + L", "
+        + std::to_wstring(_cauHinh.dungLuongPin) + L")";
+
+    // Thực thi truy vấn
+    if (SQLExecDirectW(stmt, (SQLWCHAR*)query.c_str(), SQL_NTS) == SQL_SUCCESS) {
+        std::wcout << L"Da lu thong tin dien thoai thanh cong!\n";
+    }
+    else {
+        std::wcout << L"❌ Loi khi luu vao CSDL!\n";
+    }
+
+    SQLFreeHandle(SQL_HANDLE_STMT, stmt);
+}

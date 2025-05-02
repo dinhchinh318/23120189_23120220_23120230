@@ -26,3 +26,22 @@ string ChuanHoaGia(string& gia) {
 
     return result;
 }
+
+// Hàm kết nối đến database
+bool connectToSQL(SQLHENV& hEnv, SQLHDBC& hDbc) {
+    SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &hEnv);
+    SQLSetEnvAttr(hEnv, SQL_ATTR_ODBC_VERSION, (void*)SQL_OV_ODBC3, 0);
+    SQLAllocHandle(SQL_HANDLE_DBC, hEnv, &hDbc);
+
+    SQLWCHAR connStr[] = L"Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=QLDienThoai;UID=sa;PWD=123;";
+    SQLRETURN ret = SQLDriverConnectW(hDbc, NULL, connStr, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_COMPLETE);
+
+    if (SQL_SUCCEEDED(ret)) {
+        std::wcout << L"Ket noi SQL Server thanh cong.\n";
+        return true;
+    }
+    else {
+        std::wcout << L"Ket noi that bai.\n";
+        return false;
+    }
+}

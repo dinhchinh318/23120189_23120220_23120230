@@ -11,6 +11,8 @@
 #include <algorithm>
 #include <exception>
 #include <stdexcept>
+#include <windows.h>
+#include <sqlext.h>// SQL Server ODBC header
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Graphics/Shape.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>

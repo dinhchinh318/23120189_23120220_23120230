@@ -98,13 +98,17 @@ public:
     /// Destructor
     ~QuanLyDienThoai();
 
-    /// Function
+   /// Function
     void Push_back(const DienThoai&);
     void RemoveHead();
     void RemoveTail();
     void Remove(const DienThoai&);
-    // DienThoai TimKiemTheoID(const int&);
-    // DienThoai TimKiemTheoTen(const string&);
+    std::string wstringToString(const std::wstring& wstr);
+    DienThoai* TimKiemTheoID(SQLHDBC db,const int&id);
+    DienThoai* TimKiemTheoTen(SQLHDBC db, const string& ten);
+    DienThoai TimKiem(const string&);
+    void XoaDienThoaiTheoID(SQLHDBC db,const int& id);
+    void XuatDanhSachDienThoai(SQLHDBC db);
     DienThoai TimKiem(const string&);
     void Clear();
 
