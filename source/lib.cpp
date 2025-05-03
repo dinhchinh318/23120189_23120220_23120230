@@ -28,7 +28,7 @@ string ChuanHoaGia(string& gia) {
 }
 
 // Hàm kết nối đến database
-bool connectToSQL(SQLHENV& hEnv, SQLHDBC& hDbc) {
+/* bool connectToSQL(SQLHENV& hEnv, SQLHDBC& hDbc) {
     SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &hEnv);
     SQLSetEnvAttr(hEnv, SQL_ATTR_ODBC_VERSION, (void*)SQL_OV_ODBC3, 0);
     SQLAllocHandle(SQL_HANDLE_DBC, hEnv, &hDbc);
@@ -44,4 +44,4 @@ bool connectToSQL(SQLHENV& hEnv, SQLHDBC& hDbc) {
         std::wcout << L"Ket noi that bai.\n";
         return false;
     }
-}
+} */

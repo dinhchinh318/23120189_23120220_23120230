@@ -54,7 +54,7 @@ public:
     }
 
     void nhapDuLieu();
-    void insertToDB(SQLHDBC db); // db là kết nối đến SQL Server
+    //void insertToDB(SQLHDBC db); // db là kết nối đến SQL Server
 
     friend ostream& operator<<(ostream& os, const DienThoai);
     bool operator==(const DienThoai);

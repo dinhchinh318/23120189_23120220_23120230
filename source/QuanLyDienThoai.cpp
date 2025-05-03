@@ -122,7 +122,7 @@ void QuanLyDienThoai::Clear()
 //     return DienThoai();
 // }
 
-DienThoai QuanLyDienThoai::TimKiem(const string& key)
+/* DienThoai QuanLyDienThoai::TimKiem(const string& key)
 {
     // Kiểm tra xem key có phải là một dãy số hay không
     bool isNumber = !key.empty() && all_of(key.begin(), key.end(), ::isdigit);
@@ -146,9 +146,9 @@ DienThoai QuanLyDienThoai::TimKiem(const string& key)
         }
     }
     return DienThoai(); // Trả về đối tượng rỗng nếu không tìm thấy
-}
+} */
 
-void QuanLyDienThoai::XoaDienThoaiTheoID(SQLHDBC db,const int& id) {
+/* void QuanLyDienThoai::XoaDienThoaiTheoID(SQLHDBC db,const int& id) {
     SQLHSTMT stmt;
     SQLAllocHandle(SQL_HANDLE_STMT, db, &stmt);
 
@@ -228,4 +228,4 @@ void QuanLyDienThoai::XuatDanhSachDienThoai(SQLHDBC db) {
 
     // Giải phóng tài nguyên
     SQLFreeHandle(SQL_HANDLE_STMT, stmt);
-}
+} */

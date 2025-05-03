@@ -11,8 +11,8 @@
 #include <algorithm>
 #include <exception>
 #include <stdexcept>
-#include <windows.h>
-#include <sqlext.h>// SQL Server ODBC header
+//#include <windows.h>
+//#include <sqlext.h>// SQL Server ODBC header
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Graphics/Shape.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
@@ -34,5 +34,5 @@ using std::out_of_range;
 using std::forward_iterator_tag;
 
 string ChuanHoaGia(string& gia);
-
+//bool connectToSQL(SQLHENV& hEnv, SQLHDBC& hDbc);
 #endif

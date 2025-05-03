@@ -93,7 +93,7 @@ bool DienThoai::operator!=(const DienThoai dt)
     return false;
 }
 
-void DienThoai::insertToDB(SQLHDBC db) {
+/* void DienThoai::insertToDB(SQLHDBC db) {
     SQLHSTMT stmt;
     SQLAllocHandle(SQL_HANDLE_STMT, db, &stmt);
 
@@ -119,4 +119,4 @@ void DienThoai::insertToDB(SQLHDBC db) {
     }
 
     SQLFreeHandle(SQL_HANDLE_STMT, stmt);
-}
+} */

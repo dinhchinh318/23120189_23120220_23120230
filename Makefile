@@ -1,19 +1,36 @@
-SRC = $(wildcard source/*.cpp)
-OBJ = $(SRC:.cpp=.o)
-TARGET = PhoneManagement
+# Danh sách các file nguồn
+SRC := $(wildcard source/*.cpp)
 
-# ⚡ Bổ sung dòng này:
-CXXFLAGS = -I./SFML/include
+# Tạo danh sách file .o tương ứng
+OBJ := $(patsubst source/%.cpp, build/%.o, $(SRC))
 
+# Tên chương trình
+TARGET := PhoneManagement
+
+# Cờ biên dịch
+CXX := g++
+CXXFLAGS := -I./SFML/include -std=c++17
+
+# Thư viện liên kết (đã thêm -lodbc)
+LDFLAGS := -L./SFML/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -v
+
+# Mặc định build tất cả
 all: $(TARGET)
 
-# Compile từng file .cpp thành file .o
-%.o: %.cpp
-	g++ -c $< -o $@ $(CXXFLAGS)
+# Tạo thư mục build nếu chưa có
+build:
+	mkdir -p build
 
-# Link tất cả .o thành chương trình
-$(TARGET): $(OBJ)
-	g++ $(OBJ) -o $(TARGET) -L./SFML/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+# Build chương trình
+$(TARGET): build $(OBJ)
+	$(CXX) $(OBJ) -o $@ $(LDFLAGS)
 
+# Compile từng file .cpp thành .o
+build/%.o: source/%.cpp
+	$(CXX) -c $< -o $@ $(CXXFLAGS)
+
+# Dọn file tạm
 clean:
-	del /Q $(OBJ) $(TARGET).exe
+	del /Q build\*.o $(TARGET).exe
+
+.PHONY: all clean

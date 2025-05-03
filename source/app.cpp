@@ -10,9 +10,9 @@ void runApp()
     while (game.isWindowOpen()) {
         // process state
         game.clearScreen();
-        game.pollEvents();
+        /* game.pollEvents();
         game.update();
-        game.draw();
+        game.draw(); */
         game.getRenderWindow().display();
     }
     // QuanLyDienThoai ql;
@@ -60,5 +60,4 @@ void runApp()
     //     // }
     // } while (luaChon != 0);
 
-    cout << "👋 Tạm biệt!\n";
 }
