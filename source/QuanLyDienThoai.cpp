@@ -149,16 +149,22 @@ void QuanLyDienThoai::Clear()
             tmp = tmp->_pNext;
         }
     }
-    return DienThoai(); // Trả về đối tượng rỗng nếu không tìm thấy
+    return DienThoai(); // Trả về đối tượng rỗng nếu không tìm thấyy
 } */
 
 // Hàm chuyển đổi std::wstring (chuỗi wide) sang std::string (UTF-8)
+// std::string QuanLyDienThoai::wstringToString(const std::wstring& wstr) {
+//     if (wstr.empty()) return std::string();
+//     int size_needed = WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), (int)wstr.size(), nullptr, 0, nullptr, nullptr);
+//     std::string result(size_needed, 0);
+//     WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), (int)wstr.size(), &result[0], size_needed, nullptr, nullptr);
+//     return result;
+// }
+
+#include <boost/locale.hpp>
+
 std::string QuanLyDienThoai::wstringToString(const std::wstring& wstr) {
-    if (wstr.empty()) return std::string();
-    int size_needed = WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), (int)wstr.size(), nullptr, 0, nullptr, nullptr);
-    std::string result(size_needed, 0);
-    WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), (int)wstr.size(), &result[0], size_needed, nullptr, nullptr);
-    return result;
+    return boost::locale::conv::utf_to_utf<char>(wstr);
 }
 
 
