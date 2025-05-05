@@ -1,0 +1,8 @@
+<map id="_PyCfgBasicblock_" name="_PyCfgBasicblock_">
+<area shape="rect" id="node1" title=" " alt="" coords="159,201,303,228"/>
+<area shape="rect" id="node2" title=" " alt="" coords="109,5,168,32"/>
+<area shape="rect" id="node3" href="$struct__PyCfgExceptStack.html" title=" " alt="" coords="75,111,221,137"/>
+<area shape="rect" id="node5" href="$struct__PyCfgInstruction.html" title=" " alt="" coords="245,111,381,137"/>
+<area shape="rect" id="node4" href="$struct__PyCfgJumpTargetLabel.html" title=" " alt="" coords="406,111,581,137"/>
+<area shape="rect" id="node6" href="$struct__PyCompilerSrcLocation.html" title=" " alt="" coords="232,5,411,32"/>
+</map>

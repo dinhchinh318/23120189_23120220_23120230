@@ -1,0 +1,4 @@
+<map id="FLAC/format.h: format components" name="FLAC/format.h: format components">
+<area shape="rect" id="node1" href="$group__flac.html" title="The FLAC C API is the interface to libFLAC, a set of structures describing the components of FLAC str..." alt="" coords="5,13,100,38"/>
+<area shape="rect" id="node2" title="This module contains structure definitions for the representation of FLAC format components in memory..." alt="" coords="148,5,316,45"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="test.test_iterlen.TestTemporarilyImmutable" name="test.test_iterlen.TestTemporarilyImmutable">
+<area shape="rect" id="node1" title=" " alt="" coords="267,151,499,193"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__iterlen_1_1TestDeque.html" title="&#45;&#45;&#45;&#45;— Types that should not be mutated during iteration &#45;&#45;&#45;&#45;—" alt="" coords="554,5,751,32"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__iterlen_1_1TestDequeReversed.html" title=" " alt="" coords="554,57,751,98"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__iterlen_1_1TestDictItems.html" title=" " alt="" coords="562,122,743,163"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__iterlen_1_1TestDictKeys.html" title=" " alt="" coords="547,188,759,215"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__iterlen_1_1TestDictValues.html" title=" " alt="" coords="562,239,743,281"/>
+<area shape="rect" id="node8" href="$classtest_1_1test__iterlen_1_1TestSet.html" title=" " alt="" coords="565,305,741,332"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__iterlen_1_1TestInvariantWithoutMutations.html" title=" " alt="" coords="5,151,219,193"/>
+</map>

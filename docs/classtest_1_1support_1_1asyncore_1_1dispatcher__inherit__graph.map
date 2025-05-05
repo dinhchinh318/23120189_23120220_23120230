@@ -1,0 +1,10 @@
+<map id="test.support.asyncore.dispatcher" name="test.support.asyncore.dispatcher">
+<area shape="rect" id="node1" title=" " alt="" coords="5,97,240,124"/>
+<area shape="rect" id="node2" href="$classtest_1_1support_1_1asynchat_1_1async__chat.html" title=" " alt="" coords="288,5,528,32"/>
+<area shape="rect" id="node4" href="$classtest_1_1support_1_1asyncore_1_1dispatcher__with__send.html" title=" " alt="" coords="291,57,525,98"/>
+<area shape="rect" id="node5" href="$classtest_1_1support_1_1asyncore_1_1file__dispatcher.html" title=" " alt="" coords="315,122,501,163"/>
+<area shape="rect" id="node6" href="$classtest_1_1support_1_1smtpd_1_1SMTPServer.html" title=" " alt="" coords="295,188,521,215"/>
+<area shape="rect" id="node3" href="$classtest_1_1support_1_1smtpd_1_1SMTPChannel.html" title=" " alt="" coords="576,5,815,32"/>
+<area shape="rect" id="node7" href="$classtest_1_1support_1_1smtpd_1_1DebuggingServer.html" title=" " alt="" coords="586,151,805,193"/>
+<area shape="rect" id="node8" href="$classtest_1_1support_1_1smtpd_1_1PureProxy.html" title=" " alt="" coords="588,217,803,244"/>
+</map>

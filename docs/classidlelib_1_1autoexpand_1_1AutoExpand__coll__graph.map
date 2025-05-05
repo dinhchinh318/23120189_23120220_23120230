@@ -1,0 +1,13 @@
+<map id="idlelib.autoexpand.AutoExpand" name="idlelib.autoexpand.AutoExpand">
+<area shape="rect" id="node1" title=" " alt="" coords="308,5,533,32"/>
+<area shape="rect" id="node2" href="$struct__object.html" title=" " alt="" coords="5,448,75,475"/>
+<area shape="rect" id="node3" href="$struct__typeobject.html" title=" " alt="" coords="691,553,789,580"/>
+<area shape="rect" id="node4" href="$structPyMappingMethods.html" title=" " alt="" coords="345,295,496,321"/>
+<area shape="rect" id="node6" href="$structPyMethodDef.html" title=" " alt="" coords="365,359,476,385"/>
+<area shape="rect" id="node7" href="$structPyBufferProcs.html" title=" " alt="" coords="365,424,477,451"/>
+<area shape="rect" id="node8" href="$structPySequenceMethods.html" title=" " alt="" coords="342,525,499,552"/>
+<area shape="rect" id="node9" href="$structPyGetSetDef.html" title=" " alt="" coords="368,579,473,605"/>
+<area shape="rect" id="node10" href="$structPyNumberMethods.html" title=" " alt="" coords="347,753,494,780"/>
+<area shape="rect" id="node11" href="$structPyAsyncMethods.html" title=" " alt="" coords="354,819,487,845"/>
+<area shape="rect" id="node5" href="$structPyMemberDef.html" title=" " alt="" coords="363,968,478,995"/>
+</map>

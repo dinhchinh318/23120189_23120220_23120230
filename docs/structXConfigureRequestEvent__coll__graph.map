@@ -1,0 +1,12 @@
+<map id="XConfigureRequestEvent" name="XConfigureRequestEvent">
+<area shape="rect" id="node1" title=" " alt="" coords="115,688,298,715"/>
+<area shape="rect" id="node2" href="$struct__XDisplay.html" title=" " alt="" coords="163,599,250,625"/>
+<area shape="rect" id="node3" href="$struct__XExtData.html" title=" " alt="" coords="209,95,300,121"/>
+<area shape="rect" id="node5" href="$structScreenFormat.html" title=" " alt="" coords="153,302,265,329"/>
+<area shape="rect" id="node7" href="$structScreen.html" title=" " alt="" coords="332,509,399,536"/>
+<area shape="rect" id="node9" href="$structVisual.html" title=" " alt="" coords="346,184,409,211"/>
+<area shape="rect" id="node4" title=" " alt="" coords="225,5,284,32"/>
+<area shape="rect" id="node6" href="$structXModifierKeymap.html" title=" " alt="" coords="423,509,561,536"/>
+<area shape="rect" id="node8" href="$structXGCValues.html" title=" " alt="" coords="603,420,696,447"/>
+<area shape="rect" id="node10" href="$structDepth.html" title=" " alt="" coords="467,420,528,447"/>
+</map>

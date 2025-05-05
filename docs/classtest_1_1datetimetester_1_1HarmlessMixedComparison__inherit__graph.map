@@ -1,0 +1,10 @@
+<map id="test.datetimetester.HarmlessMixedComparison" name="test.datetimetester.HarmlessMixedComparison">
+<area shape="rect" id="node1" title=" " alt="" coords="5,99,219,140"/>
+<area shape="rect" id="node2" href="$classtest_1_1datetimetester_1_1TestDate.html" title=" " alt="" coords="268,49,476,75"/>
+<area shape="rect" id="node6" href="$classtest_1_1datetimetester_1_1TestTime.html" title=" " alt="" coords="267,106,477,133"/>
+<area shape="rect" id="node8" href="$classtest_1_1datetimetester_1_1TestTimeDelta.html" title=" " alt="" coords="283,157,461,199"/>
+<area shape="rect" id="node3" href="$classtest_1_1datetimetester_1_1TestDateTime.html" title=" " alt="" coords="525,37,703,79"/>
+<area shape="rect" id="node4" href="$classtest_1_1datetimetester_1_1TestDateTimeTZ.html" title=" " alt="" coords="751,5,928,47"/>
+<area shape="rect" id="node5" href="$classtest_1_1datetimetester_1_1TestSubclassDateTime.html" title=" " alt="" coords="751,71,928,112"/>
+<area shape="rect" id="node7" href="$classtest_1_1datetimetester_1_1TestTimeTZ.html" title=" " alt="" coords="525,103,703,144"/>
+</map>

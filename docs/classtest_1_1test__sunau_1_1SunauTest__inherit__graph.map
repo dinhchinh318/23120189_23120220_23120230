@@ -1,0 +1,11 @@
+<map id="test.test_sunau.SunauTest" name="test.test_sunau.SunauTest">
+<area shape="rect" id="node1" title=" " alt="" coords="489,107,681,133"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__sunau_1_1SunauPCM16Test.html" title=" " alt="" coords="729,5,967,32"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__sunau_1_1SunauPCM24Test.html" title=" " alt="" coords="729,56,967,83"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__sunau_1_1SunauPCM32Test.html" title=" " alt="" coords="729,107,967,133"/>
+<area shape="rect" id="node8" href="$classtest_1_1test__sunau_1_1SunauPCM8Test.html" title=" " alt="" coords="733,157,963,184"/>
+<area shape="rect" id="node9" href="$classtest_1_1test__sunau_1_1SunauULAWTest.html" title=" " alt="" coords="733,208,963,235"/>
+<area shape="rect" id="node2" href="$classtest_1_1audiotests_1_1AudioWriteTests.html" title=" " alt="" coords="247,66,441,107"/>
+<area shape="rect" id="node3" href="$classtest_1_1audiotests_1_1AudioTests.html" title=" " alt="" coords="5,107,199,133"/>
+<area shape="rect" id="node4" href="$classtest_1_1audiotests_1_1AudioTestsWithSourceFile.html" title=" " alt="" coords="247,131,441,173"/>
+</map>

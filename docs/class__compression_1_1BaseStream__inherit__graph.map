@@ -1,0 +1,14 @@
+<map id="_compression.BaseStream" name="_compression.BaseStream">
+<area shape="rect" id="node1" title=" " alt="" coords="84,304,279,331"/>
+<area shape="rect" id="node9" href="$classbz2_1_1BZ2File.html" title=" " alt="" coords="5,379,104,405"/>
+<area shape="rect" id="node10" href="$classgzip_1_1GzipFile.html" title=" " alt="" coords="129,379,234,405"/>
+<area shape="rect" id="node12" href="$classlzma_1_1LZMAFile.html" title=" " alt="" coords="258,379,377,405"/>
+<area shape="rect" id="node2" href="$classio_1_1BufferedIOBase.html" title=" " alt="" coords="112,229,251,256"/>
+<area shape="rect" id="node3" title=" " alt="" coords="31,155,188,181"/>
+<area shape="rect" id="node4" href="$classio_1_1IOBase.html" title=" " alt="" coords="213,155,297,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="83,80,186,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="210,80,299,107"/>
+<area shape="rect" id="node7" href="$class__py__abc_1_1ABCMeta.html" title=" " alt="" coords="324,80,463,107"/>
+<area shape="rect" id="node8" title=" " alt="" coords="368,5,419,32"/>
+<area shape="rect" id="node11" href="$classxmlrpc_1_1client_1_1GzipDecodedResponse.html" title="Return a decoded file&#45;like object for the gzip encoding as described in RFC 1952." alt="" coords="83,453,280,495"/>
+</map>

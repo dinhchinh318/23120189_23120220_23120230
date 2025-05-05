@@ -1,0 +1,9 @@
+<map id="OggVorbis_File" name="OggVorbis_File">
+<area shape="rect" id="node1" title=" " alt="" coords="294,109,413,136"/>
+<area shape="rect" id="node2" href="$structogg__sync__state.html" title=" " alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="152,5,211,32"/>
+<area shape="rect" id="node4" href="$structvorbis__info.html" title=" " alt="" coords="235,5,330,32"/>
+<area shape="rect" id="node5" href="$structogg__stream__state.html" title=" " alt="" coords="355,5,493,32"/>
+<area shape="rect" id="node6" href="$structov__callbacks.html" title=" " alt="" coords="517,5,624,32"/>
+<area shape="rect" id="node7" href="$structvorbis__comment.html" title=" " alt="" coords="648,5,779,32"/>
+</map>

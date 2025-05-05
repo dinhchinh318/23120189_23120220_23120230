@@ -1,0 +1,4 @@
+<map id="lzma_stream" name="lzma_stream">
+<area shape="rect" id="node1" title="Passing data to and from liblzma." alt="" coords="11,95,118,121"/>
+<area shape="rect" id="node2" href="$structlzma__allocator.html" title="Custom functions for memory handling." alt="" coords="5,5,124,32"/>
+</map>

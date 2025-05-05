@@ -1,0 +1,25 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classemail_1_1message_1_1Message.html" title=" " alt="" coords="5,279,189,306"/>
+<area shape="rect" id="node2" href="$classemail_1_1message_1_1MIMEPart.html" title=" " alt="" coords="259,70,446,97"/>
+<area shape="rect" id="node5" href="$classemail_1_1mime_1_1base_1_1MIMEBase.html" title=" " alt="" coords="249,175,457,202"/>
+<area shape="rect" id="node13" href="$classhttp_1_1client_1_1HTTPMessage.html" title=" " alt="" coords="261,250,445,277"/>
+<area shape="rect" id="node15" href="$classimportlib_1_1metadata_1_1__adapters_1_1Message.html" title=" " alt="" coords="277,301,429,343"/>
+<area shape="rect" id="node16" href="$classmailbox_1_1Message.html" title=" " alt="" coords="284,373,421,399"/>
+<area shape="rect" id="node23" href="$classtest_1_1test__email_1_1test__parser_1_1TestCustomMessage_1_1MyMessage.html" title=" " alt="" coords="237,423,468,479"/>
+<area shape="rect" id="node3" href="$classemail_1_1message_1_1EmailMessage.html" title=" " alt="" coords="537,38,759,65"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__email_1_1test__parser_1_1TestParserBase_1_1MyMessage.html" title=" " alt="" coords="847,5,1100,47"/>
+<area shape="rect" id="node6" href="$classemail_1_1mime_1_1multipart_1_1MIMEMultipart.html" title=" " alt="" coords="516,117,780,143"/>
+<area shape="rect" id="node7" href="$classemail_1_1mime_1_1nonmultipart_1_1MIMENonMultipart.html" title=" " alt="" coords="551,168,745,209"/>
+<area shape="rect" id="node8" href="$classemail_1_1mime_1_1application_1_1MIMEApplication.html" title=" " alt="" coords="828,71,1119,98"/>
+<area shape="rect" id="node9" href="$classemail_1_1mime_1_1audio_1_1MIMEAudio.html" title=" " alt="" coords="864,122,1083,149"/>
+<area shape="rect" id="node10" href="$classemail_1_1mime_1_1image_1_1MIMEImage.html" title=" " alt="" coords="860,173,1087,199"/>
+<area shape="rect" id="node11" href="$classemail_1_1mime_1_1message_1_1MIMEMessage.html" title=" " alt="" coords="842,223,1105,250"/>
+<area shape="rect" id="node12" href="$classemail_1_1mime_1_1text_1_1MIMEText.html" title=" " alt="" coords="874,274,1073,301"/>
+<area shape="rect" id="node14" href="$classtest_1_1test__xmlrpc_1_1FailingMessageClass.html" title=" " alt="" coords="561,243,735,284"/>
+<area shape="rect" id="node17" href="$classmailbox_1_1__mboxMMDFMessage.html" title=" " alt="" coords="537,323,759,350"/>
+<area shape="rect" id="node20" href="$classmailbox_1_1BabylMessage.html" title=" " alt="" coords="561,374,735,401"/>
+<area shape="rect" id="node21" href="$classmailbox_1_1MaildirMessage.html" title=" " alt="" coords="557,425,739,451"/>
+<area shape="rect" id="node22" href="$classmailbox_1_1MHMessage.html" title=" " alt="" coords="569,475,727,502"/>
+<area shape="rect" id="node18" href="$classmailbox_1_1mboxMessage.html" title=" " alt="" coords="886,325,1061,351"/>
+<area shape="rect" id="node19" href="$classmailbox_1_1MMDFMessage.html" title=" " alt="" coords="884,375,1063,402"/>
+</map>

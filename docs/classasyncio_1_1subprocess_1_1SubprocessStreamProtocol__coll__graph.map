@@ -1,0 +1,7 @@
+<map id="asyncio.subprocess.SubprocessStreamProtocol" name="asyncio.subprocess.SubprocessStreamProtocol">
+<area shape="rect" id="node1" title=" " alt="" coords="116,244,343,285"/>
+<area shape="rect" id="node2" href="$classasyncio_1_1streams_1_1FlowControlMixin.html" title=" " alt="" coords="5,155,216,196"/>
+<area shape="rect" id="node3" href="$classasyncio_1_1protocols_1_1Protocol.html" title=" " alt="" coords="65,80,258,107"/>
+<area shape="rect" id="node4" href="$classasyncio_1_1protocols_1_1BaseProtocol.html" title=" " alt="" coords="115,5,341,32"/>
+<area shape="rect" id="node5" href="$classasyncio_1_1protocols_1_1SubprocessProtocol.html" title=" " alt="" coords="241,155,455,196"/>
+</map>

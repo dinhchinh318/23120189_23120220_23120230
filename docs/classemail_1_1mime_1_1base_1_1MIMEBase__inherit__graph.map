@@ -1,0 +1,11 @@
+<map id="email.mime.base.MIMEBase" name="email.mime.base.MIMEBase">
+<area shape="rect" id="node1" title=" " alt="" coords="237,77,445,104"/>
+<area shape="rect" id="node3" href="$classemail_1_1mime_1_1multipart_1_1MIMEMultipart.html" title=" " alt="" coords="493,48,757,75"/>
+<area shape="rect" id="node4" href="$classemail_1_1mime_1_1nonmultipart_1_1MIMENonMultipart.html" title=" " alt="" coords="529,99,722,141"/>
+<area shape="rect" id="node2" href="$classemail_1_1message_1_1Message.html" title=" " alt="" coords="5,77,189,104"/>
+<area shape="rect" id="node5" href="$classemail_1_1mime_1_1application_1_1MIMEApplication.html" title=" " alt="" coords="805,5,1096,32"/>
+<area shape="rect" id="node6" href="$classemail_1_1mime_1_1audio_1_1MIMEAudio.html" title=" " alt="" coords="841,56,1060,83"/>
+<area shape="rect" id="node7" href="$classemail_1_1mime_1_1image_1_1MIMEImage.html" title=" " alt="" coords="837,107,1064,133"/>
+<area shape="rect" id="node8" href="$classemail_1_1mime_1_1message_1_1MIMEMessage.html" title=" " alt="" coords="819,157,1082,184"/>
+<area shape="rect" id="node9" href="$classemail_1_1mime_1_1text_1_1MIMEText.html" title=" " alt="" coords="851,208,1050,235"/>
+</map>

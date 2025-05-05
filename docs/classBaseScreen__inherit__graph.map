@@ -1,0 +1,8 @@
+<map id="BaseScreen" name="BaseScreen">
+<area shape="rect" id="node1" title=" " alt="" coords="313,5,412,32"/>
+<area shape="rect" id="node2" href="$classAddPhoneScreen.html" title=" " alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node3" href="$classDeleteScreen.html" title=" " alt="" coords="160,80,269,107"/>
+<area shape="rect" id="node4" href="$classDisplayListScreen.html" title=" " alt="" coords="293,80,432,107"/>
+<area shape="rect" id="node5" href="$classEditScreen.html" title=" " alt="" coords="456,80,547,107"/>
+<area shape="rect" id="node6" href="$classSearchScreen.html" title=" " alt="" coords="571,80,682,107"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="xmlrpc.client.Transport" name="xmlrpc.client.Transport">
+<area shape="rect" id="node1" title="Standard transport class for XML&#45;RPC over HTTP." alt="" coords="20,5,191,32"/>
+<area shape="rect" id="node2" href="$classxmlrpc_1_1client_1_1SafeTransport.html" title="Standard transport class for XML&#45;RPC over HTTPS." alt="" coords="5,80,205,107"/>
+</map>

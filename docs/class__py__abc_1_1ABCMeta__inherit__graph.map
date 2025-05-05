@@ -1,0 +1,51 @@
+<map id="_py_abc.ABCMeta" name="_py_abc.ABCMeta">
+<area shape="rect" id="node1" title=" " alt="" coords="104,985,243,1012"/>
+<area shape="rect" id="node3" href="$class__pyio_1_1IOBase.html" title=" " alt="" coords="357,81,463,108"/>
+<area shape="rect" id="node7" href="$classabc_1_1ABC.html" title=" " alt="" coords="372,296,448,323"/>
+<area shape="rect" id="node12" href="$classemail_1_1__policybase_1_1Policy.html" title=" " alt="" coords="319,489,501,516"/>
+<area shape="rect" id="node16" href="$classimportlib_1_1__abc_1_1Loader.html" title=" " alt="" coords="329,663,491,689"/>
+<area shape="rect" id="node20" href="$classimportlib_1_1abc_1_1MetaPathFinder.html" title=" " alt="" coords="303,812,517,839"/>
+<area shape="rect" id="node23" href="$classimportlib_1_1abc_1_1PathEntryFinder.html" title=" " alt="" coords="303,909,517,936"/>
+<area shape="rect" id="node24" href="$classimportlib_1_1resources_1_1abc_1_1ResourceReader.html" title=" " alt="" coords="321,961,499,1002"/>
+<area shape="rect" id="node27" href="$classio_1_1IOBase.html" title=" " alt="" coords="368,1040,452,1067"/>
+<area shape="rect" id="node32" href="$classpackaging_1_1specifiers_1_1BaseSpecifier.html" title=" " alt="" coords="315,1091,505,1133"/>
+<area shape="rect" id="node35" href="$classtest_1_1test__dynamicclassattribute_1_1ClassWithAbstractVirtualProperty.html" title=" " alt="" coords="291,1157,529,1198"/>
+<area shape="rect" id="node36" href="$classtest_1_1test__dynamicclassattribute_1_1ClassWithPropertyAbstractVirtual.html" title=" " alt="" coords="291,1222,529,1263"/>
+<area shape="rect" id="node37" href="$classtest_1_1test__importlib_1_1abc_1_1FinderTests.html" title=" " alt="" coords="323,1371,497,1413"/>
+<area shape="rect" id="node42" href="$classtest_1_1test__importlib_1_1abc_1_1LoaderTests.html" title=" " alt="" coords="323,1665,497,1706"/>
+<area shape="rect" id="node48" href="$classtest_1_1test__importlib_1_1resources_1_1util_1_1CommonTests.html" title=" " alt="" coords="291,1827,529,1869"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,985,56,1012"/>
+<area shape="rect" id="node4" href="$class__pyio_1_1BufferedIOBase.html" title=" " alt="" coords="645,5,807,32"/>
+<area shape="rect" id="node5" href="$class__pyio_1_1RawIOBase.html" title=" " alt="" coords="659,56,793,83"/>
+<area shape="rect" id="node6" href="$class__pyio_1_1TextIOBase.html" title=" " alt="" coords="659,107,793,133"/>
+<area shape="rect" id="node8" href="$classcontextlib_1_1AbstractAsyncContextManager.html" title=" " alt="" coords="634,158,818,199"/>
+<area shape="rect" id="node9" href="$classcontextlib_1_1AbstractContextManager.html" title=" " alt="" coords="628,223,824,265"/>
+<area shape="rect" id="node10" href="$classimportlib_1_1resources_1_1simple_1_1SimpleReader.html" title=" " alt="" coords="626,289,826,330"/>
+<area shape="rect" id="node11" href="$classos_1_1PathLike.html" title=" " alt="" coords="679,355,773,381"/>
+<area shape="rect" id="node13" href="$classemail_1_1__policybase_1_1Compat32.html" title=" " alt="" coords="621,405,831,432"/>
+<area shape="rect" id="node14" href="$classemail_1_1policy_1_1EmailPolicy.html" title=" " alt="" coords="636,456,816,483"/>
+<area shape="rect" id="node15" href="$classtest_1_1test__email_1_1test__policy_1_1TestPolicyPropagation_1_1MyPolicy.html" title=" " alt="" coords="617,507,835,563"/>
+<area shape="rect" id="node17" href="$classimportlib_1_1abc_1_1InspectLoader.html" title=" " alt="" coords="625,587,827,613"/>
+<area shape="rect" id="node18" href="$classimportlib_1_1abc_1_1ResourceLoader.html" title=" " alt="" coords="618,637,834,664"/>
+<area shape="rect" id="node19" href="$classimportlib_1_1util_1_1LazyLoader.html" title=" " alt="" coords="634,688,818,715"/>
+<area shape="rect" id="node21" href="$classimportlib_1_1metadata_1_1DistributionFinder.html" title=" " alt="" coords="612,739,840,781"/>
+<area shape="rect" id="node22" href="$classtest_1_1test__doctest_1_1test__doctest_1_1TestImporter.html" title=" " alt="" coords="645,805,807,846"/>
+<area shape="rect" id="node25" href="$classimportlib_1_1resources_1_1abc_1_1TraversableResources.html" title=" " alt="" coords="637,870,815,911"/>
+<area shape="rect" id="node26" href="$classtest_1_1test__importlib_1_1resources_1_1util_1_1Reader.html" title=" " alt="" coords="607,935,845,977"/>
+<area shape="rect" id="node28" href="$classio_1_1BufferedIOBase.html" title=" " alt="" coords="657,1001,795,1028"/>
+<area shape="rect" id="node29" href="$classio_1_1RawIOBase.html" title=" " alt="" coords="670,1052,782,1079"/>
+<area shape="rect" id="node30" href="$classio_1_1TextIOBase.html" title=" " alt="" coords="671,1103,781,1129"/>
+<area shape="rect" id="node31" href="$classtest_1_1test__urllib2_1_1MockHTTPResponse.html" title=" " alt="" coords="596,1153,856,1180"/>
+<area shape="rect" id="node33" href="$classpackaging_1_1specifiers_1_1Specifier.html" title=" " alt="" coords="619,1204,833,1231"/>
+<area shape="rect" id="node34" href="$classpackaging_1_1specifiers_1_1SpecifierSet.html" title=" " alt="" coords="609,1255,843,1281"/>
+<area shape="rect" id="node38" href="$classtest_1_1test__importlib_1_1builtin_1_1test__finder_1_1FindSpecTests.html" title=" " alt="" coords="618,1306,834,1347"/>
+<area shape="rect" id="node39" href="$classtest_1_1test__importlib_1_1extension_1_1test__finder_1_1FinderTests.html" title=" " alt="" coords="607,1371,845,1413"/>
+<area shape="rect" id="node40" href="$classtest_1_1test__importlib_1_1frozen_1_1test__finder_1_1FindSpecTests.html" title=" " alt="" coords="618,1437,834,1478"/>
+<area shape="rect" id="node41" href="$classtest_1_1test__importlib_1_1source_1_1test__finder_1_1FinderTests.html" title=" " alt="" coords="617,1502,835,1543"/>
+<area shape="rect" id="node43" href="$classtest_1_1test__importlib_1_1builtin_1_1test__loader_1_1LoaderTests.html" title=" " alt="" coords="618,1567,834,1609"/>
+<area shape="rect" id="node44" href="$classtest_1_1test__importlib_1_1extension_1_1test__loader_1_1MultiPhaseExtensionModuleTests.html" title=" " alt="" coords="581,1633,871,1674"/>
+<area shape="rect" id="node45" href="$classtest_1_1test__importlib_1_1extension_1_1test__loader_1_1SinglePhaseExtensionModuleTests.html" title=" " alt="" coords="577,1698,875,1739"/>
+<area shape="rect" id="node46" href="$classtest_1_1test__importlib_1_1frozen_1_1test__loader_1_1ExecModuleTests.html" title=" " alt="" coords="618,1763,834,1805"/>
+<area shape="rect" id="node47" href="$classtest_1_1test__importlib_1_1source_1_1test__file__loader_1_1SimpleTest.html" title=" " alt="" coords="617,1829,835,1870"/>
+<area shape="rect" id="node49" href="$classtest_1_1test__importlib_1_1resources_1_1test__open_1_1CommonBinaryTests.html" title=" " alt="" coords="607,1894,845,1935"/>
+</map>

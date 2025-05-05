@@ -1,0 +1,14 @@
+<map id="XVirtualEvent" name="XVirtualEvent">
+<area shape="rect" id="node1" title=" " alt="" coords="121,703,231,729"/>
+<area shape="rect" id="node2" href="$structTcl__Obj.html" title=" " alt="" coords="103,109,171,136"/>
+<area shape="rect" id="node3" href="$structTcl__ObjType.html" title=" " alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="323,5,381,32"/>
+<area shape="rect" id="node5" href="$struct__XDisplay.html" title=" " alt="" coords="345,613,431,640"/>
+<area shape="rect" id="node6" href="$struct__XExtData.html" title=" " alt="" coords="397,109,488,136"/>
+<area shape="rect" id="node9" href="$structScreen.html" title=" " alt="" coords="557,524,624,551"/>
+<area shape="rect" id="node7" href="$structScreenFormat.html" title=" " alt="" coords="387,317,499,343"/>
+<area shape="rect" id="node11" href="$structVisual.html" title=" " alt="" coords="579,199,642,225"/>
+<area shape="rect" id="node8" href="$structXModifierKeymap.html" title=" " alt="" coords="649,524,786,551"/>
+<area shape="rect" id="node10" href="$structXGCValues.html" title=" " alt="" coords="828,435,921,461"/>
+<area shape="rect" id="node12" href="$structDepth.html" title=" " alt="" coords="692,435,753,461"/>
+</map>

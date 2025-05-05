@@ -1,0 +1,21 @@
+<map id="test.test_importlib.test_namespace_pkgs.NamespacePackageTest" name="test.test_importlib.test_namespace_pkgs.NamespacePackageTest">
+<area shape="rect" id="node1" title=" " alt="" coords="332,558,635,599"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1CombinedNamespacePackages.html" title=" " alt="" coords="693,5,983,61"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1DynamicPathCalculation.html" title=" " alt="" coords="685,86,991,127"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1DynamicPathNamespacePackage.html" title=" " alt="" coords="683,152,993,208"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1LegacySupport.html" title=" " alt="" coords="717,233,959,274"/>
+<area shape="rect" id="node8" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1LoaderTests.html" title=" " alt="" coords="727,298,949,339"/>
+<area shape="rect" id="node9" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1ModuleAndNamespacePackageInSameDir.html" title=" " alt="" coords="690,364,986,420"/>
+<area shape="rect" id="node10" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1ReloadTests.html" title=" " alt="" coords="726,445,950,486"/>
+<area shape="rect" id="node11" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1SeparatedNamespacePackages.html" title=" " alt="" coords="693,511,983,567"/>
+<area shape="rect" id="node12" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1SeparatedNamespacePackagesCreatedWhileRunning.html" title=" " alt="" coords="693,591,983,647"/>
+<area shape="rect" id="node13" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1SeparatedNestedZipNamespacePackages.html" title=" " alt="" coords="709,671,967,727"/>
+<area shape="rect" id="node14" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1SeparatedOverlappingNamespacePackages.html" title=" " alt="" coords="693,751,983,807"/>
+<area shape="rect" id="node15" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1SeparatedZipNamespacePackages.html" title=" " alt="" coords="683,831,993,887"/>
+<area shape="rect" id="node16" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1SingleNamespacePackage.html" title=" " alt="" coords="707,911,969,967"/>
+<area shape="rect" id="node17" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1SingleNestedZipNamespacePackage.html" title=" " alt="" coords="711,991,965,1047"/>
+<area shape="rect" id="node18" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1SingleZipNamespacePackage.html" title=" " alt="" coords="696,1071,980,1127"/>
+<area shape="rect" id="node19" href="$classtest_1_1test__importlib_1_1test__namespace__pkgs_1_1ZipWithMissingDirectory.html" title=" " alt="" coords="715,1151,961,1207"/>
+<area shape="rect" id="node2" href="$classunittest_1_1case_1_1TestCase.html" title=" " alt="" coords="116,565,284,592"/>
+<area shape="rect" id="node3" href="$struct__object.html" title=" " alt="" coords="5,565,68,592"/>
+</map>

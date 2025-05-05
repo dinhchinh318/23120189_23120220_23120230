@@ -1,0 +1,7 @@
+<map id="test.test_socketserver.BaseErrorTestServer" name="test.test_socketserver.BaseErrorTestServer">
+<area shape="rect" id="node1" title=" " alt="" coords="459,39,660,80"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__socketserver_1_1ForkingErrorTestServer.html" title=" " alt="" coords="717,5,934,47"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__socketserver_1_1ThreadingErrorTestServer.html" title=" " alt="" coords="708,71,943,112"/>
+<area shape="rect" id="node2" href="$classsocketserver_1_1TCPServer.html" title=" " alt="" coords="236,46,411,73"/>
+<area shape="rect" id="node3" href="$classsocketserver_1_1BaseServer.html" title=" " alt="" coords="5,46,188,73"/>
+</map>

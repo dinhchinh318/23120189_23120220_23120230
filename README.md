@@ -89,29 +89,6 @@ Hệ thống mô phỏng hoạt động cơ bản trong một cửa hàng điệ
 
 ---
 
-## 💡 Các chức năng chính
-
-### 📦 Quản lý sản phẩm (Điện thoại)
-- Thêm/Xoá/Cập nhật điện thoại
-- Tìm kiếm điện thoại theo tên, hãng
-- Sắp xếp theo giá, tên
-
-### 💾 File và lưu trữ
-- Lưu danh sách sản phẩm
-- Đọc dữ liệu từ file khi khởi động
-
----
-
-## 🎯 Dự định thực hiện
-
-- [x] Thiết kế lớp `DienThoai` cơ bản   
-- [x] Lớp `QuanLyDienThoai`
-- [x] Giao diện người dùng console  
-- [x] Lưu và đọc dữ liệu từ file  
-- [x] Viết báo cáo và hướng dẫn sử dụng  
-
----
-
 ## Tiến độ hoàn thành
 
 ### 📦 Quản lý sản phẩm (Điện thoại)
@@ -131,13 +108,22 @@ Hệ thống mô phỏng hoạt động cơ bản trong một cửa hàng điệ
 🔄 Đang nâng cấp phát triển hoàn thiện giao diện  
 ❌ Sắp phát triển các tiện ích trên ứng dụng bằng SFML
 
+---
+
+## Teamwork: Phân công và theo dõi tiến độ công việc,  biên bản họp nhóm
+## UI/UX: Chính là điểm chức năng cũng như giao diện của chương trình.
+## Kiến trúc phần mềm + design pattern: 
+## Đảm bảo chất lượng: test / coding convention
+## Tài liệu mô tả kiến trúc phần mềm và các module:
+## Các chủ đề nâng cao: 
+
 ## 🛠️ Công cụ sử dụng
 - Ngôn ngữ: **C++**
 - Môi trường phát triển: **GitHub Codespaces**, **Visual Studio Code**
-- Quản lý mã nguồn: **Git**, **GitHub**
-- Các thư viện ngoài: **SFML**
-- Cơ sở dữ liệu: **SQL Server**
-- Tools: **SSMS**
+- Quản lý mã nguồn: **Git**, **GitHub**  
+- Các thư viện ngoài: **SFML**  
+- Cơ sở dữ liệu: **SQL Server**  
+- Tools: **SSMS**  
 ---
 
 ## 🎯 Dự định thực hiện tiếp theo

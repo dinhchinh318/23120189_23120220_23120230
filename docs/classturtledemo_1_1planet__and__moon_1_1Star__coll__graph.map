@@ -1,0 +1,18 @@
+<map id="turtledemo.planet_and_moon.Star" name="turtledemo.planet_and_moon.Star">
+<area shape="rect" id="node1" title=" " alt="" coords="1357,22,1528,63"/>
+<area shape="rect" id="node2" href="$classturtle_1_1Turtle.html" title=" " alt="" coords="1211,29,1308,56"/>
+<area shape="rect" id="node3" href="$classturtle_1_1RawTurtle.html" title=" " alt="" coords="1036,29,1161,56"/>
+<area shape="rect" id="node4" href="$classturtle_1_1TPen.html" title=" " alt="" coords="861,5,955,32"/>
+<area shape="rect" id="node5" href="$struct__object.html" title=" " alt="" coords="510,41,573,68"/>
+<area shape="rect" id="node16" href="$classturtle_1_1TNavigator.html" title=" " alt="" coords="841,56,975,83"/>
+<area shape="rect" id="node6" href="$struct__typeobject.html" title=" " alt="" coords="255,471,353,497"/>
+<area shape="rect" id="node8" href="$struct__object.html" title=" " alt="" coords="507,536,576,563"/>
+<area shape="rect" id="node7" href="$structPyMappingMethods.html" title=" " alt="" coords="833,137,983,164"/>
+<area shape="rect" id="node10" href="$structPyMethodDef.html" title=" " alt="" coords="853,191,963,217"/>
+<area shape="rect" id="node11" href="$structPyBufferProcs.html" title=" " alt="" coords="852,679,964,705"/>
+<area shape="rect" id="node12" href="$structPySequenceMethods.html" title=" " alt="" coords="829,813,987,840"/>
+<area shape="rect" id="node13" href="$structPyGetSetDef.html" title=" " alt="" coords="855,540,961,567"/>
+<area shape="rect" id="node14" href="$structPyNumberMethods.html" title=" " alt="" coords="835,363,981,389"/>
+<area shape="rect" id="node15" href="$structPyAsyncMethods.html" title=" " alt="" coords="841,953,975,980"/>
+<area shape="rect" id="node9" href="$structPyMemberDef.html" title=" " alt="" coords="5,471,120,497"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="PyHamtObject" name="PyHamtObject">
+<area shape="rect" id="node1" title=" " alt="" coords="367,7,483,33"/>
+<area shape="rect" id="node2" href="$structPyHamtNode.html" title=" " alt="" coords="5,7,113,33"/>
+<area shape="rect" id="node3" href="$struct__object.html" title=" " alt="" coords="25,448,94,475"/>
+<area shape="rect" id="node4" href="$struct__typeobject.html" title=" " alt="" coords="661,555,760,581"/>
+<area shape="rect" id="node5" href="$structPyMappingMethods.html" title=" " alt="" coords="350,296,501,323"/>
+<area shape="rect" id="node7" href="$structPyMethodDef.html" title=" " alt="" coords="370,360,481,387"/>
+<area shape="rect" id="node8" href="$structPyBufferProcs.html" title=" " alt="" coords="369,425,481,452"/>
+<area shape="rect" id="node9" href="$structPySequenceMethods.html" title=" " alt="" coords="347,527,504,553"/>
+<area shape="rect" id="node10" href="$structPyGetSetDef.html" title=" " alt="" coords="373,580,478,607"/>
+<area shape="rect" id="node11" href="$structPyNumberMethods.html" title=" " alt="" coords="352,755,499,781"/>
+<area shape="rect" id="node12" href="$structPyAsyncMethods.html" title=" " alt="" coords="359,820,492,847"/>
+<area shape="rect" id="node6" href="$structPyMemberDef.html" title=" " alt="" coords="368,969,483,996"/>
+</map>

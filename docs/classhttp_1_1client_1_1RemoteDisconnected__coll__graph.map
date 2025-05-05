@@ -1,0 +1,7 @@
+<map id="http.client.RemoteDisconnected" name="http.client.RemoteDisconnected">
+<area shape="rect" id="node1" title=" " alt="" coords="70,229,301,256"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,155,168,181"/>
+<area shape="rect" id="node3" href="$classhttp_1_1client_1_1BadStatusLine.html" title=" " alt="" coords="193,155,378,181"/>
+<area shape="rect" id="node4" href="$classhttp_1_1client_1_1HTTPException.html" title=" " alt="" coords="190,80,381,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="242,5,329,32"/>
+</map>

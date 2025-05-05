@@ -1,0 +1,11 @@
+<map id="idlelib.run.StdInputFile" name="idlelib.run.StdInputFile">
+<area shape="rect" id="node1" title=" " alt="" coords="51,379,219,405"/>
+<area shape="rect" id="node2" href="$classidlelib_1_1run_1_1StdioFile.html" title=" " alt="" coords="62,304,209,331"/>
+<area shape="rect" id="node3" href="$classio_1_1TextIOBase.html" title=" " alt="" coords="80,229,191,256"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,155,135,181"/>
+<area shape="rect" id="node5" href="$classio_1_1IOBase.html" title=" " alt="" coords="159,155,243,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="29,80,132,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="156,80,245,107"/>
+<area shape="rect" id="node8" href="$class__py__abc_1_1ABCMeta.html" title=" " alt="" coords="270,80,409,107"/>
+<area shape="rect" id="node9" title=" " alt="" coords="314,5,365,32"/>
+</map>

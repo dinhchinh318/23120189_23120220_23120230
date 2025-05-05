@@ -1,0 +1,8 @@
+<map id="OSSL_ROLE_SPEC_CERT_ID_st" name="OSSL_ROLE_SPEC_CERT_ID_st">
+<area shape="rect" id="node1" title=" " alt="" coords="5,612,181,653"/>
+<area shape="rect" id="node2" href="$structasn1__string__st.html" title=" " alt="" coords="273,5,389,32"/>
+<area shape="rect" id="node3" href="$structGENERAL__NAME__st.html" title=" " alt="" coords="362,508,510,535"/>
+<area shape="rect" id="node5" href="$structasn1__type__st.html" title=" " alt="" coords="390,241,498,268"/>
+<area shape="rect" id="node6" href="$structEDIPartyName__st.html" title=" " alt="" coords="585,330,719,357"/>
+<area shape="rect" id="node4" href="$structotherName__st.html" title=" " alt="" coords="499,419,613,445"/>
+</map>

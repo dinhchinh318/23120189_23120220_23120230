@@ -1,0 +1,8 @@
+<map id="asyncio.unix_events._UnixWritePipeTransport" name="asyncio.unix_events._UnixWritePipeTransport">
+<area shape="rect" id="node1" title=" " alt="" coords="197,333,380,375"/>
+<area shape="rect" id="node2" href="$classasyncio_1_1transports_1_1__FlowControlMixin.html" title=" " alt="" coords="161,244,307,285"/>
+<area shape="rect" id="node3" href="$classasyncio_1_1transports_1_1Transport.html" title=" " alt="" coords="115,169,321,196"/>
+<area shape="rect" id="node4" href="$classasyncio_1_1transports_1_1ReadTransport.html" title=" " alt="" coords="5,87,244,114"/>
+<area shape="rect" id="node5" href="$classasyncio_1_1transports_1_1BaseTransport.html" title=" " alt="" coords="123,5,361,32"/>
+<area shape="rect" id="node6" href="$classasyncio_1_1transports_1_1WriteTransport.html" title=" " alt="" coords="269,80,450,121"/>
+</map>

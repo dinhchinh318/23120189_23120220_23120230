@@ -1,0 +1,13 @@
+<map id="test.test_compare.ComparisonFullTest.CompBase" name="test.test_compare.ComparisonFullTest.CompBase">
+<area shape="rect" id="node1" title=" " alt="" coords="5,300,228,341"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__compare_1_1ComparisonFullTest_1_1CompEq.html" title=" " alt="" coords="276,5,499,47"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__compare_1_1ComparisonFullTest_1_1CompEqNe.html" title=" " alt="" coords="276,71,499,112"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__compare_1_1ComparisonFullTest_1_1CompGe.html" title=" " alt="" coords="276,136,499,177"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__compare_1_1ComparisonFullTest_1_1CompGt.html" title=" " alt="" coords="276,201,499,243"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__compare_1_1ComparisonFullTest_1_1CompLe.html" title=" " alt="" coords="276,267,499,308"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__compare_1_1ComparisonFullTest_1_1CompLeGe.html" title=" " alt="" coords="276,332,499,373"/>
+<area shape="rect" id="node8" href="$classtest_1_1test__compare_1_1ComparisonFullTest_1_1CompLt.html" title=" " alt="" coords="276,397,499,439"/>
+<area shape="rect" id="node9" href="$classtest_1_1test__compare_1_1ComparisonFullTest_1_1CompLtGt.html" title=" " alt="" coords="276,463,499,504"/>
+<area shape="rect" id="node10" href="$classtest_1_1test__compare_1_1ComparisonFullTest_1_1CompNe.html" title=" " alt="" coords="276,528,499,569"/>
+<area shape="rect" id="node11" href="$classtest_1_1test__compare_1_1ComparisonFullTest_1_1CompNone.html" title=" " alt="" coords="276,593,499,635"/>
+</map>

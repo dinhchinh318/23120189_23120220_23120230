@@ -1,0 +1,9 @@
+<map id="idlelib.debugobj.ObjectTreeItem" name="idlelib.debugobj.ObjectTreeItem">
+<area shape="rect" id="node1" title=" " alt="" coords="207,101,436,127"/>
+<area shape="rect" id="node3" href="$classidlelib_1_1debugobj_1_1AtomicObjectTreeItem.html" title=" " alt="" coords="486,5,705,47"/>
+<area shape="rect" id="node4" href="$classidlelib_1_1debugobj_1_1ClassTreeItem.html" title=" " alt="" coords="484,71,707,98"/>
+<area shape="rect" id="node5" href="$classidlelib_1_1debugobj_1_1SequenceTreeItem.html" title=" " alt="" coords="499,123,692,164"/>
+<area shape="rect" id="node7" href="$classidlelib_1_1stackviewer_1_1VariablesTreeItem.html" title=" " alt="" coords="491,188,699,229"/>
+<area shape="rect" id="node2" href="$classidlelib_1_1tree_1_1TreeItem.html" title=" " alt="" coords="5,101,159,127"/>
+<area shape="rect" id="node6" href="$classidlelib_1_1debugobj_1_1DictTreeItem.html" title=" " alt="" coords="755,130,968,157"/>
+</map>

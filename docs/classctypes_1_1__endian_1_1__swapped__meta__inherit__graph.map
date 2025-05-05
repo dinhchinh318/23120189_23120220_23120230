@@ -1,0 +1,9 @@
+<map id="ctypes._endian._swapped_meta" name="ctypes._endian._swapped_meta">
+<area shape="rect" id="node1" title=" " alt="" coords="5,111,236,138"/>
+<area shape="rect" id="node2" href="$classctypes_1_1__endian_1_1__swapped__struct__meta.html" title=" " alt="" coords="284,71,473,112"/>
+<area shape="rect" id="node5" href="$classctypes_1_1__endian_1_1__swapped__union__meta.html" title=" " alt="" coords="284,136,473,177"/>
+<area shape="rect" id="node3" href="$classctypes_1_1__endian_1_1BigEndianStructure.html" title=" " alt="" coords="527,5,717,47"/>
+<area shape="rect" id="node4" href="$classctypes_1_1__endian_1_1LittleEndianStructure.html" title=" " alt="" coords="521,71,723,112"/>
+<area shape="rect" id="node6" href="$classctypes_1_1__endian_1_1BigEndianUnion.html" title=" " alt="" coords="527,136,717,177"/>
+<area shape="rect" id="node7" href="$classctypes_1_1__endian_1_1LittleEndianUnion.html" title=" " alt="" coords="521,201,723,243"/>
+</map>

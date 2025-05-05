@@ -1,0 +1,14 @@
+<map id="idlelib.outwin.OutputWindow" name="idlelib.outwin.OutputWindow">
+<area shape="rect" id="node1" title=" " alt="" coords="663,5,873,32"/>
+<area shape="rect" id="node2" href="$classidlelib_1_1editor_1_1EditorWindow.html" title=" " alt="" coords="308,5,505,32"/>
+<area shape="rect" id="node3" href="$struct__object.html" title=" " alt="" coords="5,448,75,475"/>
+<area shape="rect" id="node4" href="$struct__typeobject.html" title=" " alt="" coords="719,552,817,579"/>
+<area shape="rect" id="node5" href="$structPyMappingMethods.html" title=" " alt="" coords="331,295,482,321"/>
+<area shape="rect" id="node7" href="$structPyMethodDef.html" title=" " alt="" coords="351,359,462,385"/>
+<area shape="rect" id="node8" href="$structPyBufferProcs.html" title=" " alt="" coords="351,424,463,451"/>
+<area shape="rect" id="node9" href="$structPySequenceMethods.html" title=" " alt="" coords="328,525,485,552"/>
+<area shape="rect" id="node10" href="$structPyGetSetDef.html" title=" " alt="" coords="354,579,459,605"/>
+<area shape="rect" id="node11" href="$structPyNumberMethods.html" title=" " alt="" coords="333,753,480,780"/>
+<area shape="rect" id="node12" href="$structPyAsyncMethods.html" title=" " alt="" coords="340,819,473,845"/>
+<area shape="rect" id="node6" href="$structPyMemberDef.html" title=" " alt="" coords="349,968,464,995"/>
+</map>

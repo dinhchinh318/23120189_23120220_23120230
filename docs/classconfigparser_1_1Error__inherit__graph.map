@@ -1,0 +1,14 @@
+<map id="configparser.Error" name="configparser.Error">
+<area shape="rect" id="node1" title=" " alt="" coords="140,173,276,199"/>
+<area shape="rect" id="node3" href="$classconfigparser_1_1DuplicateOptionError.html" title=" " alt="" coords="326,5,537,47"/>
+<area shape="rect" id="node4" href="$classconfigparser_1_1DuplicateSectionError.html" title=" " alt="" coords="324,71,539,112"/>
+<area shape="rect" id="node5" href="$classconfigparser_1_1InterpolationError.html" title=" " alt="" coords="337,136,525,177"/>
+<area shape="rect" id="node9" href="$classconfigparser_1_1NoOptionError.html" title=" " alt="" coords="333,202,530,229"/>
+<area shape="rect" id="node10" href="$classconfigparser_1_1NoSectionError.html" title=" " alt="" coords="330,253,533,279"/>
+<area shape="rect" id="node11" href="$classconfigparser_1_1ParsingError.html" title=" " alt="" coords="340,303,523,330"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,173,92,199"/>
+<area shape="rect" id="node6" href="$classconfigparser_1_1InterpolationDepthError.html" title=" " alt="" coords="594,71,782,112"/>
+<area shape="rect" id="node7" href="$classconfigparser_1_1InterpolationMissingOptionError.html" title=" " alt="" coords="594,136,782,177"/>
+<area shape="rect" id="node8" href="$classconfigparser_1_1InterpolationSyntaxError.html" title=" " alt="" coords="594,201,782,243"/>
+<area shape="rect" id="node12" href="$classconfigparser_1_1MissingSectionHeaderError.html" title=" " alt="" coords="587,296,789,337"/>
+</map>

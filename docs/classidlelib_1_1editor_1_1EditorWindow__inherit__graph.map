@@ -1,0 +1,6 @@
+<map id="idlelib.editor.EditorWindow" name="idlelib.editor.EditorWindow">
+<area shape="rect" id="node1" title=" " alt="" coords="127,5,324,32"/>
+<area shape="rect" id="node2" href="$classidlelib_1_1outwin_1_1OutputWindow.html" title=" " alt="" coords="5,87,216,114"/>
+<area shape="rect" id="node4" href="$classidlelib_1_1pyshell_1_1PyShellEditorWindow.html" title=" " alt="" coords="240,80,443,121"/>
+<area shape="rect" id="node3" href="$classidlelib_1_1pyshell_1_1PyShell.html" title=" " alt="" coords="28,169,193,196"/>
+</map>

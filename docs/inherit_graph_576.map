@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classasyncio_1_1unix__events_1_1AbstractChildWatcher.html" title=" " alt="" coords="5,136,219,177"/>
+<area shape="rect" id="node2" href="$classasyncio_1_1unix__events_1_1BaseChildWatcher.html" title=" " alt="" coords="281,37,472,79"/>
+<area shape="rect" id="node5" href="$classasyncio_1_1unix__events_1_1MultiLoopChildWatcher.html" title=" " alt="" coords="281,103,473,144"/>
+<area shape="rect" id="node6" href="$classasyncio_1_1unix__events_1_1PidfdChildWatcher.html" title=" " alt="" coords="281,168,473,209"/>
+<area shape="rect" id="node7" href="$classasyncio_1_1unix__events_1_1ThreadedChildWatcher.html" title=" " alt="" coords="267,233,487,275"/>
+<area shape="rect" id="node3" href="$classasyncio_1_1unix__events_1_1FastChildWatcher.html" title=" " alt="" coords="536,5,721,47"/>
+<area shape="rect" id="node4" href="$classasyncio_1_1unix__events_1_1SafeChildWatcher.html" title=" " alt="" coords="535,71,723,112"/>
+</map>

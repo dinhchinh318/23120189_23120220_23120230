@@ -1,0 +1,5 @@
+<map id="xmlrpc.client.ProtocolError" name="xmlrpc.client.ProtocolError">
+<area shape="rect" id="node1" title="Indicates an HTTP&#45;level protocol error." alt="" coords="5,155,200,181"/>
+<area shape="rect" id="node2" href="$classxmlrpc_1_1client_1_1Error.html" title="Base class for all kinds of client&#45;side errors." alt="" coords="31,80,174,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="59,5,146,32"/>
+</map>

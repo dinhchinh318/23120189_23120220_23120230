@@ -1,0 +1,6 @@
+<map id="asyncio.proactor_events.BaseProactorEventLoop" name="asyncio.proactor_events.BaseProactorEventLoop">
+<area shape="rect" id="node1" title=" " alt="" coords="36,169,221,211"/>
+<area shape="rect" id="node4" href="$classasyncio_1_1windows__events_1_1ProactorEventLoop.html" title=" " alt="" coords="7,259,250,300"/>
+<area shape="rect" id="node2" href="$classasyncio_1_1base__events_1_1BaseEventLoop.html" title=" " alt="" coords="31,80,226,121"/>
+<area shape="rect" id="node3" href="$classasyncio_1_1events_1_1AbstractEventLoop.html" title=" " alt="" coords="5,5,252,32"/>
+</map>

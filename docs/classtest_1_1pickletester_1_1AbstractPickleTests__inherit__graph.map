@@ -1,0 +1,9 @@
+<map id="test.pickletester.AbstractPickleTests" name="test.pickletester.AbstractPickleTests">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,191,112"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__pickle_1_1InMemoryPickleTests.html" title=" " alt="" coords="255,5,447,47"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__pickle_1_1PyPicklerTests.html" title=" " alt="" coords="258,71,445,112"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__pickletools_1_1OptimizedPickleTests.html" title=" " alt="" coords="239,136,464,177"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__pickle_1_1CDumpPickle__LoadPickle.html" title=" " alt="" coords="512,5,725,47"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__pickle_1_1CPicklerTests.html" title=" " alt="" coords="529,71,708,112"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__pickle_1_1DumpPickle__CLoadPickle.html" title=" " alt="" coords="517,136,721,177"/>
+</map>

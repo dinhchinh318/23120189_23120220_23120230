@@ -1,0 +1,7 @@
+<map id="test.test_finalization.SimpleChained" name="test.test_finalization.SimpleChained">
+<area shape="rect" id="node1" title=" " alt="" coords="149,244,353,285"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__finalization_1_1ChainedBase.html" title=" " alt="" coords="5,169,249,196"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__finalization_1_1Simple.html" title=" " alt="" coords="273,169,477,196"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__finalization_1_1SimpleBase.html" title=" " alt="" coords="257,95,493,121"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__finalization_1_1NonGCSimpleBase.html" title=" " alt="" coords="283,5,468,47"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="importlib.resources.abc.ResourceReader" name="importlib.resources.abc.ResourceReader">
+<area shape="rect" id="node1" title=" " alt="" coords="291,169,469,211"/>
+<area shape="rect" id="node5" href="$classimportlib_1_1resources_1_1abc_1_1TraversableResources.html" title=" " alt="" coords="547,136,726,177"/>
+<area shape="rect" id="node11" href="$classtest_1_1test__importlib_1_1resources_1_1util_1_1Reader.html" title=" " alt="" coords="517,201,756,243"/>
+<area shape="rect" id="node2" title=" " alt="" coords="129,151,218,178"/>
+<area shape="rect" id="node3" href="$class__py__abc_1_1ABCMeta.html" title=" " alt="" coords="104,202,243,229"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,202,56,229"/>
+<area shape="rect" id="node6" href="$classimportlib_1_1resources_1_1readers_1_1FileReader.html" title=" " alt="" coords="821,5,1026,47"/>
+<area shape="rect" id="node7" href="$classimportlib_1_1resources_1_1readers_1_1NamespaceReader.html" title=" " alt="" coords="821,71,1026,112"/>
+<area shape="rect" id="node8" href="$classimportlib_1_1resources_1_1readers_1_1ZipReader.html" title=" " alt="" coords="821,136,1026,177"/>
+<area shape="rect" id="node9" href="$classimportlib_1_1resources_1_1simple_1_1TraversableReader.html" title=" " alt="" coords="823,201,1023,243"/>
+<area shape="rect" id="node10" href="$classtest_1_1test__importlib_1_1resources_1_1test__custom_1_1MagicResources.html" title=" " alt="" coords="804,267,1043,308"/>
+</map>

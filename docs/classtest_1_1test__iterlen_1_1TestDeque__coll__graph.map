@@ -1,0 +1,17 @@
+<map id="test.test_iterlen.TestDeque" name="test.test_iterlen.TestDeque">
+<area shape="rect" id="node1" title="&#45;&#45;&#45;&#45;— Types that should not be mutated during iteration &#45;&#45;&#45;&#45;—" alt="" coords="1215,43,1412,70"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__iterlen_1_1TestTemporarilyImmutable.html" title=" " alt="" coords="933,5,1165,47"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__iterlen_1_1TestInvariantWithoutMutations.html" title=" " alt="" coords="487,5,700,47"/>
+<area shape="rect" id="node4" href="$classunittest_1_1case_1_1TestCase.html" title=" " alt="" coords="965,71,1133,98"/>
+<area shape="rect" id="node5" href="$struct__object.html" title=" " alt="" coords="562,71,625,98"/>
+<area shape="rect" id="node6" href="$struct__typeobject.html" title=" " alt="" coords="255,501,353,527"/>
+<area shape="rect" id="node8" href="$struct__object.html" title=" " alt="" coords="559,566,628,593"/>
+<area shape="rect" id="node7" href="$structPyMappingMethods.html" title=" " alt="" coords="974,179,1125,206"/>
+<area shape="rect" id="node10" href="$structPyMethodDef.html" title=" " alt="" coords="994,273,1105,299"/>
+<area shape="rect" id="node11" href="$structPyBufferProcs.html" title=" " alt="" coords="993,809,1105,835"/>
+<area shape="rect" id="node12" href="$structPySequenceMethods.html" title=" " alt="" coords="971,881,1128,907"/>
+<area shape="rect" id="node13" href="$structPyGetSetDef.html" title=" " alt="" coords="997,618,1102,645"/>
+<area shape="rect" id="node14" href="$structPyNumberMethods.html" title=" " alt="" coords="976,415,1123,442"/>
+<area shape="rect" id="node15" href="$structPyAsyncMethods.html" title=" " alt="" coords="983,973,1116,999"/>
+<area shape="rect" id="node9" href="$structPyMemberDef.html" title=" " alt="" coords="5,501,120,527"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="multiprocessing.process.BaseProcess" name="multiprocessing.process.BaseProcess">
+<area shape="rect" id="node1" title=" " alt="" coords="116,169,300,211"/>
+<area shape="rect" id="node3" href="$classmultiprocessing_1_1context_1_1ForkProcess.html" title=" " alt="" coords="349,5,531,47"/>
+<area shape="rect" id="node4" href="$classmultiprocessing_1_1context_1_1ForkServerProcess.html" title=" " alt="" coords="349,71,531,112"/>
+<area shape="rect" id="node5" href="$classmultiprocessing_1_1context_1_1Process.html" title=" " alt="" coords="349,136,531,177"/>
+<area shape="rect" id="node6" href="$classmultiprocessing_1_1context_1_1SpawnProcess.html" title=" " alt="" coords="349,201,531,243"/>
+<area shape="rect" id="node7" href="$classmultiprocessing_1_1process_1_1__MainProcess.html" title=" " alt="" coords="348,267,532,308"/>
+<area shape="rect" id="node8" href="$classmultiprocessing_1_1process_1_1__ParentProcess.html" title=" " alt="" coords="348,332,532,373"/>
+<area shape="rect" id="node2" href="$struct__object.html" title=" " alt="" coords="5,177,68,203"/>
+</map>

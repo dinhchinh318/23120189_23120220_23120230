@@ -1,0 +1,6 @@
+<map id="asyncio.unix_events.BaseChildWatcher" name="asyncio.unix_events.BaseChildWatcher">
+<area shape="rect" id="node1" title=" " alt="" coords="108,95,299,136"/>
+<area shape="rect" id="node3" href="$classasyncio_1_1unix__events_1_1FastChildWatcher.html" title=" " alt="" coords="5,184,191,225"/>
+<area shape="rect" id="node4" href="$classasyncio_1_1unix__events_1_1SafeChildWatcher.html" title=" " alt="" coords="215,184,403,225"/>
+<area shape="rect" id="node2" href="$classasyncio_1_1unix__events_1_1AbstractChildWatcher.html" title=" " alt="" coords="97,5,310,47"/>
+</map>

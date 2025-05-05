@@ -1,0 +1,12 @@
+<map id="tdbc::statement" name="tdbc::statement">
+<area shape="rect" id="node1" title=" " alt="" coords="5,208,131,235"/>
+<area shape="rect" id="node2" href="$classtdbc_1_1mysql_1_1statement.html" title=" " alt="" coords="215,5,389,32"/>
+<area shape="rect" id="node3" href="$classtdbc_1_1odbc_1_1columnsStatement.html" title=" " alt="" coords="192,56,412,83"/>
+<area shape="rect" id="node4" href="$classtdbc_1_1odbc_1_1evaldirectStatement.html" title=" " alt="" coords="187,107,417,133"/>
+<area shape="rect" id="node5" href="$classtdbc_1_1odbc_1_1foreignkeysStatement.html" title=" " alt="" coords="181,157,423,184"/>
+<area shape="rect" id="node6" href="$classtdbc_1_1odbc_1_1primarykeysStatement.html" title=" " alt="" coords="179,208,425,235"/>
+<area shape="rect" id="node7" href="$classtdbc_1_1odbc_1_1statement.html" title=" " alt="" coords="220,259,384,285"/>
+<area shape="rect" id="node8" href="$classtdbc_1_1odbc_1_1tablesStatement.html" title=" " alt="" coords="199,309,405,336"/>
+<area shape="rect" id="node9" href="$classtdbc_1_1odbc_1_1typesStatement.html" title=" " alt="" coords="201,360,403,387"/>
+<area shape="rect" id="node10" href="$classtdbc_1_1postgres_1_1statement.html" title=" " alt="" coords="207,411,397,437"/>
+</map>

@@ -1,0 +1,33 @@
+<map id="tkinter.tix.TixSubWidget" name="tkinter.tix.TixSubWidget">
+<area shape="rect" id="node1" title=" " alt="" coords="712,579,891,605"/>
+<area shape="rect" id="node9" href="$classtkinter_1_1tix_1_1__dummyButton.html" title=" " alt="" coords="964,5,1153,32"/>
+<area shape="rect" id="node10" href="$classtkinter_1_1tix_1_1__dummyCheckbutton.html" title=" " alt="" coords="945,56,1173,83"/>
+<area shape="rect" id="node11" href="$classtkinter_1_1tix_1_1__dummyComboBox.html" title=" " alt="" coords="950,107,1167,133"/>
+<area shape="rect" id="node12" href="$classtkinter_1_1tix_1_1__dummyDirList.html" title=" " alt="" coords="965,157,1153,184"/>
+<area shape="rect" id="node13" href="$classtkinter_1_1tix_1_1__dummyDirSelectBox.html" title=" " alt="" coords="943,208,1174,235"/>
+<area shape="rect" id="node14" href="$classtkinter_1_1tix_1_1__dummyEntry.html" title=" " alt="" coords="969,259,1149,285"/>
+<area shape="rect" id="node15" href="$classtkinter_1_1tix_1_1__dummyExFileSelectBox.html" title=" " alt="" coords="966,310,1151,351"/>
+<area shape="rect" id="node16" href="$classtkinter_1_1tix_1_1__dummyFileComboBox.html" title=" " alt="" coords="939,376,1179,403"/>
+<area shape="rect" id="node17" href="$classtkinter_1_1tix_1_1__dummyFileSelectBox.html" title=" " alt="" coords="941,427,1176,453"/>
+<area shape="rect" id="node18" href="$classtkinter_1_1tix_1_1__dummyFrame.html" title=" " alt="" coords="965,477,1152,504"/>
+<area shape="rect" id="node19" href="$classtkinter_1_1tix_1_1__dummyHList.html" title=" " alt="" coords="969,528,1148,555"/>
+<area shape="rect" id="node20" href="$classtkinter_1_1tix_1_1__dummyLabel.html" title=" " alt="" coords="968,579,1149,605"/>
+<area shape="rect" id="node21" href="$classtkinter_1_1tix_1_1__dummyListbox.html" title=" " alt="" coords="962,629,1155,656"/>
+<area shape="rect" id="node22" href="$classtkinter_1_1tix_1_1__dummyMenu.html" title=" " alt="" coords="967,680,1150,707"/>
+<area shape="rect" id="node23" href="$classtkinter_1_1tix_1_1__dummyMenubutton.html" title=" " alt="" coords="947,731,1171,757"/>
+<area shape="rect" id="node24" href="$classtkinter_1_1tix_1_1__dummyNoteBookFrame.html" title=" " alt="" coords="953,782,1164,823"/>
+<area shape="rect" id="node25" href="$classtkinter_1_1tix_1_1__dummyPanedWindow.html" title=" " alt="" coords="940,848,1177,875"/>
+<area shape="rect" id="node26" href="$classtkinter_1_1tix_1_1__dummyScrollbar.html" title=" " alt="" coords="957,899,1160,925"/>
+<area shape="rect" id="node27" href="$classtkinter_1_1tix_1_1__dummyScrolledHList.html" title=" " alt="" coords="959,950,1158,991"/>
+<area shape="rect" id="node28" href="$classtkinter_1_1tix_1_1__dummyScrolledListBox.html" title=" " alt="" coords="959,1015,1158,1057"/>
+<area shape="rect" id="node29" href="$classtkinter_1_1tix_1_1__dummyStdButtonBox.html" title=" " alt="" coords="941,1081,1176,1108"/>
+<area shape="rect" id="node30" href="$classtkinter_1_1tix_1_1__dummyText.html" title=" " alt="" coords="972,1132,1145,1159"/>
+<area shape="rect" id="node31" href="$classtkinter_1_1tix_1_1__dummyTList.html" title=" " alt="" coords="970,1183,1147,1209"/>
+<area shape="rect" id="node2" href="$classtkinter_1_1tix_1_1TixWidget.html" title=" " alt="" coords="509,579,664,605"/>
+<area shape="rect" id="node3" href="$classtkinter_1_1Widget.html" title=" " alt="" coords="347,579,461,605"/>
+<area shape="rect" id="node4" href="$classtkinter_1_1BaseWidget.html" title=" " alt="" coords="152,503,299,529"/>
+<area shape="rect" id="node5" href="$classtkinter_1_1Misc.html" title=" " alt="" coords="5,503,104,529"/>
+<area shape="rect" id="node6" href="$classtkinter_1_1Pack.html" title=" " alt="" coords="176,553,275,580"/>
+<area shape="rect" id="node7" href="$classtkinter_1_1Place.html" title=" " alt="" coords="174,604,277,631"/>
+<area shape="rect" id="node8" href="$classtkinter_1_1Grid.html" title=" " alt="" coords="178,655,273,681"/>
+</map>

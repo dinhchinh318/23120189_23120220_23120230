@@ -1,0 +1,31 @@
+<map id="_collections_abc.MutableMapping" name="_collections_abc.MutableMapping">
+<area shape="rect" id="node1" title=" " alt="" coords="989,302,1176,343"/>
+<area shape="rect" id="node10" href="$classcollections_1_1ChainMap.html" title=" " alt="" coords="1270,5,1431,32"/>
+<area shape="rect" id="node12" href="$classcollections_1_1UserDict.html" title=" " alt="" coords="1275,56,1427,83"/>
+<area shape="rect" id="node14" href="$classconfigparser_1_1ConverterMapping.html" title=" " alt="" coords="1238,107,1463,133"/>
+<area shape="rect" id="node15" href="$classconfigparser_1_1RawConfigParser.html" title=" " alt="" coords="1243,157,1458,184"/>
+<area shape="rect" id="node19" href="$classconfigparser_1_1SectionProxy.html" title=" " alt="" coords="1255,208,1446,235"/>
+<area shape="rect" id="node20" href="$classdbm_1_1dumb_1_1__Database.html" title=" " alt="" coords="1268,259,1433,285"/>
+<area shape="rect" id="node21" href="$classos_1_1__Environ.html" title=" " alt="" coords="1302,309,1399,336"/>
+<area shape="rect" id="node22" href="$classshelve_1_1__ClosedDict.html" title=" " alt="" coords="1277,360,1424,387"/>
+<area shape="rect" id="node23" href="$classshelve_1_1Shelf.html" title=" " alt="" coords="1299,411,1402,437"/>
+<area shape="rect" id="node26" href="$classtest_1_1support_1_1os__helper_1_1EnvironmentVarGuard.html" title=" " alt="" coords="1224,462,1477,503"/>
+<area shape="rect" id="node27" href="$classtest_1_1test__shelve_1_1byteskeydict.html" title=" " alt="" coords="1244,528,1457,555"/>
+<area shape="rect" id="node28" href="$classweakref_1_1WeakKeyDictionary.html" title=" " alt="" coords="1248,579,1453,605"/>
+<area shape="rect" id="node29" href="$classweakref_1_1WeakValueDictionary.html" title=" " alt="" coords="1242,629,1459,656"/>
+<area shape="rect" id="node2" href="$class__collections__abc_1_1Mapping.html" title=" " alt="" coords="752,309,941,336"/>
+<area shape="rect" id="node3" href="$class__collections__abc_1_1Collection.html" title=" " alt="" coords="505,309,704,336"/>
+<area shape="rect" id="node4" href="$class__collections__abc_1_1Sized.html" title=" " alt="" coords="275,259,443,285"/>
+<area shape="rect" id="node5" title=" " alt="" coords="114,284,203,311"/>
+<area shape="rect" id="node8" href="$class__collections__abc_1_1Iterable.html" title=" " alt="" coords="268,309,451,336"/>
+<area shape="rect" id="node9" href="$class__collections__abc_1_1Container.html" title=" " alt="" coords="261,360,457,387"/>
+<area shape="rect" id="node6" href="$classabc_1_1ABCMeta.html" title=" " alt="" coords="104,335,213,361"/>
+<area shape="rect" id="node7" title=" " alt="" coords="5,335,56,361"/>
+<area shape="rect" id="node11" href="$classunittest_1_1case_1_1__OrderedChainMap.html" title=" " alt="" coords="1525,5,1760,32"/>
+<area shape="rect" id="node13" href="$classtest_1_1test__configparser_1_1SortedDict.html" title=" " alt="" coords="1525,56,1760,83"/>
+<area shape="rect" id="node16" href="$classconfigparser_1_1ConfigParser.html" title=" " alt="" coords="1549,157,1736,184"/>
+<area shape="rect" id="node17" href="$classidlelib_1_1config_1_1IdleConfParser.html" title=" " alt="" coords="1808,157,2011,184"/>
+<area shape="rect" id="node18" href="$classidlelib_1_1config_1_1IdleUserConfParser.html" title=" " alt="" coords="2059,150,2252,191"/>
+<area shape="rect" id="node24" href="$classshelve_1_1BsdDbShelf.html" title=" " alt="" coords="1571,436,1715,463"/>
+<area shape="rect" id="node25" href="$classshelve_1_1DbfilenameShelf.html" title=" " alt="" coords="1554,385,1731,412"/>
+</map>

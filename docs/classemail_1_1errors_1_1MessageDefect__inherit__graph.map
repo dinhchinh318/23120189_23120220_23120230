@@ -1,0 +1,23 @@
+<map id="email.errors.MessageDefect" name="email.errors.MessageDefect">
+<area shape="rect" id="node1" title=" " alt="" coords="143,430,349,457"/>
+<area shape="rect" id="node3" href="$classemail_1_1errors_1_1CloseBoundaryNotFoundDefect.html" title=" " alt="" coords="411,44,614,85"/>
+<area shape="rect" id="node4" href="$classemail_1_1errors_1_1FirstHeaderLineIsContinuationDefect.html" title=" " alt="" coords="419,109,606,151"/>
+<area shape="rect" id="node5" href="$classemail_1_1errors_1_1HeaderDefect.html" title=" " alt="" coords="415,175,610,202"/>
+<area shape="rect" id="node12" href="$classemail_1_1errors_1_1InvalidBase64CharactersDefect.html" title=" " alt="" coords="414,227,611,268"/>
+<area shape="rect" id="node13" href="$classemail_1_1errors_1_1InvalidBase64LengthDefect.html" title=" " alt="" coords="414,292,611,333"/>
+<area shape="rect" id="node14" href="$classemail_1_1errors_1_1InvalidBase64PaddingDefect.html" title=" " alt="" coords="414,357,611,399"/>
+<area shape="rect" id="node15" href="$classemail_1_1errors_1_1InvalidMultipartContentTransferEncodingDefect.html" title=" " alt="" coords="399,423,626,464"/>
+<area shape="rect" id="node16" href="$classemail_1_1errors_1_1MisplacedEnvelopeHeaderDefect.html" title=" " alt="" coords="397,488,628,529"/>
+<area shape="rect" id="node17" href="$classemail_1_1errors_1_1MissingHeaderBodySeparatorDefect.html" title=" " alt="" coords="411,553,614,595"/>
+<area shape="rect" id="node18" href="$classemail_1_1errors_1_1MultipartInvariantViolationDefect.html" title=" " alt="" coords="401,619,624,660"/>
+<area shape="rect" id="node19" href="$classemail_1_1errors_1_1NoBoundaryInMultipartDefect.html" title=" " alt="" coords="414,684,611,725"/>
+<area shape="rect" id="node20" href="$classemail_1_1errors_1_1StartBoundaryNotFoundDefect.html" title=" " alt="" coords="413,749,612,791"/>
+<area shape="rect" id="node21" href="$classemail_1_1errors_1_1UndecodableBytesDefect.html" title=" " alt="" coords="417,815,608,856"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,430,95,457"/>
+<area shape="rect" id="node6" href="$classemail_1_1errors_1_1HeaderMissingRequiredValue.html" title=" " alt="" coords="680,5,883,47"/>
+<area shape="rect" id="node7" href="$classemail_1_1errors_1_1InvalidDateDefect.html" title=" " alt="" coords="691,71,871,112"/>
+<area shape="rect" id="node8" href="$classemail_1_1errors_1_1InvalidHeaderDefect.html" title=" " alt="" coords="683,136,879,177"/>
+<area shape="rect" id="node9" href="$classemail_1_1errors_1_1NonASCIILocalPartDefect.html" title=" " alt="" coords="682,201,881,243"/>
+<area shape="rect" id="node10" href="$classemail_1_1errors_1_1NonPrintableDefect.html" title=" " alt="" coords="687,267,876,308"/>
+<area shape="rect" id="node11" href="$classemail_1_1errors_1_1ObsoleteHeaderDefect.html" title=" " alt="" coords="676,332,887,373"/>
+</map>

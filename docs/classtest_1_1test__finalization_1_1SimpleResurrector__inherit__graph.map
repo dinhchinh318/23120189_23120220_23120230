@@ -1,0 +1,7 @@
+<map id="test.test_finalization.SimpleResurrector" name="test.test_finalization.SimpleResurrector">
+<area shape="rect" id="node1" title=" " alt="" coords="523,39,727,80"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__finalization_1_1ChainedResurrector.html" title=" " alt="" coords="775,5,987,47"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__finalization_1_1SelfCycleResurrector.html" title=" " alt="" coords="789,71,973,112"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__finalization_1_1SimpleBase.html" title=" " alt="" coords="239,46,475,73"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__finalization_1_1NonGCSimpleBase.html" title=" " alt="" coords="5,39,191,80"/>
+</map>

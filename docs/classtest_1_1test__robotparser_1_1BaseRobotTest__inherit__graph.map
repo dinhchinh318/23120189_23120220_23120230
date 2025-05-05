@@ -1,0 +1,22 @@
+<map id="test.test_robotparser.BaseRobotTest" name="test.test_robotparser.BaseRobotTest">
+<area shape="rect" id="node1" title=" " alt="" coords="5,431,199,472"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__robotparser_1_1AnotherInvalidRequestRateTest.html" title=" " alt="" coords="261,5,473,47"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__robotparser_1_1BaseRequestRateTest.html" title=" " alt="" coords="271,71,464,112"/>
+<area shape="rect" id="node8" href="$classtest_1_1test__robotparser_1_1CrawlDelayAndCustomAgentTest.html" title=" " alt="" coords="268,136,467,177"/>
+<area shape="rect" id="node9" href="$classtest_1_1test__robotparser_1_1DisallowQueryStringTest.html" title=" " alt="" coords="259,201,476,243"/>
+<area shape="rect" id="node10" href="$classtest_1_1test__robotparser_1_1EmptyQueryStringTest.html" title=" " alt="" coords="266,267,469,308"/>
+<area shape="rect" id="node11" href="$classtest_1_1test__robotparser_1_1GoogleURLOrderingTest.html" title=" " alt="" coords="264,332,471,373"/>
+<area shape="rect" id="node12" href="$classtest_1_1test__robotparser_1_1InvalidCrawlDelayTest.html" title=" " alt="" coords="265,397,470,439"/>
+<area shape="rect" id="node13" href="$classtest_1_1test__robotparser_1_1InvalidRequestRateTest.html" title=" " alt="" coords="265,463,470,504"/>
+<area shape="rect" id="node14" href="$classtest_1_1test__robotparser_1_1RejectAllRobotsTest.html" title=" " alt="" coords="266,528,469,569"/>
+<area shape="rect" id="node15" href="$classtest_1_1test__robotparser_1_1SitemapTest.html" title=" " alt="" coords="247,594,488,621"/>
+<area shape="rect" id="node16" href="$classtest_1_1test__robotparser_1_1StringFormattingTest.html" title=" " alt="" coords="268,645,467,687"/>
+<area shape="rect" id="node17" href="$classtest_1_1test__robotparser_1_1UseFirstUserAgentWildcardTest.html" title=" " alt="" coords="267,711,468,752"/>
+<area shape="rect" id="node18" href="$classtest_1_1test__robotparser_1_1UserAgentOrderingTest.html" title=" " alt="" coords="272,776,463,817"/>
+<area shape="rect" id="node20" href="$classtest_1_1test__robotparser_1_1UserAgentWildcardTest.html" title=" " alt="" coords="272,841,463,883"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__robotparser_1_1CrawlDelayAndRequestRateTest.html" title=" " alt="" coords="541,5,740,47"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__robotparser_1_1DefaultEntryTest.html" title=" " alt="" coords="536,71,745,112"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__robotparser_1_1EmptyFileTest.html" title=" " alt="" coords="539,136,742,177"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__robotparser_1_1DifferentAgentTest.html" title=" " alt="" coords="793,5,1012,47"/>
+<area shape="rect" id="node19" href="$classtest_1_1test__robotparser_1_1UserAgentGoogleMobileTest.html" title=" " alt="" coords="545,776,736,817"/>
+</map>

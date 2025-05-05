@@ -1,0 +1,10 @@
+<map id="WidgetCore" name="WidgetCore">
+<area shape="rect" id="node1" title=" " alt="" coords="248,364,347,391"/>
+<area shape="rect" id="node2" href="$structTcl__Obj.html" title=" " alt="" coords="103,109,171,136"/>
+<area shape="rect" id="node3" href="$structTcl__ObjType.html" title=" " alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="232,5,291,32"/>
+<area shape="rect" id="node6" href="$structTtkEnsemble.html" title=" " alt="" coords="299,109,405,136"/>
+<area shape="rect" id="node5" href="$structWidgetSpec__.html" title=" " alt="" coords="308,259,415,285"/>
+<area shape="rect" id="node7" href="$structTk__OptionSpec.html" title=" " alt="" coords="430,109,549,136"/>
+<area shape="rect" id="node8" href="$structTcl__Interp.html" title=" " alt="" coords="439,259,523,285"/>
+</map>

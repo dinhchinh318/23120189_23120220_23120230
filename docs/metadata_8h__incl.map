@@ -1,0 +1,11 @@
+<map id="UI&#45;UX/SFML/include/FLAC/metadata.h" name="UI&#45;UX/SFML/include/FLAC/metadata.h">
+<area shape="rect" id="node1" title="This module provides functions for creating and manipulating FLAC metadata blocks in memory,..." alt="" coords="102,5,253,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,101,121"/>
+<area shape="rect" id="node3" href="$export_8h.html" title="This module contains #defines and symbols for exporting function calls, and providing version informa..." alt="" coords="101,169,177,196"/>
+<area shape="rect" id="node4" href="$callback_8h.html" title="This module defines the structures for describing I/O callbacks to the other FLAC interfaces." alt="" coords="280,95,368,121"/>
+<area shape="rect" id="node9" href="$format_8h.html" title="This module contains structure definitions for the representation of FLAC format components in memory..." alt="" coords="177,95,255,121"/>
+<area shape="rect" id="node5" href="$ordinals_8h_source.html" title=" " alt="" coords="201,169,287,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="311,169,382,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="158,244,229,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="253,244,336,271"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="Entry" name="Entry">
+<area shape="rect" id="node1" title=" " alt="" coords="435,911,491,937"/>
+<area shape="rect" id="node2" href="$structXGCValues.html" title=" " alt="" coords="805,487,899,514"/>
+<area shape="rect" id="node10" href="$structScreen.html" title=" " alt="" coords="611,644,677,671"/>
+<area shape="rect" id="node3" title=" " alt="" coords="279,763,337,789"/>
+<area shape="rect" id="node4" title=" " alt="" coords="247,5,305,32"/>
+<area shape="rect" id="node6" href="$struct__XDisplay.html" title=" " alt="" coords="362,763,449,789"/>
+<area shape="rect" id="node7" href="$struct__XExtData.html" title=" " alt="" coords="345,95,436,121"/>
+<area shape="rect" id="node5" href="$structXColor.html" title=" " alt="" coords="473,763,537,789"/>
+<area shape="rect" id="node8" href="$structScreenFormat.html" title=" " alt="" coords="256,302,368,329"/>
+<area shape="rect" id="node11" href="$structVisual.html" title=" " alt="" coords="475,184,538,211"/>
+<area shape="rect" id="node9" href="$structXModifierKeymap.html" title=" " alt="" coords="202,644,339,671"/>
+<area shape="rect" id="node12" href="$structDepth.html" title=" " alt="" coords="476,487,537,514"/>
+<area shape="rect" id="node13" href="$structTcl__Interp.html" title=" " alt="" coords="917,763,1001,789"/>
+</map>

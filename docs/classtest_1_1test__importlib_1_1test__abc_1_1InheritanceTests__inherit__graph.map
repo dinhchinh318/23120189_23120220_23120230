@@ -1,0 +1,10 @@
+<map id="test.test_importlib.test_abc.InheritanceTests" name="test.test_importlib.test_abc.InheritanceTests">
+<area shape="rect" id="node1" title="Inheritance ##############################################################." alt="" coords="5,201,176,243"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__importlib_1_1test__abc_1_1ExecutionLoader.html" title=" " alt="" coords="224,5,395,47"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__importlib_1_1test__abc_1_1FileLoader.html" title=" " alt="" coords="224,71,395,112"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__importlib_1_1test__abc_1_1InspectLoader.html" title=" " alt="" coords="224,136,395,177"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__importlib_1_1test__abc_1_1MetaPathFinder.html" title=" " alt="" coords="224,201,395,243"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__importlib_1_1test__abc_1_1PathEntryFinder.html" title=" " alt="" coords="224,267,395,308"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__importlib_1_1test__abc_1_1ResourceLoader.html" title=" " alt="" coords="224,332,395,373"/>
+<area shape="rect" id="node8" href="$classtest_1_1test__importlib_1_1test__abc_1_1SourceLoader.html" title=" " alt="" coords="224,397,395,439"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="enum.Flag" name="enum.Flag">
+<area shape="rect" id="node1" title=" " alt="" coords="431,413,521,440"/>
+<area shape="rect" id="node8" href="$classenum_1_1IntFlag.html" title=" " alt="" coords="635,216,743,243"/>
+<area shape="rect" id="node18" href="$classtest_1_1test__enum_1_1FlagStooges.html" title=" " alt="" coords="587,267,791,293"/>
+<area shape="rect" id="node19" href="$classtest_1_1test__enum_1_1FlagStoogesWithZero.html" title=" " alt="" coords="587,318,791,359"/>
+<area shape="rect" id="node20" href="$classtest_1_1test__enum_1_1NoName.html" title=" " alt="" coords="598,384,779,411"/>
+<area shape="rect" id="node21" href="$classtest_1_1test__enum_1_1OldTestFlag_1_1Color.html" title=" " alt="" coords="587,435,791,477"/>
+<area shape="rect" id="node22" href="$classtest_1_1test__enum_1_1OldTestFlag_1_1Open.html" title=" " alt="" coords="569,501,808,528"/>
+<area shape="rect" id="node23" href="$classtest_1_1test__enum_1_1OldTestFlag_1_1Perm.html" title=" " alt="" coords="569,552,808,579"/>
+<area shape="rect" id="node24" href="$classtest_1_1test__enum_1_1TestMixedIntFlagClass_1_1enum__type.html" title=" " alt="" coords="594,603,783,645"/>
+<area shape="rect" id="node2" href="$classenum_1_1Enum.html" title=" " alt="" coords="283,363,383,389"/>
+<area shape="rect" id="node3" title=" " alt="" coords="125,337,214,364"/>
+<area shape="rect" id="node4" href="$classenum_1_1EnumType.html" title=" " alt="" coords="104,388,235,415"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,388,56,415"/>
+<area shape="rect" id="node6" title=" " alt="" coords="291,413,374,440"/>
+<area shape="rect" id="node7" title=" " alt="" coords="299,464,367,491"/>
+<area shape="rect" id="node9" href="$classinspect_1_1BufferFlags.html" title=" " alt="" coords="893,5,1040,32"/>
+<area shape="rect" id="node10" href="$classtest_1_1test__enum_1_1HeadlightsC.html" title=" " alt="" coords="865,56,1068,83"/>
+<area shape="rect" id="node11" href="$classtest_1_1test__enum_1_1HeadlightsK.html" title=" " alt="" coords="865,107,1068,133"/>
+<area shape="rect" id="node12" href="$classtest_1_1test__enum_1_1IntFlagStooges.html" title=" " alt="" coords="856,157,1077,184"/>
+<area shape="rect" id="node13" href="$classtest_1_1test__enum_1_1IntFlagStoogesWithZero.html" title=" " alt="" coords="856,209,1077,250"/>
+<area shape="rect" id="node14" href="$classtest_1_1test__enum_1_1OldTestIntFlag_1_1Color.html" title=" " alt="" coords="872,274,1061,315"/>
+<area shape="rect" id="node15" href="$classtest_1_1test__enum_1_1OldTestIntFlag_1_1Open.html" title=" " alt="" coords="872,339,1061,381"/>
+<area shape="rect" id="node16" href="$classtest_1_1test__enum_1_1OldTestIntFlag_1_1Perm.html" title=" " alt="" coords="872,405,1061,446"/>
+<area shape="rect" id="node17" href="$classtest_1_1test__enum_1_1OldTestIntFlag_1_1Skip.html" title=" " alt="" coords="872,470,1061,511"/>
+</map>

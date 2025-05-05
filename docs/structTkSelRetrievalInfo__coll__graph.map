@@ -1,0 +1,22 @@
+<map id="TkSelRetrievalInfo" name="TkSelRetrievalInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="1913,795,2056,821"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,475,64,501"/>
+<area shape="rect" id="node3" href="$structTkWindow.html" title=" " alt="" coords="1729,795,1820,821"/>
+<area shape="rect" id="node6" href="$structTkDisplay.html" title=" " alt="" coords="1463,707,1550,733"/>
+<area shape="rect" id="node8" href="$struct__XDisplay.html" title=" " alt="" coords="1215,675,1301,701"/>
+<area shape="rect" id="node9" href="$struct__XExtData.html" title=" " alt="" coords="164,551,255,577"/>
+<area shape="rect" id="node12" href="$structScreen.html" title=" " alt="" coords="977,713,1043,740"/>
+<area shape="rect" id="node17" href="$structTkEventHandler.html" title=" " alt="" coords="279,868,405,895"/>
+<area shape="rect" id="node18" href="$structTkMainInfo.html" title=" " alt="" coords="1459,1041,1554,1068"/>
+<area shape="rect" id="node4" href="$structXWindowChanges.html" title=" " alt="" coords="1437,605,1576,632"/>
+<area shape="rect" id="node5" href="$structXSetWindowAttributes.html" title=" " alt="" coords="1423,656,1591,683"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1229,624,1287,651"/>
+<area shape="rect" id="node10" href="$structScreenFormat.html" title=" " alt="" coords="516,556,628,583"/>
+<area shape="rect" id="node14" href="$structVisual.html" title=" " alt="" coords="429,789,492,816"/>
+<area shape="rect" id="node11" href="$structXModifierKeymap.html" title=" " alt="" coords="941,663,1079,689"/>
+<area shape="rect" id="node13" href="$structXGCValues.html" title=" " alt="" coords="673,713,767,740"/>
+<area shape="rect" id="node15" href="$structDepth.html" title=" " alt="" coords="689,827,751,853"/>
+<area shape="rect" id="node16" href="$structTk__ClassProcs.html" title=" " alt="" coords="1449,877,1564,904"/>
+<area shape="rect" id="node19" href="$structTcl__Interp.html" title=" " alt="" coords="1216,1191,1300,1217"/>
+<area shape="rect" id="node20" href="$structTk__GeomMgr.html" title=" " alt="" coords="1452,1092,1561,1119"/>
+</map>

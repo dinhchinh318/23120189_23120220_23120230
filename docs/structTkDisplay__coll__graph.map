@@ -1,0 +1,13 @@
+<map id="TkDisplay" name="TkDisplay">
+<area shape="rect" id="node1" title=" " alt="" coords="85,823,171,849"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,733,64,760"/>
+<area shape="rect" id="node3" title=" " alt="" coords="328,5,387,32"/>
+<area shape="rect" id="node4" href="$struct__XDisplay.html" title=" " alt="" coords="379,733,466,760"/>
+<area shape="rect" id="node5" href="$struct__XExtData.html" title=" " alt="" coords="437,95,528,121"/>
+<area shape="rect" id="node8" href="$structScreen.html" title=" " alt="" coords="597,644,664,671"/>
+<area shape="rect" id="node6" href="$structScreenFormat.html" title=" " alt="" coords="427,302,539,329"/>
+<area shape="rect" id="node10" href="$structVisual.html" title=" " alt="" coords="619,184,682,211"/>
+<area shape="rect" id="node7" href="$structXModifierKeymap.html" title=" " alt="" coords="689,644,826,671"/>
+<area shape="rect" id="node9" href="$structXGCValues.html" title=" " alt="" coords="868,487,961,514"/>
+<area shape="rect" id="node11" href="$structDepth.html" title=" " alt="" coords="732,487,793,514"/>
+</map>

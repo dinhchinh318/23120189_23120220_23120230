@@ -1,0 +1,17 @@
+<map id="http.client.HTTPException" name="http.client.HTTPException">
+<area shape="rect" id="node1" title=" " alt="" coords="140,256,331,283"/>
+<area shape="rect" id="node3" href="$classhttp_1_1client_1_1BadStatusLine.html" title=" " alt="" coords="398,16,583,43"/>
+<area shape="rect" id="node5" href="$classhttp_1_1client_1_1ImproperConnectionState.html" title=" " alt="" coords="379,89,603,130"/>
+<area shape="rect" id="node9" href="$classhttp_1_1client_1_1IncompleteRead.html" title=" " alt="" coords="391,155,590,181"/>
+<area shape="rect" id="node10" href="$classhttp_1_1client_1_1InvalidURL.html" title=" " alt="" coords="409,205,572,232"/>
+<area shape="rect" id="node11" href="$classhttp_1_1client_1_1LineTooLong.html" title=" " alt="" coords="405,256,577,283"/>
+<area shape="rect" id="node12" href="$classhttp_1_1client_1_1NotConnected.html" title=" " alt="" coords="399,307,583,333"/>
+<area shape="rect" id="node13" href="$classhttp_1_1client_1_1UnimplementedFileMode.html" title=" " alt="" coords="392,358,589,399"/>
+<area shape="rect" id="node14" href="$classhttp_1_1client_1_1UnknownProtocol.html" title=" " alt="" coords="387,424,594,451"/>
+<area shape="rect" id="node15" href="$classhttp_1_1client_1_1UnknownTransferEncoding.html" title=" " alt="" coords="388,475,593,517"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,256,92,283"/>
+<area shape="rect" id="node4" href="$classhttp_1_1client_1_1RemoteDisconnected.html" title=" " alt="" coords="651,5,881,32"/>
+<area shape="rect" id="node6" href="$classhttp_1_1client_1_1CannotSendHeader.html" title=" " alt="" coords="657,56,875,83"/>
+<area shape="rect" id="node7" href="$classhttp_1_1client_1_1CannotSendRequest.html" title=" " alt="" coords="655,107,877,133"/>
+<area shape="rect" id="node8" href="$classhttp_1_1client_1_1ResponseNotReady.html" title=" " alt="" coords="657,157,875,184"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="PyBufferProcs" name="PyBufferProcs">
+<area shape="rect" id="node1" title=" " alt="" coords="7,539,119,565"/>
+<area shape="rect" id="node3" href="$struct__typeobject.html" title=" " alt="" coords="261,269,359,296"/>
+<area shape="rect" id="node2" href="$struct__object.html" title=" " alt="" coords="519,461,588,488"/>
+<area shape="rect" id="node4" href="$structPyMappingMethods.html" title=" " alt="" coords="845,29,995,56"/>
+<area shape="rect" id="node6" href="$structPyMethodDef.html" title=" " alt="" coords="865,93,975,120"/>
+<area shape="rect" id="node7" href="$structPySequenceMethods.html" title=" " alt="" coords="841,655,999,681"/>
+<area shape="rect" id="node8" href="$structPyGetSetDef.html" title=" " alt="" coords="867,729,973,756"/>
+<area shape="rect" id="node9" href="$structPyNumberMethods.html" title=" " alt="" coords="847,364,993,391"/>
+<area shape="rect" id="node10" href="$structPyAsyncMethods.html" title=" " alt="" coords="853,193,987,220"/>
+<area shape="rect" id="node5" href="$structPyMemberDef.html" title=" " alt="" coords="5,269,120,296"/>
+</map>

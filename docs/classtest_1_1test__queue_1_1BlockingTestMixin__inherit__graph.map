@@ -1,0 +1,16 @@
+<map id="test.test_queue.BlockingTestMixin" name="test.test_queue.BlockingTestMixin">
+<area shape="rect" id="node1" title=" " alt="" coords="5,261,188,302"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__queue_1_1BaseQueueTestMixin.html" title=" " alt="" coords="254,202,455,243"/>
+<area shape="rect" id="node12" href="$classtest_1_1test__queue_1_1FailingQueueTest.html" title=" " alt="" coords="236,297,473,324"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__queue_1_1LifoQueueTest.html" title=" " alt="" coords="521,56,740,83"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__queue_1_1PriorityQueueTest.html" title=" " alt="" coords="543,173,718,214"/>
+<area shape="rect" id="node9" href="$classtest_1_1test__queue_1_1QueueTest.html" title=" " alt="" coords="533,239,728,265"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__queue_1_1CLifoQueueTest.html" title=" " alt="" coords="791,5,1019,32"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__queue_1_1PyLifoQueueTest.html" title=" " alt="" coords="788,56,1023,83"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__queue_1_1CPriorityQueueTest.html" title=" " alt="" coords="814,107,997,149"/>
+<area shape="rect" id="node8" href="$classtest_1_1test__queue_1_1PyPriorityQueueTest.html" title=" " alt="" coords="810,173,1001,214"/>
+<area shape="rect" id="node10" href="$classtest_1_1test__queue_1_1CQueueTest.html" title=" " alt="" coords="803,239,1007,265"/>
+<area shape="rect" id="node11" href="$classtest_1_1test__queue_1_1PyQueueTest.html" title=" " alt="" coords="800,289,1011,316"/>
+<area shape="rect" id="node13" href="$classtest_1_1test__queue_1_1CFailingQueueTest.html" title=" " alt="" coords="541,290,720,331"/>
+<area shape="rect" id="node14" href="$classtest_1_1test__queue_1_1PyFailingQueueTest.html" title=" " alt="" coords="538,355,723,397"/>
+</map>

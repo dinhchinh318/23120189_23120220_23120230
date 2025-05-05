@@ -1,0 +1,13 @@
+<map id="test.test_inspect.test_inspect.GetSourceBase" name="test.test_inspect.test_inspect.GetSourceBase">
+<area shape="rect" id="node1" title=" " alt="" coords="332,239,511,280"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__inspect_1_1test__inspect_1_1TestBlockComments.html" title=" " alt="" coords="577,5,791,47"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__inspect_1_1test__inspect_1_1TestBuggyCases.html" title=" " alt="" coords="591,71,777,112"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__inspect_1_1test__inspect_1_1TestComplexDecorator.html" title=" " alt="" coords="570,136,798,177"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__inspect_1_1test__inspect_1_1TestDecorators.html" title=" " alt="" coords="595,201,773,243"/>
+<area shape="rect" id="node8" href="$classtest_1_1test__inspect_1_1test__inspect_1_1TestGettingSourceOfToplevelFrames.html" title=" " alt="" coords="577,267,791,323"/>
+<area shape="rect" id="node9" href="$classtest_1_1test__inspect_1_1test__inspect_1_1TestNoEOL.html" title=" " alt="" coords="605,348,763,389"/>
+<area shape="rect" id="node10" href="$classtest_1_1test__inspect_1_1test__inspect_1_1TestOneliners.html" title=" " alt="" coords="600,413,768,455"/>
+<area shape="rect" id="node11" href="$classtest_1_1test__inspect_1_1test__inspect_1_1TestRetrievingSourceCode.html" title=" " alt="" coords="559,479,809,520"/>
+<area shape="rect" id="node2" href="$classunittest_1_1case_1_1TestCase.html" title=" " alt="" coords="116,246,284,273"/>
+<area shape="rect" id="node3" href="$struct__object.html" title=" " alt="" coords="5,246,68,273"/>
+</map>

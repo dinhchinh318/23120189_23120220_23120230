@@ -1,0 +1,18 @@
+<map id="test.test_dis.BytecodeTests" name="test.test_dis.BytecodeTests">
+<area shape="rect" id="node1" title=" " alt="" coords="1696,49,1896,75"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__dis_1_1InstructionTestCase.html" title=" " alt="" coords="1472,5,1647,47"/>
+<area shape="rect" id="node3" href="$classtest_1_1support_1_1bytecode__helper_1_1BytecodeTestCase.html" title=" " alt="" coords="1047,5,1239,47"/>
+<area shape="rect" id="node4" href="$classunittest_1_1case_1_1TestCase.html" title=" " alt="" coords="829,49,997,75"/>
+<area shape="rect" id="node16" href="$classtest_1_1test__dis_1_1DisTestBase.html" title=" " alt="" coords="1263,71,1448,98"/>
+<area shape="rect" id="node5" href="$struct__object.html" title=" " alt="" coords="510,49,573,75"/>
+<area shape="rect" id="node6" href="$struct__typeobject.html" title=" " alt="" coords="255,345,353,371"/>
+<area shape="rect" id="node8" href="$struct__object.html" title=" " alt="" coords="507,539,576,566"/>
+<area shape="rect" id="node7" href="$structPyMappingMethods.html" title=" " alt="" coords="838,363,989,390"/>
+<area shape="rect" id="node10" href="$structPyMethodDef.html" title=" " alt="" coords="858,146,969,173"/>
+<area shape="rect" id="node11" href="$structPyBufferProcs.html" title=" " alt="" coords="857,241,969,267"/>
+<area shape="rect" id="node12" href="$structPySequenceMethods.html" title=" " alt="" coords="835,477,992,503"/>
+<area shape="rect" id="node13" href="$structPyGetSetDef.html" title=" " alt="" coords="861,798,966,825"/>
+<area shape="rect" id="node14" href="$structPyNumberMethods.html" title=" " alt="" coords="840,967,987,994"/>
+<area shape="rect" id="node15" href="$structPyAsyncMethods.html" title=" " alt="" coords="847,681,980,707"/>
+<area shape="rect" id="node9" href="$structPyMemberDef.html" title=" " alt="" coords="5,345,120,371"/>
+</map>

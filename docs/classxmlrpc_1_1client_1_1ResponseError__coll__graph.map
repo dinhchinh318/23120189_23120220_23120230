@@ -1,0 +1,5 @@
+<map id="xmlrpc.client.ResponseError" name="xmlrpc.client.ResponseError">
+<area shape="rect" id="node1" title="Indicates a broken XML&#45;RPC response package." alt="" coords="5,155,211,181"/>
+<area shape="rect" id="node2" href="$classxmlrpc_1_1client_1_1Error.html" title="Base class for all kinds of client&#45;side errors." alt="" coords="37,80,179,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="65,5,151,32"/>
+</map>

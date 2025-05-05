@@ -1,0 +1,12 @@
+<map id="asyncio.mixins._LoopBoundMixin" name="asyncio.mixins._LoopBoundMixin">
+<area shape="rect" id="node1" title=" " alt="" coords="5,125,208,166"/>
+<area shape="rect" id="node2" href="$classasyncio_1_1locks_1_1Barrier.html" title=" " alt="" coords="271,5,429,32"/>
+<area shape="rect" id="node3" href="$classasyncio_1_1locks_1_1Condition.html" title=" " alt="" coords="262,56,438,83"/>
+<area shape="rect" id="node4" href="$classasyncio_1_1locks_1_1Event.html" title=" " alt="" coords="275,107,425,133"/>
+<area shape="rect" id="node5" href="$classasyncio_1_1locks_1_1Lock.html" title=" " alt="" coords="278,157,422,184"/>
+<area shape="rect" id="node6" href="$classasyncio_1_1locks_1_1Semaphore.html" title=" " alt="" coords="256,208,444,235"/>
+<area shape="rect" id="node8" href="$classasyncio_1_1queues_1_1Queue.html" title=" " alt="" coords="265,259,435,285"/>
+<area shape="rect" id="node7" href="$classasyncio_1_1locks_1_1BoundedSemaphore.html" title=" " alt="" coords="492,208,737,235"/>
+<area shape="rect" id="node9" href="$classasyncio_1_1queues_1_1LifoQueue.html" title=" " alt="" coords="518,259,711,285"/>
+<area shape="rect" id="node10" href="$classasyncio_1_1queues_1_1PriorityQueue.html" title=" " alt="" coords="507,309,723,336"/>
+</map>

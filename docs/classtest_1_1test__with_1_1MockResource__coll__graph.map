@@ -1,0 +1,14 @@
+<map id="test.test_with.MockResource" name="test.test_with.MockResource">
+<area shape="rect" id="node1" title=" " alt="" coords="829,7,1040,33"/>
+<area shape="rect" id="node2" href="$struct__object.html" title=" " alt="" coords="510,7,573,33"/>
+<area shape="rect" id="node3" href="$struct__typeobject.html" title=" " alt="" coords="255,303,353,329"/>
+<area shape="rect" id="node5" href="$struct__object.html" title=" " alt="" coords="507,497,576,524"/>
+<area shape="rect" id="node4" href="$structPyMappingMethods.html" title=" " alt="" coords="859,265,1010,292"/>
+<area shape="rect" id="node7" href="$structPyMethodDef.html" title=" " alt="" coords="879,99,990,125"/>
+<area shape="rect" id="node8" href="$structPyBufferProcs.html" title=" " alt="" coords="879,161,991,188"/>
+<area shape="rect" id="node9" href="$structPySequenceMethods.html" title=" " alt="" coords="856,391,1013,417"/>
+<area shape="rect" id="node10" href="$structPyGetSetDef.html" title=" " alt="" coords="882,760,987,787"/>
+<area shape="rect" id="node11" href="$structPyNumberMethods.html" title=" " alt="" coords="861,925,1008,952"/>
+<area shape="rect" id="node12" href="$structPyAsyncMethods.html" title=" " alt="" coords="868,591,1001,617"/>
+<area shape="rect" id="node6" href="$structPyMemberDef.html" title=" " alt="" coords="5,303,120,329"/>
+</map>

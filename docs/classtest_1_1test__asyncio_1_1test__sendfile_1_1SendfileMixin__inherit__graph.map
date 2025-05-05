@@ -1,0 +1,10 @@
+<map id="test.test_asyncio.test_sendfile.SendfileMixin" name="test.test_asyncio.test_sendfile.SendfileMixin">
+<area shape="rect" id="node1" title=" " alt="" coords="221,136,393,177"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__asyncio_1_1test__sendfile_1_1SendfileTestsBase.html" title=" " alt="" coords="441,136,643,177"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__asyncio_1_1test__sendfile_1_1SendfileBase.html" title=" " alt="" coords="5,136,173,177"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__asyncio_1_1test__sendfile_1_1EPollEventLoopTests.html" title=" " alt="" coords="701,5,919,47"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__asyncio_1_1test__sendfile_1_1KqueueEventLoopTests.html" title=" " alt="" coords="693,71,927,112"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__asyncio_1_1test__sendfile_1_1PollEventLoopTests.html" title=" " alt="" coords="705,136,915,177"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__asyncio_1_1test__sendfile_1_1ProactorEventLoopTests.html" title=" " alt="" coords="691,201,929,243"/>
+<area shape="rect" id="node8" href="$classtest_1_1test__asyncio_1_1test__sendfile_1_1SelectEventLoopTests.html" title=" " alt="" coords="697,267,923,308"/>
+</map>

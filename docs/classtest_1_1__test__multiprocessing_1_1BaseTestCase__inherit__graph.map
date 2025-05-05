@@ -1,0 +1,33 @@
+<map id="test._test_multiprocessing.BaseTestCase" name="test._test_multiprocessing.BaseTestCase">
+<area shape="rect" id="node1" title=" " alt="" coords="116,920,315,961"/>
+<area shape="rect" id="node3" href="$classtest_1_1__test__multiprocessing_1_1__TestArray.html" title=" " alt="" coords="363,5,561,47"/>
+<area shape="rect" id="node4" href="$classtest_1_1__test__multiprocessing_1_1__TestBarrier.html" title=" " alt="" coords="363,71,561,112"/>
+<area shape="rect" id="node5" href="$classtest_1_1__test__multiprocessing_1_1__TestCondition.html" title=" " alt="" coords="363,136,561,177"/>
+<area shape="rect" id="node6" href="$classtest_1_1__test__multiprocessing_1_1__TestConnection.html" title=" " alt="" coords="363,201,561,243"/>
+<area shape="rect" id="node7" href="$classtest_1_1__test__multiprocessing_1_1__TestContainers.html" title=" " alt="" coords="363,267,561,308"/>
+<area shape="rect" id="node8" href="$classtest_1_1__test__multiprocessing_1_1__TestEvent.html" title=" " alt="" coords="363,332,561,373"/>
+<area shape="rect" id="node9" href="$classtest_1_1__test__multiprocessing_1_1__TestFinalize.html" title=" " alt="" coords="363,397,561,439"/>
+<area shape="rect" id="node10" href="$classtest_1_1__test__multiprocessing_1_1__TestHeap.html" title=" " alt="" coords="363,463,561,504"/>
+<area shape="rect" id="node11" href="$classtest_1_1__test__multiprocessing_1_1__TestListener.html" title=" " alt="" coords="363,528,561,569"/>
+<area shape="rect" id="node12" href="$classtest_1_1__test__multiprocessing_1_1__TestListenerClient.html" title=" " alt="" coords="363,593,561,635"/>
+<area shape="rect" id="node13" href="$classtest_1_1__test__multiprocessing_1_1__TestLock.html" title=" " alt="" coords="363,659,561,700"/>
+<area shape="rect" id="node14" href="$classtest_1_1__test__multiprocessing_1_1__TestLogging.html" title=" " alt="" coords="363,724,561,765"/>
+<area shape="rect" id="node15" href="$classtest_1_1__test__multiprocessing_1_1__TestManagerRestart.html" title=" " alt="" coords="363,789,561,831"/>
+<area shape="rect" id="node16" href="$classtest_1_1__test__multiprocessing_1_1__TestMyManager.html" title=" " alt="" coords="363,855,561,896"/>
+<area shape="rect" id="node17" href="$classtest_1_1__test__multiprocessing_1_1__TestPicklingConnections.html" title=" " alt="" coords="363,920,561,961"/>
+<area shape="rect" id="node18" href="$classtest_1_1__test__multiprocessing_1_1__TestPoll.html" title=" " alt="" coords="363,985,561,1027"/>
+<area shape="rect" id="node19" href="$classtest_1_1__test__multiprocessing_1_1__TestPollEintr.html" title=" " alt="" coords="363,1051,561,1092"/>
+<area shape="rect" id="node20" href="$classtest_1_1__test__multiprocessing_1_1__TestPool.html" title=" " alt="" coords="363,1116,561,1157"/>
+<area shape="rect" id="node21" href="$classtest_1_1__test__multiprocessing_1_1__TestPoolWorkerErrors.html" title=" " alt="" coords="363,1181,561,1223"/>
+<area shape="rect" id="node22" href="$classtest_1_1__test__multiprocessing_1_1__TestPoolWorkerLifetime.html" title=" " alt="" coords="363,1247,561,1288"/>
+<area shape="rect" id="node23" href="$classtest_1_1__test__multiprocessing_1_1__TestProcess.html" title=" " alt="" coords="363,1312,561,1353"/>
+<area shape="rect" id="node24" href="$classtest_1_1__test__multiprocessing_1_1__TestQueue.html" title=" " alt="" coords="363,1377,561,1419"/>
+<area shape="rect" id="node25" href="$classtest_1_1__test__multiprocessing_1_1__TestRemoteManager.html" title=" " alt="" coords="363,1443,561,1484"/>
+<area shape="rect" id="node26" href="$classtest_1_1__test__multiprocessing_1_1__TestSemaphore.html" title=" " alt="" coords="363,1508,561,1549"/>
+<area shape="rect" id="node27" href="$classtest_1_1__test__multiprocessing_1_1__TestSharedCTypes.html" title=" " alt="" coords="363,1573,561,1615"/>
+<area shape="rect" id="node28" href="$classtest_1_1__test__multiprocessing_1_1__TestSharedMemory.html" title=" " alt="" coords="363,1639,561,1680"/>
+<area shape="rect" id="node29" href="$classtest_1_1__test__multiprocessing_1_1__TestSpawnedSysPath.html" title=" " alt="" coords="363,1704,561,1745"/>
+<area shape="rect" id="node30" href="$classtest_1_1__test__multiprocessing_1_1__TestSubclassingProcess.html" title=" " alt="" coords="363,1769,561,1811"/>
+<area shape="rect" id="node31" href="$classtest_1_1__test__multiprocessing_1_1__TestValue.html" title=" " alt="" coords="363,1835,561,1876"/>
+<area shape="rect" id="node2" href="$struct__object.html" title=" " alt="" coords="5,927,68,954"/>
+</map>

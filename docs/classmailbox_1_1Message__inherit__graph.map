@@ -1,0 +1,10 @@
+<map id="mailbox.Message" name="mailbox.Message">
+<area shape="rect" id="node1" title=" " alt="" coords="237,107,375,133"/>
+<area shape="rect" id="node3" href="$classmailbox_1_1__mboxMMDFMessage.html" title=" " alt="" coords="423,31,645,57"/>
+<area shape="rect" id="node6" href="$classmailbox_1_1BabylMessage.html" title=" " alt="" coords="447,81,621,108"/>
+<area shape="rect" id="node7" href="$classmailbox_1_1MaildirMessage.html" title=" " alt="" coords="443,132,625,159"/>
+<area shape="rect" id="node8" href="$classmailbox_1_1MHMessage.html" title=" " alt="" coords="455,183,613,209"/>
+<area shape="rect" id="node2" href="$classemail_1_1message_1_1Message.html" title=" " alt="" coords="5,107,189,133"/>
+<area shape="rect" id="node4" href="$classmailbox_1_1mboxMessage.html" title=" " alt="" coords="695,5,870,32"/>
+<area shape="rect" id="node5" href="$classmailbox_1_1MMDFMessage.html" title=" " alt="" coords="693,56,872,83"/>
+</map>

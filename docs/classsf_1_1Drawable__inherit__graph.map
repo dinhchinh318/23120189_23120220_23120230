@@ -1,0 +1,11 @@
+<map id="sf::Drawable" name="sf::Drawable">
+<area shape="rect" id="node1" title="Abstract base class for objects that can be drawn to a render target." alt="" coords="363,5,465,32"/>
+<area shape="rect" id="node2" href="$classsf_1_1Shape.html" title="Base class for textured shapes with outline." alt="" coords="172,80,253,107"/>
+<area shape="rect" id="node6" href="$classsf_1_1Sprite.html" title="Drawable representation of a texture, with its own transformations, color, etc." alt="" coords="277,80,356,107"/>
+<area shape="rect" id="node7" href="$classsf_1_1Text.html" title="Graphical text that can be drawn to a render target." alt="" coords="380,80,448,107"/>
+<area shape="rect" id="node8" href="$classsf_1_1VertexArray.html" title="Define a set of one or more 2D primitives." alt="" coords="472,80,591,107"/>
+<area shape="rect" id="node9" href="$classsf_1_1VertexBuffer.html" title="Vertex buffer storage for one or more 2D primitives." alt="" coords="615,80,738,107"/>
+<area shape="rect" id="node3" href="$classsf_1_1CircleShape.html" title="Specialized shape representing a circle." alt="" coords="5,155,124,181"/>
+<area shape="rect" id="node4" href="$classsf_1_1ConvexShape.html" title="Specialized shape representing a convex polygon." alt="" coords="147,155,278,181"/>
+<area shape="rect" id="node5" href="$classsf_1_1RectangleShape.html" title="Specialized shape representing a rectangle." alt="" coords="302,155,449,181"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="FLAC C++ API" name="FLAC C++ API">
+<area shape="rect" id="node1" title="The FLAC C++ API is the interface to libFLAC++, a set of classes that encapsulate the encoders,..." alt="" coords="5,109,121,134"/>
+<area shape="rect" id="node2" href="$group__flacpp__metadata.html" title="This module provides classes for creating and manipulating FLAC metadata blocks in memory,..." alt="" coords="191,5,353,45"/>
+<area shape="rect" id="node3" href="$group__flacpp__export.html" title="This module contains #defines and symbols for exporting function calls, and providing version informa..." alt="" coords="179,69,365,109"/>
+<area shape="rect" id="node4" href="$group__flacpp__decoder.html" title="This module describes the decoder layers provided by libFLAC++." alt="" coords="169,133,375,173"/>
+<area shape="rect" id="node5" href="$group__flacpp__encoder.html" title="This module describes the encoder layers provided by libFLAC++." alt="" coords="169,197,375,237"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="xml.dom.minidom.Childless" name="xml.dom.minidom.Childless">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,211,133"/>
+<area shape="rect" id="node2" href="$classxml_1_1dom_1_1minidom_1_1CharacterData.html" title=" " alt="" coords="260,31,500,57"/>
+<area shape="rect" id="node6" href="$classxml_1_1dom_1_1minidom_1_1DocumentType.html" title=" " alt="" coords="259,81,501,108"/>
+<area shape="rect" id="node7" href="$classxml_1_1dom_1_1minidom_1_1Notation.html" title=" " alt="" coords="279,132,481,159"/>
+<area shape="rect" id="node8" href="$classxml_1_1dom_1_1minidom_1_1ProcessingInstruction.html" title=" " alt="" coords="272,183,488,225"/>
+<area shape="rect" id="node3" href="$classxml_1_1dom_1_1minidom_1_1Comment.html" title=" " alt="" coords="549,5,760,32"/>
+<area shape="rect" id="node4" href="$classxml_1_1dom_1_1minidom_1_1Text.html" title=" " alt="" coords="568,56,741,83"/>
+<area shape="rect" id="node5" href="$classxml_1_1dom_1_1minidom_1_1CDATASection.html" title=" " alt="" coords="808,56,1045,83"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="xmlrpc.server.DocXMLRPCRequestHandler" name="xmlrpc.server.DocXMLRPCRequestHandler">
+<area shape="rect" id="node1" title=" " alt="" coords="15,363,262,404"/>
+<area shape="rect" id="node2" href="$classxmlrpc_1_1server_1_1SimpleXMLRPCRequestHandler.html" title=" " alt="" coords="5,273,272,315"/>
+<area shape="rect" id="node3" href="$classhttp_1_1server_1_1BaseHTTPRequestHandler.html" title=" " alt="" coords="31,184,246,225"/>
+<area shape="rect" id="node4" href="$classsocketserver_1_1StreamRequestHandler.html" title=" " alt="" coords="35,95,243,136"/>
+<area shape="rect" id="node5" href="$classsocketserver_1_1BaseRequestHandler.html" title=" " alt="" coords="42,5,235,47"/>
+</map>

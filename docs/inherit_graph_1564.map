@@ -1,0 +1,40 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsf_1_1Drawable.html" title="Abstract base class for objects that can be drawn to a render target." alt="" coords="21,157,124,184"/>
+<area shape="rect" id="node2" href="$classsf_1_1Shape.html" title="Base class for textured shapes with outline." alt="" coords="239,56,320,83"/>
+<area shape="rect" id="node6" href="$classsf_1_1Sprite.html" title="Drawable representation of a texture, with its own transformations, color, etc." alt="" coords="240,107,319,133"/>
+<area shape="rect" id="node7" href="$classsf_1_1Text.html" title="Graphical text that can be drawn to a render target." alt="" coords="245,157,313,184"/>
+<area shape="rect" id="node8" href="$classsf_1_1VertexArray.html" title="Define a set of one or more 2D primitives." alt="" coords="220,208,339,235"/>
+<area shape="rect" id="node9" href="$classsf_1_1VertexBuffer.html" title="Vertex buffer storage for one or more 2D primitives." alt="" coords="218,259,341,285"/>
+<area shape="rect" id="node3" href="$classsf_1_1CircleShape.html" title="Specialized shape representing a circle." alt="" coords="447,5,566,32"/>
+<area shape="rect" id="node4" href="$classsf_1_1ConvexShape.html" title="Specialized shape representing a convex polygon." alt="" coords="441,56,572,83"/>
+<area shape="rect" id="node5" href="$classsf_1_1RectangleShape.html" title="Specialized shape representing a rectangle." alt="" coords="433,107,580,133"/>
+<area shape="rect" id="node10" href="$classsf_1_1GlResource.html" title="Base class for classes that require an OpenGL context." alt="" coords="15,360,130,387"/>
+<area shape="rect" id="node11" href="$classsf_1_1Context.html" title="Class holding a valid drawing context." alt="" coords="233,411,325,437"/>
+<area shape="rect" id="node12" href="$classsf_1_1Shader.html" title="Shader class (vertex, geometry and fragment)" alt="" coords="236,461,323,488"/>
+<area shape="rect" id="node13" href="$classsf_1_1Texture.html" title="Image living on the graphics card that can be used for drawing." alt="" coords="235,309,324,336"/>
+<area shape="rect" id="node14" href="$classsf_1_1Window.html" title="Window that serves as a target for OpenGL rendering." alt="" coords="460,563,553,589"/>
+<area shape="rect" id="node15" href="$classsf_1_1RenderWindow.html" title="Window that can serve as a target for 2D drawing." alt="" coords="643,588,781,615"/>
+<area shape="rect" id="node16" href="$classsf_1_1InputStream.html" title="Abstract class for custom file input streams." alt="" coords="12,1212,133,1239"/>
+<area shape="rect" id="node17" href="$classsf_1_1FileInputStream.html" title="Implementation of input stream based on a file." alt="" coords="207,1187,351,1213"/>
+<area shape="rect" id="node18" href="$classsf_1_1MemoryInputStream.html" title="Implementation of input stream based on a memory chunk." alt="" coords="192,1237,367,1264"/>
+<area shape="rect" id="node19" href="$classsf_1_1NonCopyable.html" title="Utility class that makes any derived class non&#45;copyable." alt="" coords="9,791,137,817"/>
+<area shape="rect" id="node20" href="$classsf_1_1Cursor.html" title="Cursor defines the appearance of a system cursor." alt="" coords="238,867,321,893"/>
+<area shape="rect" id="node21" href="$classsf_1_1Ftp.html" title="A FTP client." alt="" coords="248,917,311,944"/>
+<area shape="rect" id="node22" href="$classsf_1_1GlResource_1_1TransientContextLock.html" title="RAII helper class to temporarily lock an available context for use." alt="" coords="188,969,371,1010"/>
+<area shape="rect" id="node23" href="$classsf_1_1Http.html" title="A HTTP client." alt="" coords="245,1035,314,1061"/>
+<area shape="rect" id="node24" href="$classsf_1_1InputSoundFile.html" title="Provide read access to sound files." alt="" coords="211,1085,348,1112"/>
+<area shape="rect" id="node25" href="$classsf_1_1Lock.html" title="Automatic wrapper for locking and unlocking mutexes." alt="" coords="244,1136,315,1163"/>
+<area shape="rect" id="node26" href="$classsf_1_1Mutex.html" title="Blocks concurrent access to shared resources from multiple threads." alt="" coords="238,512,321,539"/>
+<area shape="rect" id="node27" href="$classsf_1_1OutputSoundFile.html" title="Provide write access to sound files." alt="" coords="205,563,353,589"/>
+<area shape="rect" id="node28" href="$classsf_1_1RenderTarget.html" title="Base class for all render targets (window, texture, ...)" alt="" coords="216,664,343,691"/>
+<area shape="rect" id="node30" href="$classsf_1_1Socket.html" title="Base class for all the socket types." alt="" coords="237,765,321,792"/>
+<area shape="rect" id="node34" href="$classsf_1_1Thread.html" title="Utility class to manipulate threads." alt="" coords="236,715,323,741"/>
+<area shape="rect" id="node35" href="$classsf_1_1ThreadLocal.html" title="Defines variables with thread&#45;local storage." alt="" coords="219,816,339,843"/>
+<area shape="rect" id="node37" href="$classsf_1_1WindowBase.html" title="Window that serves as a base for other windows." alt="" coords="217,613,342,640"/>
+<area shape="rect" id="node29" href="$classsf_1_1RenderTexture.html" title="Target for off&#45;screen 2D rendering into a texture." alt="" coords="439,664,574,691"/>
+<area shape="rect" id="node31" href="$classsf_1_1TcpListener.html" title="Socket that listens to new TCP connections." alt="" coords="449,715,564,741"/>
+<area shape="rect" id="node32" href="$classsf_1_1TcpSocket.html" title="Specialized socket using the TCP protocol." alt="" coords="454,765,559,792"/>
+<area shape="rect" id="node33" href="$classsf_1_1UdpSocket.html" title="Specialized socket using the UDP protocol." alt="" coords="451,816,562,843"/>
+<area shape="rect" id="node36" href="$classsf_1_1ThreadLocalPtr.html" title="Pointer to a thread&#45;local variable." alt="" coords="419,867,595,893"/>
+<area shape="rect" id="node38" href="$classsf_1_1Transformable.html" title="Decomposed transform defined by a position, a rotation and a scale." alt="" coords="5,107,140,133"/>
+</map>

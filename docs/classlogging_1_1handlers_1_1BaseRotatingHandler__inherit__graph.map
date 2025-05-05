@@ -1,0 +1,10 @@
+<map id="logging.handlers.BaseRotatingHandler" name="logging.handlers.BaseRotatingHandler">
+<area shape="rect" id="node1" title=" " alt="" coords="107,379,328,420"/>
+<area shape="rect" id="node7" href="$classlogging_1_1handlers_1_1RotatingFileHandler.html" title=" " alt="" coords="5,468,195,509"/>
+<area shape="rect" id="node8" href="$classlogging_1_1handlers_1_1TimedRotatingFileHandler.html" title=" " alt="" coords="219,468,450,509"/>
+<area shape="rect" id="node2" href="$classlogging_1_1FileHandler.html" title=" " alt="" coords="143,304,291,331"/>
+<area shape="rect" id="node3" href="$classlogging_1_1StreamHandler.html" title=" " alt="" coords="131,229,303,256"/>
+<area shape="rect" id="node4" href="$classlogging_1_1Handler.html" title=" " alt="" coords="155,155,280,181"/>
+<area shape="rect" id="node5" href="$classlogging_1_1Filterer.html" title=" " alt="" coords="157,80,277,107"/>
+<area shape="rect" id="node6" href="$struct__object.html" title=" " alt="" coords="186,5,249,32"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="nntplib.NNTPError" name="nntplib.NNTPError">
+<area shape="rect" id="node1" title=" " alt="" coords="140,107,279,133"/>
+<area shape="rect" id="node3" href="$classnntplib_1_1NNTPDataError.html" title=" " alt="" coords="347,5,516,32"/>
+<area shape="rect" id="node4" href="$classnntplib_1_1NNTPPermanentError.html" title=" " alt="" coords="327,56,536,83"/>
+<area shape="rect" id="node5" href="$classnntplib_1_1NNTPProtocolError.html" title=" " alt="" coords="336,107,527,133"/>
+<area shape="rect" id="node6" href="$classnntplib_1_1NNTPReplyError.html" title=" " alt="" coords="344,157,519,184"/>
+<area shape="rect" id="node7" href="$classnntplib_1_1NNTPTemporaryError.html" title=" " alt="" coords="328,208,535,235"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,107,92,133"/>
+</map>

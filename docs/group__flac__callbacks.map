@@ -1,0 +1,4 @@
+<map id="FLAC/callback.h: I/O callback structures" name="FLAC/callback.h: I/O callback structures">
+<area shape="rect" id="node1" href="$group__flac.html" title="The FLAC C API is the interface to libFLAC, a set of structures describing the components of FLAC str..." alt="" coords="5,13,100,38"/>
+<area shape="rect" id="node2" title="This module defines the structures for describing I/O callbacks to the other FLAC interfaces." alt="" coords="148,5,311,45"/>
+</map>

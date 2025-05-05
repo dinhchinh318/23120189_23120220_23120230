@@ -1,0 +1,11 @@
+<map id="test.test_file_eintr.TestFileIOSignalInterrupt" name="test.test_file_eintr.TestFileIOSignalInterrupt">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,175,145"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__file__eintr_1_1CTestFileIOSignalInterrupt.html" title=" " alt="" coords="227,5,405,47"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__file__eintr_1_1PyTestFileIOSignalInterrupt.html" title=" " alt="" coords="223,71,409,112"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__file__eintr_1_1TestBufferedIOSignalInterrupt.html" title=" " alt="" coords="223,136,409,177"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__file__eintr_1_1TestTextIOSignalInterrupt.html" title=" " alt="" coords="231,201,401,243"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__file__eintr_1_1CTestBufferedIOSignalInterrupt.html" title=" " alt="" coords="457,71,644,112"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__file__eintr_1_1PyTestBufferedIOSignalInterrupt.html" title=" " alt="" coords="457,136,644,177"/>
+<area shape="rect" id="node8" href="$classtest_1_1test__file__eintr_1_1CTestTextIOSignalInterrupt.html" title=" " alt="" coords="461,201,640,243"/>
+<area shape="rect" id="node9" href="$classtest_1_1test__file__eintr_1_1PyTestTextIOSignalInterrupt.html" title=" " alt="" coords="458,267,643,308"/>
+</map>

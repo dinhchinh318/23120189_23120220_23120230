@@ -1,0 +1,18 @@
+<map id="test.test_configparser.BasicTestCase" name="test.test_configparser.BasicTestCase">
+<area shape="rect" id="node1" title=" " alt="" coords="241,344,443,385"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__configparser_1_1ConfigParserTestCase.html" title=" " alt="" coords="519,115,726,156"/>
+<area shape="rect" id="node8" href="$classtest_1_1test__configparser_1_1ConfigParserTestCaseExtendedInterpolation.html" title=" " alt="" coords="491,180,755,221"/>
+<area shape="rect" id="node9" href="$classtest_1_1test__configparser_1_1ConfigParserTestCaseNoInterpolation.html" title=" " alt="" coords="512,245,733,287"/>
+<area shape="rect" id="node10" href="$classtest_1_1test__configparser_1_1ConvertersTestCase.html" title=" " alt="" coords="504,311,741,352"/>
+<area shape="rect" id="node11" href="$classtest_1_1test__configparser_1_1CopyTestCase.html" title=" " alt="" coords="523,376,722,417"/>
+<area shape="rect" id="node12" href="$classtest_1_1test__configparser_1_1MultilineValuesTestCase.html" title=" " alt="" coords="511,441,734,483"/>
+<area shape="rect" id="node13" href="$classtest_1_1test__configparser_1_1RawConfigParserTestCase.html" title=" " alt="" coords="525,507,720,548"/>
+<area shape="rect" id="node16" href="$classtest_1_1test__configparser_1_1StrictTestCase.html" title=" " alt="" coords="523,572,723,613"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__configparser_1_1CfgParserTestCaseClass.html" title=" " alt="" coords="5,344,193,385"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__configparser_1_1ConfigParserTestCaseLegacyInterpolation.html" title=" " alt="" coords="814,5,1063,47"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__configparser_1_1ConfigParserTestCaseNonStandardDefaultSection.html" title=" " alt="" coords="813,71,1065,127"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__configparser_1_1ConfigParserTestCaseNonStandardDelimiters.html" title=" " alt="" coords="803,152,1075,193"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__configparser_1_1ConfigParserTestCaseNoValue.html" title=" " alt="" coords="835,217,1042,259"/>
+<area shape="rect" id="node14" href="$classtest_1_1test__configparser_1_1RawConfigParserTestCaseNonStandardDelimiters.html" title=" " alt="" coords="816,463,1061,519"/>
+<area shape="rect" id="node15" href="$classtest_1_1test__configparser_1_1SortedTestCase.html" title=" " alt="" coords="835,544,1043,585"/>
+</map>

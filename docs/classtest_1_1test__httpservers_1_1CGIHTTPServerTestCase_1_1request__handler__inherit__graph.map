@@ -1,0 +1,9 @@
+<map id="test.test_httpservers.CGIHTTPServerTestCase.request_handler" name="test.test_httpservers.CGIHTTPServerTestCase.request_handler">
+<area shape="rect" id="node1" title=" " alt="" coords="73,452,333,493"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__httpservers_1_1NoLogRequestHandler.html" title=" " alt="" coords="5,363,184,404"/>
+<area shape="rect" id="node3" href="$classhttp_1_1server_1_1CGIHTTPRequestHandler.html" title=" " alt="" coords="209,363,415,404"/>
+<area shape="rect" id="node4" href="$classhttp_1_1server_1_1SimpleHTTPRequestHandler.html" title=" " alt="" coords="198,273,426,315"/>
+<area shape="rect" id="node5" href="$classhttp_1_1server_1_1BaseHTTPRequestHandler.html" title=" " alt="" coords="205,184,419,225"/>
+<area shape="rect" id="node6" href="$classsocketserver_1_1StreamRequestHandler.html" title=" " alt="" coords="208,95,416,136"/>
+<area shape="rect" id="node7" href="$classsocketserver_1_1BaseRequestHandler.html" title=" " alt="" coords="215,5,409,47"/>
+</map>

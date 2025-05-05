@@ -1,0 +1,10 @@
+<map id="UI&#45;UX/SFML/include/FLAC/stream_encoder.h" name="UI&#45;UX/SFML/include/FLAC/stream_encoder.h">
+<area shape="rect" id="node1" title="This module contains the functions which implement the stream encoder." alt="" coords="5,5,185,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="37,169,103,196"/>
+<area shape="rect" id="node3" href="$export_8h.html" title="This module contains #defines and symbols for exporting function calls, and providing version informa..." alt="" coords="99,244,175,271"/>
+<area shape="rect" id="node4" href="$format_8h.html" title="This module contains structure definitions for the representation of FLAC format components in memory..." alt="" coords="196,169,275,196"/>
+<area shape="rect" id="node8" href="$stream__decoder_8h.html" title="This module contains the functions which implement the stream decoder." alt="" coords="79,95,218,121"/>
+<area shape="rect" id="node5" href="$ordinals_8h_source.html" title=" " alt="" coords="199,244,285,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="156,319,227,345"/>
+<area shape="rect" id="node7" title=" " alt="" coords="251,319,334,345"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classNCursesWindow.html" title=" " alt="" coords="5,56,133,83"/>
+<area shape="rect" id="node2" href="$classNCursesColorWindow.html" title=" " alt="" coords="181,5,344,32"/>
+<area shape="rect" id="node3" href="$classNCursesPad.html" title=" " alt="" coords="213,56,312,83"/>
+<area shape="rect" id="node5" href="$classNCursesPanel.html" title=" " alt="" coords="207,119,318,145"/>
+<area shape="rect" id="node4" href="$classNCursesFramedPad.html" title=" " alt="" coords="407,43,555,69"/>
+<area shape="rect" id="node6" href="$classNCursesForm.html" title=" " alt="" coords="427,93,536,120"/>
+<area shape="rect" id="node8" href="$classNCursesMenu.html" title=" " alt="" coords="425,144,537,171"/>
+<area shape="rect" id="node10" href="$classNCursesUserPanel.html" title=" " alt="" coords="392,195,571,221"/>
+<area shape="rect" id="node7" href="$classNCursesUserForm.html" title=" " alt="" coords="620,93,797,120"/>
+<area shape="rect" id="node9" href="$classNCursesUserMenu.html" title=" " alt="" coords="619,144,799,171"/>
+</map>

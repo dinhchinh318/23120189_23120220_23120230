@@ -1,0 +1,10 @@
+<map id="xmlrpc.server.SimpleXMLRPCRequestHandler" name="xmlrpc.server.SimpleXMLRPCRequestHandler">
+<area shape="rect" id="node1" title=" " alt="" coords="765,104,1032,145"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__xmlrpc_1_1BaseKeepaliveServerTestCase_1_1RequestHandler.html" title=" " alt="" coords="1088,5,1319,47"/>
+<area shape="rect" id="node6" href="$classtest_1_1test__xmlrpc_1_1GzipServerTestCase_1_1RequestHandler.html" title=" " alt="" coords="1102,71,1305,112"/>
+<area shape="rect" id="node7" href="$classtest_1_1test__xmlrpc_1_1HeadersServerTestCase_1_1RequestHandler.html" title=" " alt="" coords="1088,136,1319,177"/>
+<area shape="rect" id="node8" href="$classxmlrpc_1_1server_1_1DocXMLRPCRequestHandler.html" title=" " alt="" coords="1080,201,1327,243"/>
+<area shape="rect" id="node2" href="$classhttp_1_1server_1_1BaseHTTPRequestHandler.html" title=" " alt="" coords="503,104,717,145"/>
+<area shape="rect" id="node3" href="$classsocketserver_1_1StreamRequestHandler.html" title=" " alt="" coords="247,104,455,145"/>
+<area shape="rect" id="node4" href="$classsocketserver_1_1BaseRequestHandler.html" title=" " alt="" coords="5,104,199,145"/>
+</map>

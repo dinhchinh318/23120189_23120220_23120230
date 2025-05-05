@@ -1,0 +1,9 @@
+<map id="test.test_asyncio.utils.UnixWSGIServer" name="test.test_asyncio.utils.UnixWSGIServer">
+<area shape="rect" id="node1" title=" " alt="" coords="150,319,319,360"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__asyncio_1_1utils_1_1UnixHTTPServer.html" title=" " alt="" coords="34,229,203,271"/>
+<area shape="rect" id="node3" href="$classsocketserver_1_1UnixStreamServer.html" title=" " alt="" coords="5,155,232,181"/>
+<area shape="rect" id="node4" href="$classsocketserver_1_1TCPServer.html" title=" " alt="" coords="143,80,318,107"/>
+<area shape="rect" id="node6" href="$classhttp_1_1server_1_1HTTPServer.html" title=" " alt="" coords="257,155,429,181"/>
+<area shape="rect" id="node5" href="$classsocketserver_1_1BaseServer.html" title=" " alt="" coords="139,5,322,32"/>
+<area shape="rect" id="node7" href="$classwsgiref_1_1simple__server_1_1WSGIServer.html" title=" " alt="" coords="228,237,473,263"/>
+</map>

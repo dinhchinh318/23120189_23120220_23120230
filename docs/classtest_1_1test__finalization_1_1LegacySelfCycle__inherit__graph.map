@@ -1,0 +1,7 @@
+<map id="test.test_finalization.LegacySelfCycle" name="test.test_finalization.LegacySelfCycle">
+<area shape="rect" id="node1" title=" " alt="" coords="112,259,317,300"/>
+<area shape="rect" id="node2" href="$classtest_1_1test__finalization_1_1SelfCycleBase.html" title=" " alt="" coords="5,169,189,211"/>
+<area shape="rect" id="node3" href="$classtest_1_1test__finalization_1_1LegacyBase.html" title=" " alt="" coords="213,177,451,203"/>
+<area shape="rect" id="node4" href="$classtest_1_1test__finalization_1_1SimpleBase.html" title=" " alt="" coords="214,95,450,121"/>
+<area shape="rect" id="node5" href="$classtest_1_1test__finalization_1_1NonGCSimpleBase.html" title=" " alt="" coords="239,5,425,47"/>
+</map>

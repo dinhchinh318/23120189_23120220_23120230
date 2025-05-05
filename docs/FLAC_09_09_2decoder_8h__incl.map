@@ -1,0 +1,12 @@
+<map id="UI&#45;UX/SFML/include/FLAC++/decoder.h" name="UI&#45;UX/SFML/include/FLAC++/decoder.h">
+<area shape="rect" id="node1" title="This module contains the classes which implement the various decoders." alt="" coords="60,5,211,47"/>
+<area shape="rect" id="node2" href="$_09_2export_8h.html" title="This module contains #defines and symbols for exporting function calls, and providing version informa..." alt="" coords="5,95,81,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="106,95,165,121"/>
+<area shape="rect" id="node4" href="$stream__decoder_8h.html" title="This module contains the functions which implement the stream decoder." alt="" coords="189,95,365,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="173,169,239,196"/>
+<area shape="rect" id="node6" href="$export_8h.html" title="This module contains #defines and symbols for exporting function calls, and providing version informa..." alt="" coords="239,244,315,271"/>
+<area shape="rect" id="node7" href="$format_8h.html" title="This module contains structure definitions for the representation of FLAC format components in memory..." alt="" coords="315,169,393,196"/>
+<area shape="rect" id="node8" href="$ordinals_8h_source.html" title=" " alt="" coords="339,244,425,271"/>
+<area shape="rect" id="node9" title=" " alt="" coords="296,319,367,345"/>
+<area shape="rect" id="node10" title=" " alt="" coords="391,319,474,345"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="PyFunctionObject" name="PyFunctionObject">
+<area shape="rect" id="node1" title=" " alt="" coords="319,40,454,67"/>
+<area shape="rect" id="node2" href="$struct__object.html" title=" " alt="" coords="5,483,75,509"/>
+<area shape="rect" id="node3" href="$struct__typeobject.html" title=" " alt="" coords="623,588,721,615"/>
+<area shape="rect" id="node4" href="$structPyMappingMethods.html" title=" " alt="" coords="311,329,462,356"/>
+<area shape="rect" id="node6" href="$structPyMethodDef.html" title=" " alt="" coords="331,393,442,420"/>
+<area shape="rect" id="node7" href="$structPyBufferProcs.html" title=" " alt="" coords="331,459,443,485"/>
+<area shape="rect" id="node8" href="$structPySequenceMethods.html" title=" " alt="" coords="308,560,465,587"/>
+<area shape="rect" id="node9" href="$structPyGetSetDef.html" title=" " alt="" coords="334,613,439,640"/>
+<area shape="rect" id="node10" href="$structPyNumberMethods.html" title=" " alt="" coords="313,788,460,815"/>
+<area shape="rect" id="node11" href="$structPyAsyncMethods.html" title=" " alt="" coords="320,853,453,880"/>
+<area shape="rect" id="node5" href="$structPyMemberDef.html" title=" " alt="" coords="329,1003,444,1029"/>
+</map>

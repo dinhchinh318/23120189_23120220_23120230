@@ -1,0 +1,11 @@
+<map id="webbrowser.UnixBrowser" name="webbrowser.UnixBrowser">
+<area shape="rect" id="node1" title=" " alt="" coords="353,132,540,159"/>
+<area shape="rect" id="node4" href="$classwebbrowser_1_1Chrome.html" title=" " alt="" coords="593,5,747,32"/>
+<area shape="rect" id="node5" href="$classwebbrowser_1_1Edge.html" title=" " alt="" coords="602,56,738,83"/>
+<area shape="rect" id="node6" href="$classwebbrowser_1_1Elinks.html" title=" " alt="" coords="599,107,741,133"/>
+<area shape="rect" id="node7" href="$classwebbrowser_1_1Epiphany.html" title=" " alt="" coords="588,157,752,184"/>
+<area shape="rect" id="node8" href="$classwebbrowser_1_1Mozilla.html" title=" " alt="" coords="595,208,745,235"/>
+<area shape="rect" id="node9" href="$classwebbrowser_1_1Opera.html" title=" " alt="" coords="599,259,741,285"/>
+<area shape="rect" id="node2" href="$classwebbrowser_1_1BaseBrowser.html" title=" " alt="" coords="116,132,305,159"/>
+<area shape="rect" id="node3" href="$struct__object.html" title=" " alt="" coords="5,132,68,159"/>
+</map>

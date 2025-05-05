@@ -1,0 +1,5 @@
+<map id="FLAC::Decoder::Stream" name="FLAC::Decoder::Stream">
+<area shape="rect" id="node1" title="This class wraps the FLAC__StreamDecoder. If you are decoding from a file, FLAC::Decoder::File may be..." alt="" coords="5,199,179,225"/>
+<area shape="rect" id="node2" href="$structFLAC____StreamDecoder.html" title=" " alt="" coords="7,109,177,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="63,5,121,32"/>
+</map>

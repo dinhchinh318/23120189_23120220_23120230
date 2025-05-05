@@ -1,0 +1,15 @@
+<map id="FLAC__StreamMetadata" name="FLAC__StreamMetadata">
+<area shape="rect" id="node1" title=" " alt="" coords="943,242,1121,269"/>
+<area shape="rect" id="node2" href="$structFLAC____StreamMetadata__Padding.html" title=" " alt="" coords="603,5,781,47"/>
+<area shape="rect" id="node3" href="$structFLAC____StreamMetadata__Picture.html" title=" " alt="" coords="603,71,781,112"/>
+<area shape="rect" id="node4" href="$structFLAC____StreamMetadata__Application.html" title=" " alt="" coords="603,136,781,177"/>
+<area shape="rect" id="node5" href="$structFLAC____StreamMetadata__Unknown.html" title=" " alt="" coords="603,201,781,243"/>
+<area shape="rect" id="node6" href="$structFLAC____StreamMetadata__StreamInfo.html" title=" " alt="" coords="603,267,781,308"/>
+<area shape="rect" id="node7" href="$structFLAC____StreamMetadata__VorbisComment.html" title=" " alt="" coords="603,332,781,373"/>
+<area shape="rect" id="node8" href="$structFLAC____StreamMetadata__VorbisComment__Entry.html" title=" " alt="" coords="283,332,461,373"/>
+<area shape="rect" id="node9" href="$structFLAC____StreamMetadata__CueSheet.html" title=" " alt="" coords="603,397,781,439"/>
+<area shape="rect" id="node10" href="$structFLAC____StreamMetadata__CueSheet__Track.html" title=" " alt="" coords="283,397,461,439"/>
+<area shape="rect" id="node11" href="$structFLAC____StreamMetadata__CueSheet__Index.html" title=" " alt="" coords="5,397,184,439"/>
+<area shape="rect" id="node12" href="$structFLAC____StreamMetadata__SeekTable.html" title=" " alt="" coords="603,463,781,504"/>
+<area shape="rect" id="node13" href="$structFLAC____StreamMetadata__SeekPoint.html" title=" " alt="" coords="283,463,461,504"/>
+</map>

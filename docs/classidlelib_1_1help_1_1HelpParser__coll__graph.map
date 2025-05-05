@@ -1,0 +1,5 @@
+<map id="idlelib.help.HelpParser" name="idlelib.help.HelpParser">
+<area shape="rect" id="node1" title="About IDLE ##." alt="" coords="14,155,182,181"/>
+<area shape="rect" id="node2" href="$classhtml_1_1parser_1_1HTMLParser.html" title=" " alt="" coords="9,80,187,107"/>
+<area shape="rect" id="node3" href="$class__markupbase_1_1ParserBase.html" title=" " alt="" coords="5,5,191,32"/>
+</map>

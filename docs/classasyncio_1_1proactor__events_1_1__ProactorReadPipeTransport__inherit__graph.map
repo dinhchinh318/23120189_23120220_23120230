@@ -1,0 +1,11 @@
+<map id="asyncio.proactor_events._ProactorReadPipeTransport" name="asyncio.proactor_events._ProactorReadPipeTransport">
+<area shape="rect" id="node1" title=" " alt="" coords="1279,39,1483,80"/>
+<area shape="rect" id="node8" href="$classasyncio_1_1proactor__events_1_1__ProactorDuplexPipeTransport.html" title=" " alt="" coords="1531,5,1748,47"/>
+<area shape="rect" id="node9" href="$classasyncio_1_1proactor__events_1_1__ProactorSocketTransport.html" title=" " alt="" coords="1546,71,1733,112"/>
+<area shape="rect" id="node2" href="$classasyncio_1_1proactor__events_1_1__ProactorBasePipeTransport.html" title=" " alt="" coords="1028,68,1231,109"/>
+<area shape="rect" id="node3" href="$classasyncio_1_1transports_1_1__FlowControlMixin.html" title=" " alt="" coords="833,68,980,109"/>
+<area shape="rect" id="node4" href="$classasyncio_1_1transports_1_1Transport.html" title=" " alt="" coords="579,75,785,102"/>
+<area shape="rect" id="node5" href="$classasyncio_1_1transports_1_1ReadTransport.html" title=" " alt="" coords="292,17,531,43"/>
+<area shape="rect" id="node6" href="$classasyncio_1_1transports_1_1BaseTransport.html" title=" " alt="" coords="5,75,244,102"/>
+<area shape="rect" id="node7" href="$classasyncio_1_1transports_1_1WriteTransport.html" title=" " alt="" coords="321,68,502,109"/>
+</map>

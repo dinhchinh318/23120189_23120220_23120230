@@ -1,0 +1,7 @@
+<map id="FileFilter" name="FileFilter">
+<area shape="rect" id="node1" title=" " alt="" coords="5,303,84,329"/>
+<area shape="rect" id="node2" href="$structFileFilterClause.html" title=" " alt="" coords="57,199,179,225"/>
+<area shape="rect" id="node3" title=" " alt="" coords="53,5,111,32"/>
+<area shape="rect" id="node4" href="$structMacFileType.html" title=" " alt="" coords="119,95,221,121"/>
+<area shape="rect" id="node5" href="$structGlobPattern.html" title=" " alt="" coords="246,95,345,121"/>
+</map>
