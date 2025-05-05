@@ -11,20 +11,19 @@
 #include <algorithm>
 #include <exception>
 #include <stdexcept>
-#include <windows.h>
 #include <sqlext.h>// SQL Server ODBC header
 // #include <io.h>
 // #include <fcntl.h> 
-#include <SFML/Graphics/RenderWindow.hpp>
-#include <SFML/Graphics/Shape.hpp>
-#include <SFML/Graphics/RectangleShape.hpp>
-#include <SFML/Graphics/Texture.hpp>
-#include <SFML/Graphics/Text.hpp>
-#include <SFML/Graphics/Color.hpp>
-#include <SFML/System/Vector2.hpp>
-#include <SFML/Window/Event.hpp>
-#include <SFML/Graphics.hpp>
-#include <SFML/Audio.hpp>
+// #include <SFML/Graphics/RenderWindow.hpp>
+// #include <SFML/Graphics/Shape.hpp>
+// #include <SFML/Graphics/RectangleShape.hpp>
+// #include <SFML/Graphics/Texture.hpp>
+// #include <SFML/Graphics/Text.hpp>
+// #include <SFML/Graphics/Color.hpp>
+// #include <SFML/System/Vector2.hpp>
+// #include <SFML/Window/Event.hpp>
+// #include <SFML/Graphics.hpp>
+// #include <SFML/Audio.hpp>
 
 using std::cin;
 using std::cout;

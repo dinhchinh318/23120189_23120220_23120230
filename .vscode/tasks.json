@@ -8,9 +8,7 @@
                 "-std=c++2b",
                 "-fdiagnostics-color=always",
                 "-g",
-                "source/main.cpp",
-                "source/src/*.cpp",
-                "source/lib/*.cpp",
+                "source/*.cpp",
                 "-o",
                 "${fileDirname}/../release/${fileBasenameNoExtension}"
             ],

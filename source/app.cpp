@@ -1,20 +1,7 @@
 #include "app.h"
-#include "WindowState.hpp"
-#include "PhoneManager.h"
 
 void runApp()
 {
-    PhoneManager game;
-    game.initWindow();
-            
-    while (game.isWindowOpen()) {
-        // process state
-        game.clearScreen();
-        /* game.pollEvents();
-        game.update();
-        game.draw(); */
-        game.getRenderWindow().display();
-    }
     SQLHENV hEnv;
     SQLHDBC hDbc;
 

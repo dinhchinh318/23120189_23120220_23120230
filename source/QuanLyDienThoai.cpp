@@ -1,5 +1,9 @@
 #include "QuanLyDienThoai.h"
 
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
 QuanLyDienThoai::QuanLyDienThoai()
 {
     _pHead = _pTail = nullptr;
