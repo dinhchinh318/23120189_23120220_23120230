@@ -9,6 +9,10 @@
 | **23120230** | *Nguyễn Thế Đạt*          |Thành viên
 
 # Dự Án Quản Lý Điện Thoại
+## Link GitHub
+```bash
+https://github.com/dinhchinh318/23120189_23120220_23120230.git
+```
 
 ## Công Việc Đã Thực Hiện
 - **Trần Vũ Đình Chính**:  
@@ -90,32 +94,30 @@ Hệ thống mô phỏng hoạt động cơ bản trong một cửa hàng điệ
 ---
 
 ## Tiến độ hoàn thành
+---
 
-### 📦 Quản lý sản phẩm (Điện thoại)
-✅ Đã hoàn thành các thao tác Thêm/Xoá/Cập nhật điện thoại  
-✅ Đã hoàn thành tìm kiếm điện thoại theo ID  
-🔄 Đang hoàn thiện chức năng sắp xếp theo giá, tên  
-❌ Sắp phát triển chức năng sắp xếp theo tên, theo giá  
-
-### 💾 File và lưu trữ
-✅ Đã hoàn thanh lưu danh sách sản phẩm  
-✅ Đã hoàn thành đọc dữ liệu từ database khi khởi động  
-❌ Sắp phát triển thêm chức năng hoàn thiện Database
-
-### Giao diện
+### Teamwork: Phân công và theo dõi tiến độ công việc,  biên bản họp nhóm
+### UI/UX: Chính là điểm chức năng cũng như giao diện của chương trình.
 ✅ Đã hoàn thành giao diện cơ bản menu khi vào ứng dụng  
 ✅ Đã hoàn thành giao diện của các phần riêng biệt  
 🔄 Đang nâng cấp phát triển hoàn thiện giao diện  
 ❌ Sắp phát triển các tiện ích trên ứng dụng bằng SFML
 
----
-
-## Teamwork: Phân công và theo dõi tiến độ công việc,  biên bản họp nhóm
-## UI/UX: Chính là điểm chức năng cũng như giao diện của chương trình.
-## Kiến trúc phần mềm + design pattern: 
-## Đảm bảo chất lượng: test / coding convention
-## Tài liệu mô tả kiến trúc phần mềm và các module:
-## Các chủ đề nâng cao: 
+### Kiến trúc phần mềm + design pattern: 
+✅ Đã hoàn thành các thao tác Thêm/Xoá/Cập nhật điện thoại  
+✅ Đã hoàn thành tìm kiếm điện thoại theo ID  
+🔄 Đang hoàn thiện chức năng sắp xếp theo giá, tên  
+❌ Sắp phát triển chức năng sắp xếp theo tên, theo giá  
+✅ Đã hoàn thanh lưu danh sách sản phẩm  
+✅ Đã hoàn thành đọc dữ liệu từ database khi khởi động  
+❌ Sắp phát triển thêm chức năng hoàn thiện Database
+### Đảm bảo chất lượng: test / coding convention
+🔄 Đang nghiên cứu thực hiện và kiểm thử
+### Tài liệu mô tả kiến trúc phần mềm và các module:  
+✅ Đã thực hiện mở port mới bằng file index.html tren docs của file doxygen
+### Các chủ đề nâng cao: 
+✅ Đã và đang nghiên cứu thêm về thư viện SFML cho UI-UX  
+✅ Đã và đang phát triển thêm về SQL để lưu trữ và truy xuất
 
 ## 🛠️ Công cụ sử dụng
 - Ngôn ngữ: **C++**
@@ -127,6 +129,7 @@ Hệ thống mô phỏng hoạt động cơ bản trong một cửa hàng điệ
 ---
 
 ## 🎯 Dự định thực hiện tiếp theo
+### Dự đoán đã thực hiện được 40% yêu cầu và chức năng
 
 - [ ] Thiết kế phát triển thêm nhiều chức năng hơn   
 - [ ] Hoàn thiện thêm các chức năng chưa có  
