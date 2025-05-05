@@ -26,9 +26,28 @@ string ChuanHoaGia(string& gia) {
 
     return result;
 }
+// Hàm nhập số nguyên từ bàn phím với thông báo
+int nhapSoNguyen(const std::string& thongBao) {
+    int so;
+    while (true) {
+        std::cout << thongBao;
+        std::cin >> so;
+
+        if (std::cin.fail()) {
+            std::cin.clear();
+            std::cin.ignore(1000, '\n');
+            std::cout << "❌ Loi: Vui long nhap so nguyen hop le!\n";
+        }
+        else {
+            std::cin.ignore(1000, '\n');
+            return so;
+        }
+    }
+}
+
 
 // Hàm kết nối đến database
-/* bool connectToSQL(SQLHENV& hEnv, SQLHDBC& hDbc) {
+bool connectToSQL(SQLHENV& hEnv, SQLHDBC& hDbc) {
     SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &hEnv);
     SQLSetEnvAttr(hEnv, SQL_ATTR_ODBC_VERSION, (void*)SQL_OV_ODBC3, 0);
     SQLAllocHandle(SQL_HANDLE_DBC, hEnv, &hDbc);
@@ -44,4 +63,4 @@ string ChuanHoaGia(string& gia) {
         std::wcout << L"Ket noi that bai.\n";
         return false;
     }
-} */
+} 

@@ -104,12 +104,15 @@ public:
     void RemoveTail();
     void Remove(const DienThoai&);
     std::string wstringToString(const std::wstring& wstr);
-    /* DienThoai* TimKiemTheoID(SQLHDBC db,const int&id);
-    DienThoai* TimKiemTheoTen(SQLHDBC db, const string& ten); */
-    DienThoai TimKiem(const string&);
-    /* void XoaDienThoaiTheoID(SQLHDBC db,const int& id);
-    void XuatDanhSachDienThoai(SQLHDBC db); */
+    DienThoai* TimKiemTheoID(SQLHDBC db,const int&id);
+    DienThoai* TimKiemTheoTen(SQLHDBC db, const string& ten); 
     //DienThoai TimKiem(const string&);
+    void XoaDienThoaiTheoID(SQLHDBC db,const int& id);
+    void XuatDanhSachDienThoai(SQLHDBC db); 
+    //DienThoai TimKiem(const string&);
+
+    void LayDanhSachDienThoai(SQLHDBC db);  
+    void ChinhSuaThongTinDienThoai(SQLHDBC db, int id);	
     void Clear();
 
     /// --- Iterator ---
