@@ -1,7 +1,0 @@
-<map id="asyncio.events.BaseDefaultEventLoopPolicy" name="asyncio.events.BaseDefaultEventLoopPolicy">
-<area shape="rect" id="node1" title=" " alt="" coords="268,71,472,112"/>
-<area shape="rect" id="node3" href="$classasyncio_1_1unix__events_1_1__UnixDefaultEventLoopPolicy.html" title=" " alt="" coords="536,5,751,47"/>
-<area shape="rect" id="node4" href="$classasyncio_1_1windows__events_1_1WindowsProactorEventLoopPolicy.html" title=" " alt="" coords="520,71,767,112"/>
-<area shape="rect" id="node5" href="$classasyncio_1_1windows__events_1_1WindowsSelectorEventLoopPolicy.html" title=" " alt="" coords="520,136,767,177"/>
-<area shape="rect" id="node2" href="$classasyncio_1_1events_1_1AbstractEventLoopPolicy.html" title=" " alt="" coords="5,71,220,112"/>
-</map>

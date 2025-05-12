@@ -1,6 +1,0 @@
-<map id="tdbc::connection" name="tdbc::connection">
-<area shape="rect" id="node1" title=" " alt="" coords="227,5,356,32"/>
-<area shape="rect" id="node2" href="$classtdbc_1_1mysql_1_1connection.html" title=" " alt="" coords="5,80,183,107"/>
-<area shape="rect" id="node3" href="$classtdbc_1_1odbc_1_1connection.html" title=" " alt="" coords="207,80,375,107"/>
-<area shape="rect" id="node4" href="$classtdbc_1_1postgres_1_1connection.html" title=" " alt="" coords="400,80,593,107"/>
-</map>

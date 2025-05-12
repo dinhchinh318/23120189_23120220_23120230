@@ -1,9 +1,0 @@
-<map id="XWindowAttributes" name="XWindowAttributes">
-<area shape="rect" id="node1" title=" " alt="" coords="5,452,152,479"/>
-<area shape="rect" id="node2" href="$structScreen.html" title=" " alt="" coords="251,363,317,389"/>
-<area shape="rect" id="node3" href="$struct__XExtData.html" title=" " alt="" coords="389,95,480,121"/>
-<area shape="rect" id="node6" href="$structVisual.html" title=" " alt="" coords="253,184,315,211"/>
-<area shape="rect" id="node4" title=" " alt="" coords="447,5,505,32"/>
-<area shape="rect" id="node5" href="$structXGCValues.html" title=" " alt="" coords="95,273,188,300"/>
-<area shape="rect" id="node7" href="$structDepth.html" title=" " alt="" coords="212,273,273,300"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="http.client.ImproperConnectionState" name="http.client.ImproperConnectionState">
-<area shape="rect" id="node1" title=" " alt="" coords="379,49,603,90"/>
-<area shape="rect" id="node4" href="$classhttp_1_1client_1_1CannotSendHeader.html" title=" " alt="" coords="653,5,871,32"/>
-<area shape="rect" id="node5" href="$classhttp_1_1client_1_1CannotSendRequest.html" title=" " alt="" coords="651,56,873,83"/>
-<area shape="rect" id="node6" href="$classhttp_1_1client_1_1ResponseNotReady.html" title=" " alt="" coords="653,107,871,133"/>
-<area shape="rect" id="node2" href="$classhttp_1_1client_1_1HTTPException.html" title=" " alt="" coords="140,56,331,83"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,56,92,83"/>
-</map>

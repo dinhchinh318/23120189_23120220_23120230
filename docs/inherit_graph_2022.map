@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classtest_1_1test__importlib_1_1test__abc_1_1ABCTestHarness.html" title=" " alt="" coords="5,169,176,211"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__importlib_1_1test__abc_1_1ExecutionLoaderDefaultsTests.html" title=" " alt="" coords="224,5,475,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__importlib_1_1test__abc_1_1InspectLoaderDefaultsTests.html" title=" " alt="" coords="232,71,467,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__importlib_1_1test__abc_1_1LoaderDefaultsTests.html" title=" " alt="" coords="255,136,443,177"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__importlib_1_1test__abc_1_1MetaPathFinderDefaultsTests.html" title=" " alt="" coords="227,201,472,243"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__importlib_1_1test__abc_1_1PathEntryFinderDefaultsTests.html" title=" " alt="" coords="226,267,473,308"/>
-<area shape="rect" id="node7" href="$classtest_1_1test__importlib_1_1test__abc_1_1ResourceLoaderDefaultsTests.html" title=" " alt="" coords="225,332,473,373"/>
-</map>

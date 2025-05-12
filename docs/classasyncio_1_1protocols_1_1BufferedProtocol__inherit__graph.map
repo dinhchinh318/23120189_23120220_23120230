@@ -1,6 +1,0 @@
-<map id="asyncio.protocols.BufferedProtocol" name="asyncio.protocols.BufferedProtocol">
-<area shape="rect" id="node1" title=" " alt="" coords="279,27,473,69"/>
-<area shape="rect" id="node3" href="$classasyncio_1_1sslproto_1_1SSLProtocol.html" title=" " alt="" coords="539,5,747,32"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__asyncio_1_1test__buffered__proto_1_1ReceiveStuffProto.html" title=" " alt="" coords="521,57,765,98"/>
-<area shape="rect" id="node2" href="$classasyncio_1_1protocols_1_1BaseProtocol.html" title=" " alt="" coords="5,35,231,61"/>
-</map>

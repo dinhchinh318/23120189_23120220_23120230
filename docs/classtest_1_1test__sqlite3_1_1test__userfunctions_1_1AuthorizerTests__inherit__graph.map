@@ -1,8 +1,0 @@
-<map id="test.test_sqlite3.test_userfunctions.AuthorizerTests" name="test.test_sqlite3.test_userfunctions.AuthorizerTests">
-<area shape="rect" id="node1" title=" " alt="" coords="332,93,553,134"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__sqlite3_1_1test__userfunctions_1_1AuthorizerIllegalTypeTests.html" title=" " alt="" coords="601,5,829,61"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__sqlite3_1_1test__userfunctions_1_1AuthorizerLargeIntegerTests.html" title=" " alt="" coords="603,85,827,141"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__sqlite3_1_1test__userfunctions_1_1AuthorizerRaiseExceptionTests.html" title=" " alt="" coords="603,165,827,221"/>
-<area shape="rect" id="node2" href="$classunittest_1_1case_1_1TestCase.html" title=" " alt="" coords="116,100,284,127"/>
-<area shape="rect" id="node3" href="$struct__object.html" title=" " alt="" coords="5,100,68,127"/>
-</map>

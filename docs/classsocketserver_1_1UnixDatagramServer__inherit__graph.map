@@ -1,8 +1,0 @@
-<map id="socketserver.UnixDatagramServer" name="socketserver.UnixDatagramServer">
-<area shape="rect" id="node1" title=" " alt="" coords="107,229,309,271"/>
-<area shape="rect" id="node5" href="$classsocketserver_1_1ForkingUnixDatagramServer.html" title=" " alt="" coords="5,319,192,360"/>
-<area shape="rect" id="node6" href="$classsocketserver_1_1ThreadingUnixDatagramServer.html" title=" " alt="" coords="216,319,419,360"/>
-<area shape="rect" id="node2" href="$classsocketserver_1_1UDPServer.html" title=" " alt="" coords="119,155,297,181"/>
-<area shape="rect" id="node3" href="$classsocketserver_1_1TCPServer.html" title=" " alt="" coords="121,80,295,107"/>
-<area shape="rect" id="node4" href="$classsocketserver_1_1BaseServer.html" title=" " alt="" coords="117,5,299,32"/>
-</map>

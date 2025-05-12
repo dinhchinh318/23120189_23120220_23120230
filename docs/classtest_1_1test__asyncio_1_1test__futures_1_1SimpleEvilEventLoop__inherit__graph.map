@@ -1,5 +1,0 @@
-<map id="test.test_asyncio.test_futures.SimpleEvilEventLoop" name="test.test_asyncio.test_futures.SimpleEvilEventLoop">
-<area shape="rect" id="node1" title=" " alt="" coords="21,169,237,211"/>
-<area shape="rect" id="node2" href="$classasyncio_1_1base__events_1_1BaseEventLoop.html" title=" " alt="" coords="31,80,226,121"/>
-<area shape="rect" id="node3" href="$classasyncio_1_1events_1_1AbstractEventLoop.html" title=" " alt="" coords="5,5,252,32"/>
-</map>

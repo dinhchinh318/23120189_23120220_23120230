@@ -1,9 +1,0 @@
-<map id="cmd.Cmd" name="cmd.Cmd">
-<area shape="rect" id="node1" title=" " alt="" coords="5,81,89,108"/>
-<area shape="rect" id="node2" href="$classpdb_1_1Pdb.html" title=" " alt="" coords="212,5,287,32"/>
-<area shape="rect" id="node4" href="$classpstats_1_1ProfileBrowser.html" title=" " alt="" coords="169,56,329,83"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__cmd_1_1samplecmdclass.html" title=" " alt="" coords="137,107,361,133"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__cmd_1_1TestAlternateInput_1_1simplecmd.html" title=" " alt="" coords="149,158,350,199"/>
-<area shape="rect" id="node3" href="$classdoctest_1_1__OutputRedirectingPdb.html" title=" " alt="" coords="409,5,632,32"/>
-<area shape="rect" id="node7" href="$classtest_1_1test__cmd_1_1TestAlternateInput_1_1simplecmd2.html" title=" " alt="" coords="420,158,621,199"/>
-</map>

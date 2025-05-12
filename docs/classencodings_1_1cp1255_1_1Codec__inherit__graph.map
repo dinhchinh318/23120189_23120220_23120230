@@ -1,6 +1,0 @@
-<map id="encodings.cp1255.Codec" name="encodings.cp1255.Codec">
-<area shape="rect" id="node1" title="Codec APIs." alt="" coords="160,80,343,107"/>
-<area shape="rect" id="node3" href="$classencodings_1_1cp1255_1_1StreamReader.html" title=" " alt="" coords="5,155,241,181"/>
-<area shape="rect" id="node4" href="$classencodings_1_1cp1255_1_1StreamWriter.html" title=" " alt="" coords="265,155,496,181"/>
-<area shape="rect" id="node2" href="$classcodecs_1_1Codec.html" title=" " alt="" coords="196,5,307,32"/>
-</map>

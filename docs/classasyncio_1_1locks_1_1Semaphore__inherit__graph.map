@@ -1,6 +1,0 @@
-<map id="asyncio.locks.Semaphore" name="asyncio.locks.Semaphore">
-<area shape="rect" id="node1" title=" " alt="" coords="146,95,334,121"/>
-<area shape="rect" id="node4" href="$classasyncio_1_1locks_1_1BoundedSemaphore.html" title=" " alt="" coords="117,169,363,196"/>
-<area shape="rect" id="node2" href="$classasyncio_1_1locks_1_1__ContextManagerMixin.html" title=" " alt="" coords="5,5,235,47"/>
-<area shape="rect" id="node3" href="$classasyncio_1_1mixins_1_1__LoopBoundMixin.html" title=" " alt="" coords="259,5,461,47"/>
-</map>

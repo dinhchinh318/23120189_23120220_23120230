@@ -1,9 +1,0 @@
-<map id="_GDBusNodeInfo" name="_GDBusNodeInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="5,377,137,404"/>
-<area shape="rect" id="node2" href="$struct__GDBusInterfaceInfo.html" title=" " alt="" coords="145,288,301,315"/>
-<area shape="rect" id="node3" href="$struct__GDBusAnnotationInfo.html" title=" " alt="" coords="252,5,421,32"/>
-<area shape="rect" id="node4" href="$struct__GDBusPropertyInfo.html" title=" " alt="" coords="213,147,367,173"/>
-<area shape="rect" id="node5" href="$struct__GDBusSignalInfo.html" title=" " alt="" coords="318,199,457,225"/>
-<area shape="rect" id="node6" href="$struct__GDBusArgInfo.html" title=" " alt="" coords="493,95,613,121"/>
-<area shape="rect" id="node7" href="$struct__GDBusMethodInfo.html" title=" " alt="" coords="481,199,627,225"/>
-</map>

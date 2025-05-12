@@ -1,8 +1,0 @@
-<map id="pkcs7_encrypted_st" name="pkcs7_encrypted_st">
-<area shape="rect" id="node1" title=" " alt="" coords="5,509,156,536"/>
-<area shape="rect" id="node2" href="$structasn1__string__st.html" title=" " alt="" coords="92,5,208,32"/>
-<area shape="rect" id="node3" href="$structpkcs7__enc__content__st.html" title=" " alt="" coords="117,420,282,447"/>
-<area shape="rect" id="node6" href="$structasn1__type__st.html" title=" " alt="" coords="189,241,297,268"/>
-<area shape="rect" id="node4" href="$structPKCS7__CTX__st.html" title=" " alt="" coords="326,331,441,357"/>
-<area shape="rect" id="node5" href="$structX509__algor__st.html" title=" " alt="" coords="187,331,302,357"/>
-</map>

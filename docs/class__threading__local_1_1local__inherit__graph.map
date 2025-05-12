@@ -1,6 +1,0 @@
-<map id="_threading_local.local" name="_threading_local.local">
-<area shape="rect" id="node1" title=" " alt="" coords="5,64,169,91"/>
-<area shape="rect" id="node2" href="$classasyncio_1_1events_1_1__RunningLoop.html" title=" " alt="" coords="217,5,432,32"/>
-<area shape="rect" id="node3" href="$classasyncio_1_1events_1_1BaseDefaultEventLoopPolicy_1_1__Local.html" title=" " alt="" coords="223,57,427,98"/>
-<area shape="rect" id="node4" href="$classmultiprocessing_1_1util_1_1ForkAwareLocal.html" title=" " alt="" coords="233,122,416,163"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="email.headerregistry.AddressHeader" name="email.headerregistry.AddressHeader">
-<area shape="rect" id="node1" title=" " alt="" coords="116,5,328,47"/>
-<area shape="rect" id="node2" href="$classemail_1_1headerregistry_1_1SingleAddressHeader.html" title=" " alt="" coords="9,95,209,136"/>
-<area shape="rect" id="node4" href="$classemail_1_1headerregistry_1_1UniqueAddressHeader.html" title=" " alt="" coords="233,95,440,136"/>
-<area shape="rect" id="node3" href="$classemail_1_1headerregistry_1_1UniqueSingleAddressHeader.html" title=" " alt="" coords="5,184,212,225"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="asyncio.windows_events._WindowsSelectorEventLoop" name="asyncio.windows_events._WindowsSelectorEventLoop">
-<area shape="rect" id="node1" title=" " alt="" coords="24,259,233,300"/>
-<area shape="rect" id="node2" href="$classasyncio_1_1selector__events_1_1BaseSelectorEventLoop.html" title=" " alt="" coords="37,169,220,211"/>
-<area shape="rect" id="node3" href="$classasyncio_1_1base__events_1_1BaseEventLoop.html" title=" " alt="" coords="31,80,226,121"/>
-<area shape="rect" id="node4" href="$classasyncio_1_1events_1_1AbstractEventLoop.html" title=" " alt="" coords="5,5,252,32"/>
-</map>

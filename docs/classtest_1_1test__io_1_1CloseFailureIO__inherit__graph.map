@@ -1,7 +1,0 @@
-<map id="test.test_io.CloseFailureIO" name="test.test_io.CloseFailureIO">
-<area shape="rect" id="node1" title=" " alt="" coords="125,155,317,181"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__io_1_1CCloseFailureIO.html" title=" " alt="" coords="5,229,207,256"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__io_1_1PyCloseFailureIO.html" title=" " alt="" coords="231,229,439,256"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__io_1_1MockRawIO.html" title=" " alt="" coords="133,80,309,107"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__io_1_1MockRawIOWithoutRead.html" title=" " alt="" coords="91,5,351,32"/>
-</map>

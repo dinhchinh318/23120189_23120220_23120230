@@ -1,6 +1,0 @@
-<map id="asyncio.transports.DatagramTransport" name="asyncio.transports.DatagramTransport">
-<area shape="rect" id="node1" title=" " alt="" coords="292,39,503,80"/>
-<area shape="rect" id="node3" href="$classasyncio_1_1proactor__events_1_1__ProactorDatagramTransport.html" title=" " alt="" coords="551,5,759,47"/>
-<area shape="rect" id="node4" href="$classasyncio_1_1selector__events_1_1__SelectorDatagramTransport.html" title=" " alt="" coords="551,71,758,112"/>
-<area shape="rect" id="node2" href="$classasyncio_1_1transports_1_1BaseTransport.html" title=" " alt="" coords="5,46,244,73"/>
-</map>

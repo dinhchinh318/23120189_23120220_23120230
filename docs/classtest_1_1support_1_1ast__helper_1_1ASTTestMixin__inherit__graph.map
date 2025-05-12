@@ -1,8 +1,0 @@
-<map id="test.support.ast_helper.ASTTestMixin" name="test.support.ast_helper.ASTTestMixin">
-<area shape="rect" id="node1" title=" " alt="" coords="5,41,180,83"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__ast_1_1test__ast_1_1NodeTransformerTests.html" title=" " alt="" coords="240,12,439,53"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__unparse_1_1ASTTestCase.html" title=" " alt="" coords="228,78,451,105"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__unparse_1_1CosmeticTestCase.html" title=" " alt="" coords="499,5,699,47"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__unparse_1_1DirectoryTestCase.html" title=" " alt="" coords="499,71,698,112"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__unparse_1_1UnparseTestCase.html" title=" " alt="" coords="502,136,695,177"/>
-</map>

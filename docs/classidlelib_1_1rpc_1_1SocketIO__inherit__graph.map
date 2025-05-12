@@ -1,7 +1,0 @@
-<map id="idlelib.rpc.SocketIO" name="idlelib.rpc.SocketIO">
-<area shape="rect" id="node1" title=" " alt="" coords="135,5,282,32"/>
-<area shape="rect" id="node2" href="$classidlelib_1_1rpc_1_1RPCClient.html" title=" " alt="" coords="39,80,194,107"/>
-<area shape="rect" id="node4" href="$classidlelib_1_1rpc_1_1RPCHandler.html" title=" " alt="" coords="224,80,391,107"/>
-<area shape="rect" id="node3" href="$classidlelib_1_1pyshell_1_1MyRPCClient.html" title=" " alt="" coords="5,155,207,181"/>
-<area shape="rect" id="node5" href="$classidlelib_1_1run_1_1MyHandler.html" title=" " alt="" coords="231,155,394,181"/>
-</map>

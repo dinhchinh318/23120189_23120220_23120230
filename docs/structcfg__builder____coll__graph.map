@@ -1,9 +1,0 @@
-<map id="cfg_builder_" name="cfg_builder_">
-<area shape="rect" id="node1" title=" " alt="" coords="63,320,165,347"/>
-<area shape="rect" id="node2" href="$struct__PyCfgJumpTargetLabel.html" title=" " alt="" coords="5,111,180,137"/>
-<area shape="rect" id="node3" href="$struct__PyCfgBasicblock__.html" title=" " alt="" coords="222,201,366,228"/>
-<area shape="rect" id="node4" title=" " alt="" coords="337,5,395,32"/>
-<area shape="rect" id="node5" href="$struct__PyCfgExceptStack.html" title=" " alt="" coords="302,111,449,137"/>
-<area shape="rect" id="node6" href="$struct__PyCfgInstruction.html" title=" " alt="" coords="473,111,609,137"/>
-<area shape="rect" id="node7" href="$struct__PyCompilerSrcLocation.html" title=" " alt="" coords="459,5,638,32"/>
-</map>

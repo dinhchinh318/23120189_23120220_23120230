@@ -1,8 +1,0 @@
-<map id="test.test_asyncio.test_sendfile.EPollEventLoopTests" name="test.test_asyncio.test_sendfile.EPollEventLoopTests">
-<area shape="rect" id="node1" title=" " alt="" coords="721,67,939,108"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__asyncio_1_1test__sendfile_1_1SendfileTestsBase.html" title=" " alt="" coords="472,37,673,79"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__asyncio_1_1test__sendfile_1_1SendfileMixin.html" title=" " alt="" coords="237,5,409,47"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__asyncio_1_1test__sendfile_1_1SendfileBase.html" title=" " alt="" coords="5,39,173,80"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__asyncio_1_1test__sendfile_1_1SockSendfileMixin.html" title=" " alt="" coords="221,71,424,112"/>
-<area shape="rect" id="node6" title=" " alt="" coords="533,103,613,130"/>
-</map>

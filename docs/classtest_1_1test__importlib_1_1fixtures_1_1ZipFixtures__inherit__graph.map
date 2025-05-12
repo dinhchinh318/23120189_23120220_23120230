@@ -1,6 +1,0 @@
-<map id="test.test_importlib.fixtures.ZipFixtures" name="test.test_importlib.fixtures.ZipFixtures">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,204,80"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__importlib_1_1test__main_1_1PackagesDistributionsPrebuiltTest.html" title=" " alt="" coords="252,5,537,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__importlib_1_1test__zip_1_1TestZip.html" title=" " alt="" coords="309,71,480,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__importlib_1_1test__zip_1_1TestEgg.html" title=" " alt="" coords="585,71,756,112"/>
-</map>

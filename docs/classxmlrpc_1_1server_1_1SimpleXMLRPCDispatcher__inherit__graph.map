@@ -1,8 +1,0 @@
-<map id="xmlrpc.server.SimpleXMLRPCDispatcher" name="xmlrpc.server.SimpleXMLRPCDispatcher">
-<area shape="rect" id="node1" title=" " alt="" coords="5,42,289,69"/>
-<area shape="rect" id="node2" href="$classxmlrpc_1_1server_1_1CGIXMLRPCRequestHandler.html" title=" " alt="" coords="343,5,588,47"/>
-<area shape="rect" id="node4" href="$classxmlrpc_1_1server_1_1SimpleXMLRPCServer.html" title=" " alt="" coords="337,71,593,98"/>
-<area shape="rect" id="node3" href="$classxmlrpc_1_1server_1_1DocCGIXMLRPCRequestHandler.html" title=" " alt="" coords="642,5,913,47"/>
-<area shape="rect" id="node5" href="$classxmlrpc_1_1server_1_1DocXMLRPCServer.html" title=" " alt="" coords="659,71,895,98"/>
-<area shape="rect" id="node6" href="$classxmlrpc_1_1server_1_1MultiPathXMLRPCServer.html" title=" " alt="" coords="641,122,913,149"/>
-</map>

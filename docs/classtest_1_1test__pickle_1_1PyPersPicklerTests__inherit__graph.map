@@ -1,8 +1,0 @@
-<map id="test.test_pickle.PyPersPicklerTests" name="test.test_pickle.PyPersPicklerTests">
-<area shape="rect" id="node1" title=" " alt="" coords="355,71,569,112"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__pickle_1_1CPersPicklerTests.html" title=" " alt="" coords="617,71,824,112"/>
-<area shape="rect" id="node2" href="$classtest_1_1pickletester_1_1AbstractPersistentPicklerTests.html" title=" " alt="" coords="119,5,304,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__pickle_1_1PersistentPicklerUnpicklerMixin.html" title=" " alt="" coords="116,71,307,112"/>
-<area shape="rect" id="node4" href="$struct__object.html" title=" " alt="" coords="5,107,68,134"/>
-<area shape="rect" id="node5" href="$classunittest_1_1case_1_1TestCase.html" title=" " alt="" coords="127,137,295,163"/>
-</map>

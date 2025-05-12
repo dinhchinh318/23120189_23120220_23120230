@@ -1,5 +1,0 @@
-<map id="FLAC/ *_encoder.h: encoder interfaces" name="FLAC/ *_encoder.h: encoder interfaces">
-<area shape="rect" id="node1" href="$group__flac.html" title="The FLAC C API is the interface to libFLAC, a set of structures describing the components of FLAC str..." alt="" coords="5,13,100,38"/>
-<area shape="rect" id="node3" title="This module describes the encoder layers provided by libFLAC." alt="" coords="148,5,295,45"/>
-<area shape="rect" id="node2" href="$group__flac__stream__encoder.html" title="This module contains the functions which implement the stream encoder." alt="" coords="343,5,537,45"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="asyncio.futures.Future" name="asyncio.futures.Future">
-<area shape="rect" id="node1" title=" " alt="" coords="5,78,172,105"/>
-<area shape="rect" id="node2" href="$classasyncio_1_1tasks_1_1__GatheringFuture.html" title=" " alt="" coords="221,5,407,47"/>
-<area shape="rect" id="node3" href="$classasyncio_1_1windows__events_1_1__BaseWaitHandleFuture.html" title=" " alt="" coords="220,71,408,112"/>
-<area shape="rect" id="node6" href="$classasyncio_1_1windows__events_1_1__OverlappedFuture.html" title=" " alt="" coords="220,136,408,177"/>
-<area shape="rect" id="node4" href="$classasyncio_1_1windows__events_1_1__WaitCancelFuture.html" title=" " alt="" coords="456,39,644,80"/>
-<area shape="rect" id="node5" href="$classasyncio_1_1windows__events_1_1__WaitHandleFuture.html" title=" " alt="" coords="456,104,644,145"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="FLAC/stream_decoder.h: stream decoder interface" name="FLAC/stream_decoder.h: stream decoder interface">
-<area shape="rect" id="node1" title="This module contains the functions which implement the stream decoder." alt="" coords="200,5,395,45"/>
-<area shape="rect" id="node2" href="$group__flac__decoder.html" title="This module describes the decoder layers provided by libFLAC." alt="" coords="5,5,152,45"/>
-</map>

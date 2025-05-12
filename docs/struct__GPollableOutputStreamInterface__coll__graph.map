@@ -1,7 +1,0 @@
-<map id="_GPollableOutputStreamInterface" name="_GPollableOutputStreamInterface">
-<area shape="rect" id="node1" title=" " alt="" coords="5,231,245,257"/>
-<area shape="rect" id="node2" title=" " alt="" coords="93,96,152,123"/>
-<area shape="rect" id="node3" href="$struct__GSource.html" title=" " alt="" coords="291,96,373,123"/>
-<area shape="rect" id="node4" href="$struct__GSourceFuncs.html" title=" " alt="" coords="315,231,435,257"/>
-<area shape="rect" id="node5" href="$struct__GSourceCallbackFuncs.html" title=" " alt="" coords="244,5,420,32"/>
-</map>

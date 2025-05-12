@@ -1,7 +1,0 @@
-<map id="encodings.ascii.Codec" name="encodings.ascii.Codec">
-<area shape="rect" id="node1" title="Codec APIs." alt="" coords="151,80,318,107"/>
-<area shape="rect" id="node3" href="$classencodings_1_1ascii_1_1StreamReader.html" title=" " alt="" coords="5,155,224,181"/>
-<area shape="rect" id="node5" href="$classencodings_1_1ascii_1_1StreamWriter.html" title=" " alt="" coords="248,155,461,181"/>
-<area shape="rect" id="node2" href="$classcodecs_1_1Codec.html" title=" " alt="" coords="179,5,290,32"/>
-<area shape="rect" id="node4" href="$classencodings_1_1ascii_1_1StreamConverter.html" title=" " alt="" coords="116,229,353,256"/>
-</map>

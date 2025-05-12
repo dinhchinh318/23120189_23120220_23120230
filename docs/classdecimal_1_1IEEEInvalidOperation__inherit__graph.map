@@ -1,9 +1,0 @@
-<map id="decimal::IEEEInvalidOperation" name="decimal::IEEEInvalidOperation">
-<area shape="rect" id="node1" title=" " alt="" coords="440,81,659,108"/>
-<area shape="rect" id="node4" href="$classdecimal_1_1ConversionSyntax.html" title=" " alt="" coords="710,5,910,32"/>
-<area shape="rect" id="node5" href="$classdecimal_1_1DivisionImpossible.html" title=" " alt="" coords="707,56,913,83"/>
-<area shape="rect" id="node6" href="$classdecimal_1_1DivisionUndefined.html" title=" " alt="" coords="709,107,911,133"/>
-<area shape="rect" id="node7" href="$classdecimal_1_1InvalidOperation.html" title=" " alt="" coords="715,157,905,184"/>
-<area shape="rect" id="node2" href="$classdecimal_1_1DecimalException.html" title=" " alt="" coords="192,81,392,108"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,81,144,108"/>
-</map>

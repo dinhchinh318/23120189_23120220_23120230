@@ -1,8 +1,0 @@
-<map id="test.test_socket.SendrecvmsgSCTPFlagsBase" name="test.test_socket.SendrecvmsgSCTPFlagsBase">
-<area shape="rect" id="node1" title=" " alt="" coords="303,71,520,112"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__socket_1_1SendrecvmsgSCTPStreamTestBase.html" title=" " alt="" coords="568,71,785,112"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__socket_1_1SendrecvmsgBase.html" title=" " alt="" coords="5,78,255,105"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__socket_1_1RecvmsgIntoSCTPStreamTest.html" title=" " alt="" coords="833,5,1023,47"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__socket_1_1RecvmsgSCTPStreamTest.html" title=" " alt="" coords="833,71,1023,112"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__socket_1_1SendmsgSCTPStreamTest.html" title=" " alt="" coords="833,136,1023,177"/>
-</map>

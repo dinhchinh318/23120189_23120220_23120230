@@ -1,5 +1,0 @@
-<map id="sf::Vertex" name="sf::Vertex">
-<area shape="rect" id="node1" title="Define a point with color and texture coordinates." alt="" coords="181,215,264,241"/>
-<area shape="rect" id="node2" href="$classsf_1_1Color.html" title="Utility class for manipulating RGBA colors." alt="" coords="5,58,80,85"/>
-<area shape="rect" id="node3" href="$classsf_1_1Vector2.html" title=" " alt="" coords="209,58,359,85"/>
-</map>

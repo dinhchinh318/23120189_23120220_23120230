@@ -1,7 +1,0 @@
-<map id="concurrent.futures._base._Waiter" name="concurrent.futures._base._Waiter">
-<area shape="rect" id="node1" title=" " alt="" coords="116,71,261,112"/>
-<area shape="rect" id="node3" href="$classconcurrent_1_1futures_1_1__base_1_1__AllCompletedWaiter.html" title=" " alt="" coords="315,5,516,47"/>
-<area shape="rect" id="node4" href="$classconcurrent_1_1futures_1_1__base_1_1__AsCompletedWaiter.html" title=" " alt="" coords="315,71,515,112"/>
-<area shape="rect" id="node5" href="$classconcurrent_1_1futures_1_1__base_1_1__FirstCompletedWaiter.html" title=" " alt="" coords="309,136,521,177"/>
-<area shape="rect" id="node2" href="$struct__object.html" title=" " alt="" coords="5,78,68,105"/>
-</map>

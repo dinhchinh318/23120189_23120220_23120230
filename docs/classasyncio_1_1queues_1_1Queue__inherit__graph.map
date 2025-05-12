@@ -1,6 +1,0 @@
-<map id="asyncio.queues.Queue" name="asyncio.queues.Queue">
-<area shape="rect" id="node1" title=" " alt="" coords="132,95,301,121"/>
-<area shape="rect" id="node3" href="$classasyncio_1_1queues_1_1LifoQueue.html" title=" " alt="" coords="5,169,199,196"/>
-<area shape="rect" id="node4" href="$classasyncio_1_1queues_1_1PriorityQueue.html" title=" " alt="" coords="223,169,439,196"/>
-<area shape="rect" id="node2" href="$classasyncio_1_1mixins_1_1__LoopBoundMixin.html" title=" " alt="" coords="115,5,318,47"/>
-</map>

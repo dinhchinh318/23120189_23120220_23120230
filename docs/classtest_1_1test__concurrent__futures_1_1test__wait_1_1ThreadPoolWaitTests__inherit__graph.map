@@ -1,9 +1,0 @@
-<map id="test.test_concurrent_futures.test_wait.ThreadPoolWaitTests" name="test.test_concurrent_futures.test_wait.ThreadPoolWaitTests">
-<area shape="rect" id="node1" title=" " alt="" coords="621,63,837,119"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__concurrent__futures_1_1util_1_1ThreadPoolMixin.html" title=" " alt="" coords="360,5,573,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__concurrent__futures_1_1util_1_1ExecutorMixin.html" title=" " alt="" coords="116,5,312,47"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__concurrent__futures_1_1test__wait_1_1WaitTests.html" title=" " alt="" coords="364,71,569,112"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__concurrent__futures_1_1util_1_1BaseTestCase.html" title=" " alt="" coords="369,136,564,177"/>
-<area shape="rect" id="node6" href="$classunittest_1_1case_1_1TestCase.html" title=" " alt="" coords="130,143,298,170"/>
-<area shape="rect" id="node7" href="$struct__object.html" title=" " alt="" coords="5,143,68,170"/>
-</map>

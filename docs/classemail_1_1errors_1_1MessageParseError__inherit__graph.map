@@ -1,8 +1,0 @@
-<map id="email.errors.MessageParseError" name="email.errors.MessageParseError">
-<area shape="rect" id="node1" title=" " alt="" coords="113,155,312,196"/>
-<area shape="rect" id="node4" href="$classemail_1_1errors_1_1BoundaryError.html" title=" " alt="" coords="5,251,204,278"/>
-<area shape="rect" id="node5" href="$classemail_1_1errors_1_1HeaderParseError.html" title=" " alt="" coords="229,244,415,285"/>
-<area shape="rect" id="node2" href="$classemail_1_1errors_1_1MessageError.html" title=" " alt="" coords="115,80,310,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="169,5,256,32"/>
-<area shape="rect" id="node6" href="$classemail_1_1__header__value__parser_1_1__InvalidEwError.html" title=" " alt="" coords="235,333,409,375"/>
-</map>

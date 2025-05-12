@@ -1,6 +1,0 @@
-<map id="idlelib.undo.Command" name="idlelib.undo.Command">
-<area shape="rect" id="node1" title=" " alt="" coords="283,5,453,32"/>
-<area shape="rect" id="node2" href="$classidlelib_1_1undo_1_1CommandSequence.html" title=" " alt="" coords="5,80,237,107"/>
-<area shape="rect" id="node3" href="$classidlelib_1_1undo_1_1DeleteCommand.html" title=" " alt="" coords="262,80,474,107"/>
-<area shape="rect" id="node4" href="$classidlelib_1_1undo_1_1InsertCommand.html" title=" " alt="" coords="498,80,705,107"/>
-</map>

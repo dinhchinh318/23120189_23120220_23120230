@@ -1,9 +1,0 @@
-<map id="OSSL_TIME_PERIOD_st" name="OSSL_TIME_PERIOD_st">
-<area shape="rect" id="node1" title=" " alt="" coords="182,463,352,489"/>
-<area shape="rect" id="node2" href="$structOSSL__TIME__SPEC__DAY__st.html" title=" " alt="" coords="43,373,230,400"/>
-<area shape="rect" id="node3" href="$structasn1__string__st.html" title=" " alt="" coords="137,5,253,32"/>
-<area shape="rect" id="node5" href="$structOSSL__NAMED__DAY__st.html" title=" " alt="" coords="47,109,210,136"/>
-<area shape="rect" id="node6" href="$structOSSL__TIME__SPEC__MONTH__st.html" title=" " alt="" coords="171,183,382,210"/>
-<area shape="rect" id="node7" href="$structOSSL__TIME__SPEC__WEEKS__st.html" title=" " alt="" coords="328,323,534,349"/>
-<area shape="rect" id="node4" href="$structOSSL__TIME__SPEC__X__DAY__OF__st.html" title=" " alt="" coords="46,257,229,299"/>
-</map>

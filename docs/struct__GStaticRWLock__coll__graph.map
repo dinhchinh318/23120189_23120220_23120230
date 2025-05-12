@@ -1,7 +1,0 @@
-<map id="_GStaticRWLock" name="_GStaticRWLock">
-<area shape="rect" id="node1" title=" " alt="" coords="31,199,159,225"/>
-<area shape="rect" id="node2" href="$struct__GCond.html" title=" " alt="" coords="5,95,77,121"/>
-<area shape="rect" id="node3" href="$structGStaticMutex.html" title=" " alt="" coords="102,95,213,121"/>
-<area shape="rect" id="node4" href="$structpthread__mutex__t.html" title=" " alt="" coords="25,5,159,32"/>
-<area shape="rect" id="node5" href="$union__GMutex.html" title=" " alt="" coords="183,5,263,32"/>
-</map>

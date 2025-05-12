@@ -1,6 +1,0 @@
-<map id="test.test_importlib.resources.test_path.PathTests" name="test.test_importlib.resources.test_path.PathTests">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,244,112"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__importlib_1_1resources_1_1test__path_1_1PathDiskTests.html" title=" " alt="" coords="292,5,531,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__importlib_1_1resources_1_1test__path_1_1PathMemoryTests.html" title=" " alt="" coords="292,71,531,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__importlib_1_1resources_1_1test__path_1_1PathZipTests.html" title=" " alt="" coords="292,136,531,177"/>
-</map>

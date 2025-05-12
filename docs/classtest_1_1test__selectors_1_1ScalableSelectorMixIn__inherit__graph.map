@@ -1,7 +1,0 @@
-<map id="test.test_selectors.ScalableSelectorMixIn" name="test.test_selectors.ScalableSelectorMixIn">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,207,145"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__selectors_1_1DevpollSelectorTestCase.html" title=" " alt="" coords="255,5,451,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__selectors_1_1EpollSelectorTestCase.html" title=" " alt="" coords="263,71,442,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__selectors_1_1KqueueSelectorTestCase.html" title=" " alt="" coords="255,136,450,177"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__selectors_1_1PollSelectorTestCase.html" title=" " alt="" coords="267,201,438,243"/>
-</map>

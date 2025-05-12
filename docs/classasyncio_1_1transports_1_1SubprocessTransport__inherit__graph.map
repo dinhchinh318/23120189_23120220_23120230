@@ -1,7 +1,0 @@
-<map id="asyncio.transports.SubprocessTransport" name="asyncio.transports.SubprocessTransport">
-<area shape="rect" id="node1" title=" " alt="" coords="292,39,512,80"/>
-<area shape="rect" id="node3" href="$classasyncio_1_1base__subprocess_1_1BaseSubprocessTransport.html" title=" " alt="" coords="560,39,751,80"/>
-<area shape="rect" id="node2" href="$classasyncio_1_1transports_1_1BaseTransport.html" title=" " alt="" coords="5,46,244,73"/>
-<area shape="rect" id="node4" href="$classasyncio_1_1unix__events_1_1__UnixSubprocessTransport.html" title=" " alt="" coords="813,5,1007,47"/>
-<area shape="rect" id="node5" href="$classasyncio_1_1windows__events_1_1__WindowsSubprocessTransport.html" title=" " alt="" coords="799,71,1021,112"/>
-</map>

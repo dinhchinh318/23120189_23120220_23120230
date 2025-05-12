@@ -1,8 +1,0 @@
-<map id="test.test_httpservers.SocketlessRequestHandler" name="test.test_httpservers.SocketlessRequestHandler">
-<area shape="rect" id="node1" title=" " alt="" coords="5,363,236,404"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__httpservers_1_1RejectingSocketlessRequestHandler.html" title=" " alt="" coords="9,452,232,493"/>
-<area shape="rect" id="node2" href="$classhttp_1_1server_1_1SimpleHTTPRequestHandler.html" title=" " alt="" coords="7,273,235,315"/>
-<area shape="rect" id="node3" href="$classhttp_1_1server_1_1BaseHTTPRequestHandler.html" title=" " alt="" coords="13,184,228,225"/>
-<area shape="rect" id="node4" href="$classsocketserver_1_1StreamRequestHandler.html" title=" " alt="" coords="17,95,225,136"/>
-<area shape="rect" id="node5" href="$classsocketserver_1_1BaseRequestHandler.html" title=" " alt="" coords="24,5,217,47"/>
-</map>

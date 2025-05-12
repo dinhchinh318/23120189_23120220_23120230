@@ -1,9 +1,0 @@
-<map id="test.test_finalization.Simple" name="test.test_finalization.Simple">
-<area shape="rect" id="node1" title=" " alt="" coords="523,111,727,138"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__finalization_1_1SimpleChained.html" title=" " alt="" coords="778,5,982,47"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__finalization_1_1SimpleSelfCycle.html" title=" " alt="" coords="778,71,982,112"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__finalization_1_1SuicidalChained.html" title=" " alt="" coords="775,136,985,177"/>
-<area shape="rect" id="node7" href="$classtest_1_1test__finalization_1_1SuicidalSelfCycle.html" title=" " alt="" coords="775,201,985,243"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__finalization_1_1SimpleBase.html" title=" " alt="" coords="239,111,475,138"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__finalization_1_1NonGCSimpleBase.html" title=" " alt="" coords="5,104,191,145"/>
-</map>

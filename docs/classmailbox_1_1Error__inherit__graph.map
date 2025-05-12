@@ -1,8 +1,0 @@
-<map id="mailbox.Error" name="mailbox.Error">
-<area shape="rect" id="node1" title=" " alt="" coords="140,81,251,108"/>
-<area shape="rect" id="node3" href="$classmailbox_1_1ExternalClashError.html" title=" " alt="" coords="304,5,504,32"/>
-<area shape="rect" id="node4" href="$classmailbox_1_1FormatError.html" title=" " alt="" coords="326,56,482,83"/>
-<area shape="rect" id="node5" href="$classmailbox_1_1NoSuchMailboxError.html" title=" " alt="" coords="299,107,509,133"/>
-<area shape="rect" id="node6" href="$classmailbox_1_1NotEmptyError.html" title=" " alt="" coords="317,157,491,184"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,81,92,108"/>
-</map>

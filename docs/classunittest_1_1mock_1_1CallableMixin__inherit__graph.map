@@ -1,9 +1,0 @@
-<map id="unittest.mock.CallableMixin" name="unittest.mock.CallableMixin">
-<area shape="rect" id="node1" title=" " alt="" coords="213,155,418,181"/>
-<area shape="rect" id="node4" href="$classunittest_1_1mock_1_1Mock.html" title=" " alt="" coords="240,229,391,256"/>
-<area shape="rect" id="node2" href="$classunittest_1_1mock_1_1Base.html" title=" " alt="" coords="241,80,389,107"/>
-<area shape="rect" id="node3" href="$struct__object.html" title=" " alt="" coords="284,5,347,32"/>
-<area shape="rect" id="node5" href="$classunittest_1_1mock_1_1AsyncMock.html" title=" " alt="" coords="5,304,196,331"/>
-<area shape="rect" id="node6" href="$classunittest_1_1mock_1_1MagicMock.html" title=" " alt="" coords="220,304,411,331"/>
-<area shape="rect" id="node7" href="$classunittest_1_1mock_1_1PropertyMock.html" title=" " alt="" coords="435,304,641,331"/>
-</map>

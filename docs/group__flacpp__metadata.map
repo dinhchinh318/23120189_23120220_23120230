@@ -1,5 +1,0 @@
-<map id="FLAC++/metadata.h: metadata interfaces" name="FLAC++/metadata.h: metadata interfaces">
-<area shape="rect" id="node1" href="$group__flacpp.html" title="The FLAC C++ API is the interface to libFLAC++, a set of classes that encapsulate the encoders,..." alt="" coords="5,13,121,38"/>
-<area shape="rect" id="node3" title="This module provides classes for creating and manipulating FLAC metadata blocks in memory,..." alt="" coords="169,5,331,45"/>
-<area shape="rect" id="node2" href="$group__flacpp__metadata__object.html" title=" " alt="" coords="379,5,564,45"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="asyncio.proactor_events._ProactorBasePipeTransport" name="asyncio.proactor_events._ProactorBasePipeTransport">
-<area shape="rect" id="node1" title=" " alt="" coords="5,333,208,375"/>
-<area shape="rect" id="node2" href="$classasyncio_1_1transports_1_1__FlowControlMixin.html" title=" " alt="" coords="100,244,247,285"/>
-<area shape="rect" id="node3" href="$classasyncio_1_1transports_1_1Transport.html" title=" " alt="" coords="94,169,301,196"/>
-<area shape="rect" id="node4" href="$classasyncio_1_1transports_1_1ReadTransport.html" title=" " alt="" coords="78,87,317,114"/>
-<area shape="rect" id="node5" href="$classasyncio_1_1transports_1_1BaseTransport.html" title=" " alt="" coords="78,5,317,32"/>
-<area shape="rect" id="node6" href="$classasyncio_1_1transports_1_1WriteTransport.html" title=" " alt="" coords="341,80,523,121"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="test.test_statistics.TestHarmonicMean" name="test.test_statistics.TestHarmonicMean">
-<area shape="rect" id="node1" title=" " alt="" coords="641,71,813,112"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__statistics_1_1NumericTestCase.html" title=" " alt="" coords="385,5,587,47"/>
-<area shape="rect" id="node3" href="$classunittest_1_1case_1_1TestCase.html" title=" " alt="" coords="139,13,307,39"/>
-<area shape="rect" id="node4" href="$struct__object.html" title=" " alt="" coords="5,13,68,39"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__statistics_1_1AverageMixin.html" title=" " alt="" coords="387,71,585,112"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__statistics_1_1UnivariateCommonMixin.html" title=" " alt="" coords="116,71,331,112"/>
-<area shape="rect" id="node7" href="$classtest_1_1test__statistics_1_1UnivariateTypeMixin.html" title=" " alt="" coords="379,136,593,177"/>
-</map>

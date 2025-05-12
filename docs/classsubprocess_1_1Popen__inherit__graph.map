@@ -1,8 +1,0 @@
-<map id="subprocess.Popen" name="subprocess.Popen">
-<area shape="rect" id="node1" title=" " alt="" coords="5,129,144,156"/>
-<area shape="rect" id="node2" href="$classasyncio_1_1windows__utils_1_1Popen.html" title=" " alt="" coords="211,5,423,32"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__subprocess_1_1MiscTests_1_1RecordingPopen.html" title=" " alt="" coords="221,57,412,98"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__subprocess_1_1PopenExecuteChildRaises.html" title=" " alt="" coords="217,122,417,163"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__subprocess_1_1POSIXProcessTestCase_1_1__TestExecuteChildPopen.html" title=" " alt="" coords="192,187,441,229"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__subprocess_1_1POSIXProcessTestCase_1_1PopenNoDestructor.html" title=" " alt="" coords="192,253,441,294"/>
-</map>

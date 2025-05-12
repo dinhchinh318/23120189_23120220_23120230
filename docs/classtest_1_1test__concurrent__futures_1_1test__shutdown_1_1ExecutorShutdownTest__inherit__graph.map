@@ -1,5 +1,0 @@
-<map id="test.test_concurrent_futures.test_shutdown.ExecutorShutdownTest" name="test.test_concurrent_futures.test_shutdown.ExecutorShutdownTest">
-<area shape="rect" id="node1" title=" " alt="" coords="5,45,240,101"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__concurrent__futures_1_1test__shutdown_1_1ProcessPoolShutdownTest.html" title=" " alt="" coords="288,5,516,61"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__concurrent__futures_1_1test__shutdown_1_1ThreadPoolShutdownTest.html" title=" " alt="" coords="291,85,513,141"/>
-</map>

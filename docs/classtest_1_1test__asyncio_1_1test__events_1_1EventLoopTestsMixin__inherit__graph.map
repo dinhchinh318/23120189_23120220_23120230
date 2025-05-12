@@ -1,9 +1,0 @@
-<map id="test.test_asyncio.test_events.EventLoopTestsMixin" name="test.test_asyncio.test_events.EventLoopTestsMixin">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,220,112"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__asyncio_1_1test__events_1_1ProactorEventLoopTests.html" title=" " alt="" coords="274,5,506,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__asyncio_1_1test__events_1_1SelectEventLoopTests.html" title=" " alt="" coords="281,71,499,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__asyncio_1_1test__events_1_1UnixEventLoopTestsMixin.html" title=" " alt="" coords="268,136,512,177"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__asyncio_1_1test__events_1_1EPollEventLoopTests.html" title=" " alt="" coords="568,71,779,112"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__asyncio_1_1test__events_1_1KqueueEventLoopTests.html" title=" " alt="" coords="560,136,787,177"/>
-<area shape="rect" id="node7" href="$classtest_1_1test__asyncio_1_1test__events_1_1PollEventLoopTests.html" title=" " alt="" coords="572,201,775,243"/>
-</map>

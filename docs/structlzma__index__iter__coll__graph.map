@@ -1,5 +1,0 @@
-<map id="lzma_index_iter" name="lzma_index_iter">
-<area shape="rect" id="node1" title="Iterator to get information about Blocks and Streams." alt="" coords="34,109,161,136"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,64,32"/>
-<area shape="rect" id="node3" href="$structlzma__stream__flags.html" title="Options for encoding/decoding Stream Header and Stream Footer." alt="" coords="89,5,234,32"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="test.test_asyncio.test_pep492.BaseTest" name="test.test_asyncio.test_pep492.BaseTest">
-<area shape="rect" id="node1" title=" " alt="" coords="133,71,296,112"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__asyncio_1_1test__pep492_1_1CoroutineTests.html" title=" " alt="" coords="359,5,536,47"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__asyncio_1_1test__pep492_1_1LockTests.html" title=" " alt="" coords="366,71,529,112"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__asyncio_1_1test__pep492_1_1StreamReaderTests.html" title=" " alt="" coords="344,136,551,177"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,78,85,105"/>
-</map>

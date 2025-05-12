@@ -1,8 +1,0 @@
-<map id="test.test_queue.PyLifoQueueTest" name="test.test_queue.PyLifoQueueTest">
-<area shape="rect" id="node1" title=" " alt="" coords="105,259,340,285"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__queue_1_1LifoQueueTest.html" title=" " alt="" coords="5,184,224,211"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__queue_1_1BaseQueueTestMixin.html" title=" " alt="" coords="14,95,215,136"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__queue_1_1BlockingTestMixin.html" title=" " alt="" coords="23,5,206,47"/>
-<area shape="rect" id="node5" href="$classunittest_1_1case_1_1TestCase.html" title=" " alt="" coords="248,184,416,211"/>
-<area shape="rect" id="node6" href="$struct__object.html" title=" " alt="" coords="301,102,363,129"/>
-</map>

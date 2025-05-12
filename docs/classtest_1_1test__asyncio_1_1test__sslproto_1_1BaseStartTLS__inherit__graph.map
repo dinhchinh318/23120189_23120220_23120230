@@ -1,6 +1,0 @@
-<map id="test.test_asyncio.test_sslproto.BaseStartTLS" name="test.test_asyncio.test_sslproto.BaseStartTLS">
-<area shape="rect" id="node1" title=" " alt="" coords="244,39,415,80"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__asyncio_1_1test__sslproto_1_1ProactorStartTLSTests.html" title=" " alt="" coords="463,5,689,47"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__asyncio_1_1test__sslproto_1_1SelectorStartTLSTests.html" title=" " alt="" coords="463,71,689,112"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,39,196,80"/>
-</map>

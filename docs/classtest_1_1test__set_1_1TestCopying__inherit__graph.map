@@ -1,8 +1,0 @@
-<map id="test.test_set.TestCopying" name="test.test_set.TestCopying">
-<area shape="rect" id="node1" title=" " alt="" coords="5,143,192,170"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__set_1_1TestCopyingEmpty.html" title=" " alt="" coords="240,5,427,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__set_1_1TestCopyingNested.html" title=" " alt="" coords="240,71,427,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__set_1_1TestCopyingSingleton.html" title=" " alt="" coords="240,136,427,177"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__set_1_1TestCopyingTriple.html" title=" " alt="" coords="240,201,427,243"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__set_1_1TestCopyingTuple.html" title=" " alt="" coords="240,267,427,308"/>
-</map>

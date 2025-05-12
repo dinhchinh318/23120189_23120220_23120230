@@ -1,9 +1,0 @@
-<map id="test.test_socket.InterruptedRecvTimeoutTest" name="test.test_socket.InterruptedRecvTimeoutTest">
-<area shape="rect" id="node1" title=" " alt="" coords="121,393,323,435"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__socket_1_1InterruptedTimeoutBase.html" title=" " alt="" coords="5,304,207,345"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__socket_1_1UDPTestBase.html" title=" " alt="" coords="231,311,445,338"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__socket_1_1InetTestBase.html" title=" " alt="" coords="232,229,444,256"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__socket_1_1SocketTestBase.html" title=" " alt="" coords="223,155,453,181"/>
-<area shape="rect" id="node6" href="$classunittest_1_1case_1_1TestCase.html" title=" " alt="" coords="254,80,422,107"/>
-<area shape="rect" id="node7" href="$struct__object.html" title=" " alt="" coords="307,5,369,32"/>
-</map>

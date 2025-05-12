@@ -1,9 +1,11 @@
 #ifndef _APP_H_
 #define _APP_H_
 
-#include "QuanLyDienThoai.h"
-#include "utils.h"
+#include "PhoneManagement.h"
+#include "AppScreen.h"
 
-void runApp();
+void giaodien();
+
+void run();
 
 #endif

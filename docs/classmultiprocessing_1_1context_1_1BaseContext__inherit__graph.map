@@ -1,8 +1,0 @@
-<map id="multiprocessing.context.BaseContext" name="multiprocessing.context.BaseContext">
-<area shape="rect" id="node1" title=" " alt="" coords="116,104,299,145"/>
-<area shape="rect" id="node3" href="$classmultiprocessing_1_1context_1_1DefaultContext.html" title=" " alt="" coords="347,5,529,47"/>
-<area shape="rect" id="node4" href="$classmultiprocessing_1_1context_1_1ForkContext.html" title=" " alt="" coords="347,71,529,112"/>
-<area shape="rect" id="node5" href="$classmultiprocessing_1_1context_1_1ForkServerContext.html" title=" " alt="" coords="347,136,529,177"/>
-<area shape="rect" id="node6" href="$classmultiprocessing_1_1context_1_1SpawnContext.html" title=" " alt="" coords="347,201,529,243"/>
-<area shape="rect" id="node2" href="$struct__object.html" title=" " alt="" coords="5,111,68,138"/>
-</map>

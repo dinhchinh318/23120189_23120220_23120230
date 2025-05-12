@@ -1,9 +1,0 @@
-<map id="FLAC C API" name="FLAC C API">
-<area shape="rect" id="node1" title="The FLAC C API is the interface to libFLAC, a set of structures describing the components of FLAC str..." alt="" coords="5,173,100,198"/>
-<area shape="rect" id="node2" href="$group__flac__metadata.html" title="This module provides functions for creating and manipulating FLAC metadata blocks in memory,..." alt="" coords="148,5,355,45"/>
-<area shape="rect" id="node3" href="$group__flac__encoder.html" title="This module describes the encoder layers provided by libFLAC." alt="" coords="178,69,325,109"/>
-<area shape="rect" id="node4" href="$group__flac__format.html" title="This module contains structure definitions for the representation of FLAC format components in memory..." alt="" coords="167,133,335,173"/>
-<area shape="rect" id="node5" href="$group__flac__export.html" title="This module contains #defines and symbols for exporting function calls, and providing version informa..." alt="" coords="169,197,333,237"/>
-<area shape="rect" id="node6" href="$group__flac__decoder.html" title="This module describes the decoder layers provided by libFLAC." alt="" coords="178,261,325,301"/>
-<area shape="rect" id="node7" href="$group__flac__callbacks.html" title="This module defines the structures for describing I/O callbacks to the other FLAC interfaces." alt="" coords="170,325,333,365"/>
-</map>

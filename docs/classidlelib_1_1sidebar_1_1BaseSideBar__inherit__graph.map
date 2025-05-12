@@ -1,5 +1,0 @@
-<map id="idlelib.sidebar.BaseSideBar" name="idlelib.sidebar.BaseSideBar">
-<area shape="rect" id="node1" title=" " alt="" coords="119,5,318,32"/>
-<area shape="rect" id="node2" href="$classidlelib_1_1sidebar_1_1LineNumbers.html" title=" " alt="" coords="5,80,208,107"/>
-<area shape="rect" id="node3" href="$classidlelib_1_1sidebar_1_1ShellSidebar.html" title=" " alt="" coords="233,80,431,107"/>
-</map>

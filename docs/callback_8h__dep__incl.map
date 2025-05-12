@@ -1,8 +1,0 @@
-<map id="UI&#45;UX/SFML/include/FLAC/callback.h" name="UI&#45;UX/SFML/include/FLAC/callback.h">
-<area shape="rect" id="node1" title="This module defines the structures for describing I/O callbacks to the other FLAC interfaces." alt="" coords="61,5,212,47"/>
-<area shape="rect" id="node2" href="$all_8h_source.html" title=" " alt="" coords="5,184,156,225"/>
-<area shape="rect" id="node3" href="$metadata_8h.html" title="This module provides functions for creating and manipulating FLAC metadata blocks in memory,..." alt="" coords="119,95,269,136"/>
-<area shape="rect" id="node4" href="$_09_2metadata_8h.html" title="This module provides classes for creating and manipulating FLAC metadata blocks in memory,..." alt="" coords="180,184,341,225"/>
-<area shape="rect" id="node5" href="$FLAC_09_09_2encoder_8h.html" title="This module contains the classes which implement the various encoders." alt="" coords="128,273,279,315"/>
-<area shape="rect" id="node6" href="$_09_2all_8h_source.html" title=" " alt="" coords="184,363,335,404"/>
-</map>

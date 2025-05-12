@@ -1,8 +1,0 @@
-<map id="test.test_set.TestSubsets" name="test.test_set.TestSubsets">
-<area shape="rect" id="node1" title=" " alt="" coords="5,143,189,170"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__set_1_1TestSubsetEmptyNonEmpty.html" title=" " alt="" coords="237,5,415,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__set_1_1TestSubsetEqualEmpty.html" title=" " alt="" coords="237,71,415,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__set_1_1TestSubsetEqualNonEmpty.html" title=" " alt="" coords="237,136,415,177"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__set_1_1TestSubsetNonOverlap.html" title=" " alt="" coords="237,201,415,243"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__set_1_1TestSubsetPartial.html" title=" " alt="" coords="237,267,415,308"/>
-</map>

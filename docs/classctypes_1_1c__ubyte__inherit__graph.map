@@ -1,4 +1,0 @@
-<map id="ctypes.c_ubyte" name="ctypes.c_ubyte">
-<area shape="rect" id="node1" title="def from_param(cls, val): return (&#39;d&#39;, float(val), val) from_param = classmethod(from_param)" alt="" coords="5,80,125,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="8,5,123,32"/>
-</map>

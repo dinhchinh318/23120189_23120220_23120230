@@ -1,5 +1,0 @@
-<map id="sf::Sprite" name="sf::Sprite">
-<area shape="rect" id="node1" title="Drawable representation of a texture, with its own transformations, color, etc." alt="" coords="88,80,167,107"/>
-<area shape="rect" id="node2" href="$classsf_1_1Drawable.html" title="Abstract base class for objects that can be drawn to a render target." alt="" coords="5,5,108,32"/>
-<area shape="rect" id="node3" href="$classsf_1_1Transformable.html" title="Decomposed transform defined by a position, a rotation and a scale." alt="" coords="132,5,267,32"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="test.test_asyncio.test_sock_lowlevel.BaseSockTestsMixin" name="test.test_asyncio.test_sock_lowlevel.BaseSockTestsMixin">
-<area shape="rect" id="node1" title=" " alt="" coords="5,136,263,177"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__asyncio_1_1test__sock__lowlevel_1_1EPollEventLoopTests.html" title=" " alt="" coords="319,5,577,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__asyncio_1_1test__sock__lowlevel_1_1KqueueEventLoopTests.html" title=" " alt="" coords="311,71,585,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__asyncio_1_1test__sock__lowlevel_1_1PollEventLoopTests.html" title=" " alt="" coords="323,136,573,177"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__asyncio_1_1test__sock__lowlevel_1_1ProactorEventLoopTests.html" title=" " alt="" coords="340,202,556,258"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__asyncio_1_1test__sock__lowlevel_1_1SelectEventLoopTests.html" title=" " alt="" coords="315,283,581,324"/>
-</map>

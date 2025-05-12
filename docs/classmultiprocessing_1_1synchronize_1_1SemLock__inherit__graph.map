@@ -1,8 +1,0 @@
-<map id="multiprocessing.synchronize.SemLock" name="multiprocessing.synchronize.SemLock">
-<area shape="rect" id="node1" title=" " alt="" coords="116,57,328,98"/>
-<area shape="rect" id="node3" href="$classmultiprocessing_1_1synchronize_1_1Lock.html" title=" " alt="" coords="376,5,619,32"/>
-<area shape="rect" id="node4" href="$classmultiprocessing_1_1synchronize_1_1RLock.html" title=" " alt="" coords="391,57,603,98"/>
-<area shape="rect" id="node5" href="$classmultiprocessing_1_1synchronize_1_1Semaphore.html" title=" " alt="" coords="391,122,603,163"/>
-<area shape="rect" id="node2" href="$struct__object.html" title=" " alt="" coords="5,64,68,91"/>
-<area shape="rect" id="node6" href="$classmultiprocessing_1_1synchronize_1_1BoundedSemaphore.html" title=" " alt="" coords="667,122,879,163"/>
-</map>

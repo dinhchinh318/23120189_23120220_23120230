@@ -1,7 +1,0 @@
-<map id="OSSL_INFO_SYNTAX_POINTER_st" name="OSSL_INFO_SYNTAX_POINTER_st">
-<area shape="rect" id="node1" title=" " alt="" coords="5,509,240,536"/>
-<area shape="rect" id="node2" href="$structOSSL__HASH__st.html" title=" " alt="" coords="63,420,182,447"/>
-<area shape="rect" id="node3" href="$structasn1__string__st.html" title=" " alt="" coords="65,5,181,32"/>
-<area shape="rect" id="node5" href="$structasn1__type__st.html" title=" " alt="" coords="145,241,253,268"/>
-<area shape="rect" id="node4" href="$structX509__algor__st.html" title=" " alt="" coords="143,331,257,357"/>
-</map>

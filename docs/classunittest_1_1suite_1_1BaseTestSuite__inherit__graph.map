@@ -1,8 +1,0 @@
-<map id="unittest.suite.BaseTestSuite" name="unittest.suite.BaseTestSuite">
-<area shape="rect" id="node1" title=" " alt="" coords="116,64,319,91"/>
-<area shape="rect" id="node3" href="$classunittest_1_1suite_1_1TestSuite.html" title=" " alt="" coords="367,64,537,91"/>
-<area shape="rect" id="node2" href="$struct__object.html" title=" " alt="" coords="5,64,68,91"/>
-<area shape="rect" id="node4" href="$classdoctest_1_1__DocTestSuite.html" title=" " alt="" coords="614,5,779,32"/>
-<area shape="rect" id="node5" href="$classtest_1_1datetimetester_1_1ZoneInfoCompleteTest.html" title=" " alt="" coords="605,57,789,98"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__unittest_1_1test__loader_1_1TestObsoleteFunctions_1_1MyTestSuite.html" title=" " alt="" coords="585,123,808,179"/>
-</map>

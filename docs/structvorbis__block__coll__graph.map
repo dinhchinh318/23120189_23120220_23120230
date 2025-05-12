@@ -1,7 +1,0 @@
-<map id="vorbis_block" name="vorbis_block">
-<area shape="rect" id="node1" title=" " alt="" coords="97,184,201,211"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,64,121"/>
-<area shape="rect" id="node3" href="$structoggpack__buffer.html" title=" " alt="" coords="88,95,211,121"/>
-<area shape="rect" id="node4" href="$structvorbis__dsp__state.html" title=" " alt="" coords="235,95,367,121"/>
-<area shape="rect" id="node5" href="$structvorbis__info.html" title=" " alt="" coords="254,5,349,32"/>
-</map>

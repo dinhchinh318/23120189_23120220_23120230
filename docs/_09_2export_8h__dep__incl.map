@@ -1,7 +1,0 @@
-<map id="UI&#45;UX/SFML/include/FLAC++/export.h" name="UI&#45;UX/SFML/include/FLAC++/export.h">
-<area shape="rect" id="node1" title="This module contains #defines and symbols for exporting function calls, and providing version informa..." alt="" coords="85,5,236,47"/>
-<area shape="rect" id="node2" href="$_09_2all_8h_source.html" title=" " alt="" coords="85,273,236,315"/>
-<area shape="rect" id="node3" href="$FLAC_09_09_2encoder_8h.html" title="This module contains the classes which implement the various encoders." alt="" coords="143,184,293,225"/>
-<area shape="rect" id="node4" href="$FLAC_09_09_2decoder_8h.html" title="This module contains the classes which implement the various decoders." alt="" coords="29,95,180,136"/>
-<area shape="rect" id="node5" href="$_09_2metadata_8h.html" title="This module provides classes for creating and manipulating FLAC metadata blocks in memory,..." alt="" coords="256,95,417,136"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="test.test_finalization.ChainedBase" name="test.test_finalization.ChainedBase">
-<area shape="rect" id="node1" title=" " alt="" coords="5,78,249,105"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__finalization_1_1ChainedResurrector.html" title=" " alt="" coords="297,5,509,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__finalization_1_1SimpleChained.html" title=" " alt="" coords="301,71,505,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__finalization_1_1SuicidalChained.html" title=" " alt="" coords="298,136,509,177"/>
-</map>

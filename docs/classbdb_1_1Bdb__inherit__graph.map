@@ -1,7 +1,0 @@
-<map id="bdb.Bdb" name="bdb.Bdb">
-<area shape="rect" id="node1" title=" " alt="" coords="143,5,217,32"/>
-<area shape="rect" id="node2" href="$classbdb_1_1Tdb.html" title=" " alt="" coords="5,80,80,107"/>
-<area shape="rect" id="node3" href="$classidlelib_1_1debugger_1_1Idb.html" title=" " alt="" coords="105,80,255,107"/>
-<area shape="rect" id="node4" href="$classpdb_1_1Pdb.html" title=" " alt="" coords="280,80,355,107"/>
-<area shape="rect" id="node5" href="$classdoctest_1_1__OutputRedirectingPdb.html" title=" " alt="" coords="206,155,429,181"/>
-</map>

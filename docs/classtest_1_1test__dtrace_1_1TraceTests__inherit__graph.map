@@ -1,7 +1,0 @@
-<map id="test.test_dtrace.TraceTests" name="test.test_dtrace.TraceTests">
-<area shape="rect" id="node1" title=" " alt="" coords="5,111,200,138"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__dtrace_1_1DTraceNormalTests.html" title=" " alt="" coords="257,5,477,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__dtrace_1_1DTraceOptimizedTests.html" title=" " alt="" coords="248,71,487,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__dtrace_1_1SystemTapNormalTests.html" title=" " alt="" coords="268,136,467,177"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__dtrace_1_1SystemTapOptimizedTests.html" title=" " alt="" coords="268,201,467,243"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="test.test_asyncio.test_eager_task_factory.BaseEagerTaskFactoryTests" name="test.test_asyncio.test_eager_task_factory.BaseEagerTaskFactoryTests">
-<area shape="rect" id="node1" title=" " alt="" coords="271,63,496,119"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__asyncio_1_1test__eager__task__factory_1_1EagerCTaskTests.html" title=" " alt="" coords="547,5,811,47"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__asyncio_1_1test__eager__task__factory_1_1EagerPyTaskTests.html" title=" " alt="" coords="544,71,815,112"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__asyncio_1_1test__eager__task__factory_1_1EagerTests.html" title=" " alt="" coords="566,136,793,177"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__asyncio_1_1test__eager__task__factory_1_1BaseTaskCountingTests.html" title=" " alt="" coords="5,63,223,119"/>
-</map>

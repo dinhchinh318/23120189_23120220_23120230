@@ -1,7 +1,0 @@
-<map id="encodings.latin_1.StreamWriter" name="encodings.latin_1.StreamWriter">
-<area shape="rect" id="node1" title=" " alt="" coords="98,155,285,196"/>
-<area shape="rect" id="node5" href="$classencodings_1_1latin__1_1_1StreamConverter.html" title=" " alt="" coords="98,244,285,285"/>
-<area shape="rect" id="node2" href="$classencodings_1_1latin__1_1_1Codec.html" title="Codec APIs." alt="" coords="5,80,185,107"/>
-<area shape="rect" id="node3" href="$classcodecs_1_1Codec.html" title=" " alt="" coords="136,5,247,32"/>
-<area shape="rect" id="node4" href="$classcodecs_1_1StreamWriter.html" title=" " alt="" coords="209,80,368,107"/>
-</map>

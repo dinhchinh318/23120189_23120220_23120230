@@ -1,8 +1,0 @@
-<map id="test.test_logging.TestHTTPServer" name="test.test_logging.TestHTTPServer">
-<area shape="rect" id="node1" title=" " alt="" coords="78,244,315,271"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__logging_1_1ControlMixin.html" title=" " alt="" coords="5,155,188,196"/>
-<area shape="rect" id="node3" href="$struct__object.html" title=" " alt="" coords="65,80,128,107"/>
-<area shape="rect" id="node4" href="$classhttp_1_1server_1_1HTTPServer.html" title=" " alt="" coords="212,162,384,189"/>
-<area shape="rect" id="node5" href="$classsocketserver_1_1TCPServer.html" title=" " alt="" coords="211,80,385,107"/>
-<area shape="rect" id="node6" href="$classsocketserver_1_1BaseServer.html" title=" " alt="" coords="207,5,389,32"/>
-</map>

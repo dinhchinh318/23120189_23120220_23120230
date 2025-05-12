@@ -1,7 +1,0 @@
-<map id="test.test_finalization.SelfCycleBase" name="test.test_finalization.SelfCycleBase">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,189,145"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__finalization_1_1LegacySelfCycle.html" title=" " alt="" coords="240,5,445,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__finalization_1_1SelfCycleResurrector.html" title=" " alt="" coords="251,71,435,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__finalization_1_1SimpleSelfCycle.html" title=" " alt="" coords="241,136,445,177"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__finalization_1_1SuicidalSelfCycle.html" title=" " alt="" coords="237,201,448,243"/>
-</map>

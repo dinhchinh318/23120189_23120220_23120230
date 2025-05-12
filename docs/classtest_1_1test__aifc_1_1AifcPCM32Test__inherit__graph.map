@@ -1,9 +1,0 @@
-<map id="test.test_aifc.AifcPCM32Test" name="test.test_aifc.AifcPCM32Test">
-<area shape="rect" id="node1" title=" " alt="" coords="294,244,501,271"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__aifc_1_1AifcTest.html" title=" " alt="" coords="221,169,384,196"/>
-<area shape="rect" id="node3" href="$classtest_1_1audiotests_1_1AudioWriteTests.html" title=" " alt="" coords="5,80,200,121"/>
-<area shape="rect" id="node4" href="$classtest_1_1audiotests_1_1AudioTests.html" title=" " alt="" coords="115,5,309,32"/>
-<area shape="rect" id="node5" href="$classtest_1_1audiotests_1_1AudioTestsWithSourceFile.html" title=" " alt="" coords="225,80,418,121"/>
-<area shape="rect" id="node6" href="$classunittest_1_1case_1_1TestCase.html" title=" " alt="" coords="408,169,576,196"/>
-<area shape="rect" id="node7" href="$struct__object.html" title=" " alt="" coords="461,87,523,114"/>
-</map>

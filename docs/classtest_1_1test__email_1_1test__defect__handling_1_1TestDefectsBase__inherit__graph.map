@@ -1,6 +1,0 @@
-<map id="test.test_email.test_defect_handling.TestDefectsBase" name="test.test_email.test_defect_handling.TestDefectsBase">
-<area shape="rect" id="node1" title=" " alt="" coords="5,93,251,134"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__email_1_1test__defect__handling_1_1TestDefectCapture.html" title=" " alt="" coords="299,5,505,61"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__email_1_1test__defect__handling_1_1TestDefectDetection.html" title=" " alt="" coords="299,85,505,141"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__email_1_1test__defect__handling_1_1TestDefectRaising.html" title=" " alt="" coords="299,165,505,221"/>
-</map>

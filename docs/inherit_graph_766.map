@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classFLAC_1_1Decoder_1_1Stream.html" title="This class wraps the FLAC__StreamDecoder. If you are decoding from a file, FLAC::Decoder::File may be..." alt="" coords="5,5,179,32"/>
-<area shape="rect" id="node2" href="$classFLAC_1_1Decoder_1_1File.html" title="This class wraps the FLAC__StreamDecoder. If you are not decoding from a file, you may need to use FL..." alt="" coords="227,5,376,32"/>
-</map>

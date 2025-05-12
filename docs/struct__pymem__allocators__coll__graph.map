@@ -1,7 +1,0 @@
-<map id="_pymem_allocators" name="_pymem_allocators">
-<area shape="rect" id="node1" title=" " alt="" coords="199,231,350,257"/>
-<area shape="rect" id="node2" href="$structPyObjectArenaAllocator.html" title=" " alt="" coords="5,103,181,130"/>
-<area shape="rect" id="node3" title=" " alt="" coords="205,103,264,130"/>
-<area shape="rect" id="node4" href="$structdebug__alloc__api__t.html" title=" " alt="" coords="375,103,513,130"/>
-<area shape="rect" id="node5" href="$structPyMemAllocatorEx.html" title=" " alt="" coords="265,5,410,32"/>
-</map>

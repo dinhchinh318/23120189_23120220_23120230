@@ -1,9 +1,0 @@
-<map id="test.test_selectors.BaseSelectorTestCase" name="test.test_selectors.BaseSelectorTestCase">
-<area shape="rect" id="node1" title=" " alt="" coords="5,169,184,211"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__selectors_1_1DefaultSelectorTestCase.html" title=" " alt="" coords="233,5,427,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__selectors_1_1DevpollSelectorTestCase.html" title=" " alt="" coords="232,71,428,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__selectors_1_1EpollSelectorTestCase.html" title=" " alt="" coords="241,136,419,177"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__selectors_1_1KqueueSelectorTestCase.html" title=" " alt="" coords="233,201,427,243"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__selectors_1_1PollSelectorTestCase.html" title=" " alt="" coords="245,267,415,308"/>
-<area shape="rect" id="node7" href="$classtest_1_1test__selectors_1_1SelectSelectorTestCase.html" title=" " alt="" coords="237,332,423,373"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="test.test_ipaddress.InterfaceTestCase_v4" name="test.test_ipaddress.InterfaceTestCase_v4">
-<area shape="rect" id="node1" title=" " alt="" coords="102,273,310,315"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__ipaddress_1_1BaseTestCase.html" title=" " alt="" coords="5,184,188,225"/>
-<area shape="rect" id="node3" href="$classunittest_1_1case_1_1TestCase.html" title=" " alt="" coords="13,102,181,129"/>
-<area shape="rect" id="node4" href="$struct__object.html" title=" " alt="" coords="65,13,128,39"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__ipaddress_1_1NetmaskTestMixin__v4.html" title=" " alt="" coords="212,184,421,225"/>
-<area shape="rect" id="node6" href="$classtest_1_1test__ipaddress_1_1CommonTestMixin__v4.html" title=" " alt="" coords="212,95,421,136"/>
-<area shape="rect" id="node7" href="$classtest_1_1test__ipaddress_1_1CommonTestMixin.html" title=" " alt="" coords="212,5,421,47"/>
-</map>

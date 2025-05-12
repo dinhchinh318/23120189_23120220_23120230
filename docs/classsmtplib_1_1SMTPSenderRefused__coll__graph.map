@@ -1,6 +1,0 @@
-<map id="smtplib.SMTPSenderRefused" name="smtplib.SMTPSenderRefused">
-<area shape="rect" id="node1" title=" " alt="" coords="20,229,229,256"/>
-<area shape="rect" id="node2" href="$classsmtplib_1_1SMTPResponseException.html" title=" " alt="" coords="5,155,244,181"/>
-<area shape="rect" id="node3" href="$classsmtplib_1_1SMTPException.html" title=" " alt="" coords="37,80,212,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="89,5,160,32"/>
-</map>

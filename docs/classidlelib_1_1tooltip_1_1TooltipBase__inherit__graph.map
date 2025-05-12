@@ -1,6 +1,0 @@
-<map id="idlelib.tooltip.TooltipBase" name="idlelib.tooltip.TooltipBase">
-<area shape="rect" id="node1" title=" " alt="" coords="111,5,298,32"/>
-<area shape="rect" id="node2" href="$classidlelib_1_1calltip__w_1_1CalltipWindow.html" title=" " alt="" coords="5,80,175,121"/>
-<area shape="rect" id="node3" href="$classidlelib_1_1tooltip_1_1OnHoverTooltipBase.html" title=" " alt="" coords="199,87,443,114"/>
-<area shape="rect" id="node4" href="$classidlelib_1_1tooltip_1_1Hovertip.html" title=" " alt="" coords="237,169,405,196"/>
-</map>

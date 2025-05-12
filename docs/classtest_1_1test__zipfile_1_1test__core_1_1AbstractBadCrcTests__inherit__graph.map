@@ -1,7 +1,0 @@
-<map id="test.test_zipfile.test_core.AbstractBadCrcTests" name="test.test_zipfile.test_core.AbstractBadCrcTests">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,200,145"/>
-<area shape="rect" id="node2" href="$classtest_1_1test__zipfile_1_1test__core_1_1Bzip2BadCrcTests.html" title=" " alt="" coords="253,5,429,47"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__zipfile_1_1test__core_1_1DeflateBadCrcTests.html" title=" " alt="" coords="248,71,435,112"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__zipfile_1_1test__core_1_1LzmaBadCrcTests.html" title=" " alt="" coords="254,136,429,177"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__zipfile_1_1test__core_1_1StoredBadCrcTests.html" title=" " alt="" coords="250,201,433,243"/>
-</map>

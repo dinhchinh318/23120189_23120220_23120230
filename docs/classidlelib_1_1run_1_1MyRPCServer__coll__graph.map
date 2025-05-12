@@ -1,6 +1,0 @@
-<map id="idlelib.run.MyRPCServer" name="idlelib.run.MyRPCServer">
-<area shape="rect" id="node1" title=" " alt="" coords="7,229,186,256"/>
-<area shape="rect" id="node2" href="$classidlelib_1_1rpc_1_1RPCServer.html" title=" " alt="" coords="17,155,176,181"/>
-<area shape="rect" id="node3" href="$classsocketserver_1_1TCPServer.html" title=" " alt="" coords="9,80,184,107"/>
-<area shape="rect" id="node4" href="$classsocketserver_1_1BaseServer.html" title=" " alt="" coords="5,5,188,32"/>
-</map>

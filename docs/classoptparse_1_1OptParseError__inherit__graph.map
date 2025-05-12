@@ -1,9 +1,0 @@
-<map id="optparse.OptParseError" name="optparse.OptParseError">
-<area shape="rect" id="node1" title=" " alt="" coords="237,80,409,107"/>
-<area shape="rect" id="node3" href="$classoptparse_1_1BadOptionError.html" title=" " alt="" coords="29,155,212,181"/>
-<area shape="rect" id="node5" href="$classoptparse_1_1OptionError.html" title=" " alt="" coords="245,155,402,181"/>
-<area shape="rect" id="node7" href="$classoptparse_1_1OptionValueError.html" title=" " alt="" coords="427,155,620,181"/>
-<area shape="rect" id="node2" title=" " alt="" coords="280,5,367,32"/>
-<area shape="rect" id="node4" href="$classoptparse_1_1AmbiguousOptionError.html" title=" " alt="" coords="5,229,204,271"/>
-<area shape="rect" id="node6" href="$classoptparse_1_1OptionConflictError.html" title=" " alt="" coords="228,237,435,263"/>
-</map>

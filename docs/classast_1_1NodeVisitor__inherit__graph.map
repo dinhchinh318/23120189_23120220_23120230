@@ -1,8 +1,0 @@
-<map id="ast.NodeVisitor" name="ast.NodeVisitor">
-<area shape="rect" id="node1" title=" " alt="" coords="251,80,373,107"/>
-<area shape="rect" id="node3" href="$classast_1_1__Unparser.html" title=" " alt="" coords="5,155,117,181"/>
-<area shape="rect" id="node4" href="$classast_1_1NodeTransformer.html" title=" " alt="" coords="142,155,301,181"/>
-<area shape="rect" id="node5" href="$classinspect_1_1__ClassFinder.html" title=" " alt="" coords="325,155,480,181"/>
-<area shape="rect" id="node6" href="$classpyclbr_1_1__ModuleBrowser.html" title=" " alt="" coords="504,155,677,181"/>
-<area shape="rect" id="node2" href="$struct__object.html" title=" " alt="" coords="281,5,343,32"/>
-</map>

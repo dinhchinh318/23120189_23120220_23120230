@@ -1,9 +1,0 @@
-<map id="unittest.result.TestResult" name="unittest.result.TestResult">
-<area shape="rect" id="node1" title=" " alt="" coords="116,111,300,138"/>
-<area shape="rect" id="node3" href="$classtest_1_1test__unittest_1_1support_1_1__BaseLoggingResult.html" title=" " alt="" coords="348,71,539,112"/>
-<area shape="rect" id="node6" href="$classunittest_1_1runner_1_1TextTestResult.html" title=" " alt="" coords="356,136,531,177"/>
-<area shape="rect" id="node2" href="$struct__object.html" title=" " alt="" coords="5,111,68,138"/>
-<area shape="rect" id="node4" href="$classtest_1_1test__unittest_1_1support_1_1LegacyLoggingResult.html" title=" " alt="" coords="587,5,777,47"/>
-<area shape="rect" id="node5" href="$classtest_1_1test__unittest_1_1support_1_1LoggingResult.html" title=" " alt="" coords="587,71,777,112"/>
-<area shape="rect" id="node7" href="$classtest_1_1libregrtest_1_1testresult_1_1RegressionTestResult.html" title=" " alt="" coords="588,136,776,177"/>
-</map>
