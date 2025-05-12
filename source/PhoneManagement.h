@@ -157,4 +157,6 @@ public:
     }
 };
 
+
+std::vector<Phone> getPhonesFromDatabase();
 #endif

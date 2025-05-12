@@ -2,9 +2,7 @@
 
 int main() 
 {
-    runApp();
-
-    exitProgram();
+    giaodien();
 
     return 0;
 }

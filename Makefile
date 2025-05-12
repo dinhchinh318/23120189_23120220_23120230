@@ -1,22 +1,36 @@
-CXX      := g++-13
-CXXFLAGS := -std=c++2b -g -I source
-LDFLAGS  := -lboost_locale -lodbc
+# Danh sách các file nguồn
+SRC := $(wildcard source/*.cpp) 
 
-SRC      := $(wildcard source/*.cpp)
-OBJ      := $(SRC:source/%.cpp=build/%.o)
-TARGET   := release/out
+# Tạo danh sách file .o tương ứng
+OBJ := $(patsubst source/%.cpp, build/%.o, $(SRC))
 
-.PHONY: all clean
+# Tên chương trình
+TARGET := app
 
+# Cờ biên dịch
+CXX := g++
+CXXFLAGS := -I./SFML/include -std=c++17
+
+# Thư viện liên kết (đã thêm -lodbc)
+LDFLAGS := -L./SFML/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lodbc32
+
+# Mặc định build tất cả
 all: $(TARGET)
 
-$(TARGET): $(OBJ)
-	mkdir -p $(dir $@)
-	$(CXX) $(CXXFLAGS) $^ -o $@ $(LDFLAGS)
-
-build/%.o: source/%.cpp
+# Tạo thư mục build nếu chưa có
+build:
 	mkdir -p build
-	$(CXX) $(CXXFLAGS) -c $< -o $@
 
+# Build chương trình
+$(TARGET): build $(OBJ)
+	$(CXX) $(OBJ) -o $@ $(LDFLAGS)
+
+# Compile từng file .cpp thành .o
+build/%.o: source/%.cpp
+	$(CXX) -c $< -o $@ $(CXXFLAGS)
+
+# Dọn file tạm
 clean:
-	rm -rf build release/out
+	del /Q build\*.o $(TARGET).exe
+
+.PHONY: all clean

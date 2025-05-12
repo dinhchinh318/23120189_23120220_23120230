@@ -137,7 +137,7 @@ Phone::Phone()
 	: _id(0), _name(""), _manufacturer(""), _config(), _price("0") {}
 
 Phone::Phone(const int id, const string name, const string manu, const ConfigPhone config, string price)
-	: _id(0), _name(name), _manufacturer(manu), _config(config), _price(price) {}
+	: _id(id), _name(name), _manufacturer(manu), _config(config), _price(price) {}
 
 Phone::~Phone()
 {

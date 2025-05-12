@@ -1,20 +1,19 @@
 #include "app.h"
-#include "AppScreen.h"
 
 void giaodien() 
 {
-    sf::RenderWindow window(sf::VideoMode(1000, 800), "Phone Management", sf::Style::Titlebar | sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(1200, 800), "Phone Management", sf::Style::Titlebar | sf::Style::Close);
     window.setFramerateLimit(60);
 
     sf::Font font;
-    if (!font.loadFromFile("VNBODO.ttf")) {
+    if (!font.loadFromFile("Fonts/ARIAL.ttf")) {
         std::cerr << "Can't find font!" << std::endl;
         return;
     }
 
     sf::Texture bgTexture;
     sf::Sprite bgSprite;
-    if (!bgTexture.loadFromFile("background.jpg")) {
+    if (!bgTexture.loadFromFile("Pictures/background.jpg")) {
         std::cerr << "Can't load file background.jpg" << std::endl;
         return;
     }
@@ -27,7 +26,7 @@ void giaodien()
     );
 
     UITheme theme;
-    Menu menu(font, theme);
+    MenuScreen menu(font, theme);
     AddPhoneScreen addScreen(font, theme);
     DisplayListScreen displayScreen(font, theme);
     SearchScreen searchScreen(font, theme);
@@ -72,7 +71,7 @@ void giaodien()
 
         if (currentScreen == AppScreen::MENU) {
             menu.update(mousePos);
-            menu.draw(window);
+            menu.draw(window, font);
         }
         else if (currentScreen == AppScreen::ADD_PHONE) {
             addScreen.draw(window, font);

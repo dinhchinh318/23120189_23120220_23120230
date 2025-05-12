@@ -510,3 +510,53 @@ void PhoneManagement::editPhoneInfor(SQLHDBC db, int id) {
 
     SQLFreeHandle(SQL_HANDLE_STMT, stmt);
 }
+
+std::vector<Phone> getPhonesFromDatabase() {
+    std::vector<Phone> phones;
+
+    SQLHENV env;
+    SQLHDBC dbc;
+    SQLHSTMT stmt;
+    SQLRETURN ret;
+
+    SQLCHAR connStr[] = "Driver={SQL Server};Server=localhost;Database=PhoneManagement;Trusted_Connection=yes;";
+    
+    SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &env);
+    SQLSetEnvAttr(env, SQL_ATTR_ODBC_VERSION, (void*)SQL_OV_ODBC3, 0);
+    SQLAllocHandle(SQL_HANDLE_DBC, env, &dbc);
+
+    ret = SQLDriverConnectA(dbc, NULL, connStr, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_COMPLETE);
+
+    if (SQL_SUCCEEDED(ret)) {
+        SQLAllocHandle(SQL_HANDLE_STMT, dbc, &stmt);
+        SQLExecDirectA(stmt, (SQLCHAR*)"SELECT * FROM PHONE", SQL_NTS);
+
+        int id, ram, rom, pin;
+        float screenSize;
+        char name[101], manu[101], price[101], os[101], cpu[101];
+
+        while (SQLFetch(stmt) == SQL_SUCCESS) {
+            SQLGetData(stmt, 1, SQL_C_LONG, &id, 0, NULL);
+            SQLGetData(stmt, 2, SQL_C_CHAR, name, sizeof(name), NULL);
+            SQLGetData(stmt, 3, SQL_C_CHAR, manu, sizeof(manu), NULL);
+            SQLGetData(stmt, 4, SQL_C_CHAR, price, sizeof(price), NULL);
+            SQLGetData(stmt, 5, SQL_C_CHAR, os, sizeof(os), NULL);
+            SQLGetData(stmt, 6, SQL_C_CHAR, cpu, sizeof(cpu), NULL);
+            SQLGetData(stmt, 7, SQL_C_LONG, &ram, 0, NULL);
+            SQLGetData(stmt, 8, SQL_C_LONG, &rom, 0, NULL);
+            SQLGetData(stmt, 9, SQL_C_FLOAT, &screenSize, 0, NULL);
+            SQLGetData(stmt, 10, SQL_C_LONG, &pin, 0, NULL);
+
+            ConfigPhone config = {os, cpu, ram, rom, screenSize, pin};
+            phones.push_back(Phone(id, name, manu, config, price));
+        }
+
+        SQLFreeHandle(SQL_HANDLE_STMT, stmt);
+    }
+
+    SQLDisconnect(dbc);
+    SQLFreeHandle(SQL_HANDLE_DBC, dbc);
+    SQLFreeHandle(SQL_HANDLE_ENV, env);
+
+    return phones;
+}
