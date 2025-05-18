@@ -1,7 +1,7 @@
 #ifndef _DELETE_SCREEN_H_
 #define _DELETE_SCREEN_H_
 
-#include "BaseScreen.h"
+#include "../Screen/BaseScreen.h"
 
 class DeleteScreen : public BaseScreen 
 {

@@ -1,35 +1,30 @@
-# Danh sách các file nguồn
-SRC := $(wildcard source/*.cpp) 
-
-# Tạo danh sách file .o tương ứng
-OBJ := $(patsubst source/%.cpp, build/%.o, $(SRC))
-
 # Tên chương trình
 TARGET := app
 
-# Cờ biên dịch
+# Trình biên dịch
 CXX := g++
 CXXFLAGS := -I./SFML/include -std=c++17
-
-# Thư viện liên kết (đã thêm -lodbc)
 LDFLAGS := -L./SFML/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lodbc32
 
-# Mặc định build tất cả
+# Tìm tất cả các file .cpp
+SRC := $(wildcard source/**/*.cpp)
+
+# Tạo danh sách object file trong build/, không có thư mục con
+OBJ := $(addprefix build/, $(notdir $(SRC:.cpp=.o)))
+
+
+# Mặc định build
 all: $(TARGET)
 
-# Tạo thư mục build nếu chưa có
-build:
-	mkdir -p build
+# Biên dịch chương trình
+$(TARGET): $(OBJ)
+	$(CXX) $(OBJ) -o $@ $(LDFLAGS) 
 
-# Build chương trình
-$(TARGET): build $(OBJ)
-	$(CXX) $(OBJ) -o $@ $(LDFLAGS)
+# Biên dịch từng file cpp thành .o trong build/
+build/%.o:
+	$(CXX) -c $(foreach src,$(SRC),$(if $(findstring /$*.cpp,$(src)),$(src))) -o $@ $(CXXFLAGS)
 
-# Compile từng file .cpp thành .o
-build/%.o: source/%.cpp
-	$(CXX) -c $< -o $@ $(CXXFLAGS)
-
-# Dọn file tạm
+# Clean
 clean:
 	del /Q build\*.o $(TARGET).exe
 

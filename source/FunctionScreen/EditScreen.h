@@ -1,7 +1,7 @@
 #ifndef _EDIT_SCREEN_H_
 #define _EDIT_SCREEN_H_
 
-#include "BaseScreen.h"
+#include "../Screen/BaseScreen.h"
 
 class EditScreen : public BaseScreen 
 {

@@ -1,7 +1,7 @@
 #ifndef _SEARCH_SCREEN_H_
 #define _SEARCH_SCREEN_H_
 
-#include "BaseScreen.h"
+#include "../Screen/BaseScreen.h"
 
 class SearchScreen : public BaseScreen 
 {

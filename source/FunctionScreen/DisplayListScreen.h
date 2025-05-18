@@ -1,7 +1,7 @@
 #ifndef _DISPLAY_LIST_SCREEN_H_
 #define _DISPLAY_LIST_SCREEN_H_
 
-#include "BaseScreen.h"
+#include "../Screen/BaseScreen.h"
 
 class DisplayListScreen : public BaseScreen 
 {
