@@ -9,6 +9,9 @@ private:
     std::vector<Phone> phones;  // Danh sách điện thoại
     sf::Text title;
     float scrollOffsetY = 0;
+    int currentPage = 0;
+    int rowsPerPage = 11;
+
 
 public:
     DisplayListScreen(sf::Font& font, UITheme theme) : BaseScreen(font, theme) {
@@ -28,6 +31,7 @@ public:
     void handleEvent(const sf::Event& event);
 
 };
+
 
 
 

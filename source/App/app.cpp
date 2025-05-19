@@ -43,6 +43,10 @@ void giaodien()
             if (event.type == sf::Event::Closed)
                 window.close();
 
+            if (currentScreen == AppScreen::DISPLAY_LIST) {
+                displayScreen.handleEvent(event);
+            }
+
             if (currentScreen == AppScreen::MENU &&
                 event.type == sf::Event::MouseButtonPressed &&
                 event.mouseButton.button == sf::Mouse::Left) {

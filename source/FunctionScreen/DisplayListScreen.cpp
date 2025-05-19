@@ -4,7 +4,21 @@ void DisplayListScreen::handleEvent(const sf::Event& event) {
     if (event.type == sf::Event::MouseWheelScrolled) {
         scrollOffsetY -= event.mouseWheelScroll.delta * 30;
     }
+
+    if (event.type == sf::Event::KeyPressed) {
+        int totalPages = (phones.size() + rowsPerPage - 1) / rowsPerPage;
+        if (event.key.code == sf::Keyboard::Right) {
+            if (currentPage < totalPages - 1) {
+                currentPage++;
+            }
+        } else if (event.key.code == sf::Keyboard::Left) {
+            if (currentPage > 0) {
+                currentPage--;
+            }
+        }
+    }
 }
+
 
 void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font)
 {
@@ -19,7 +33,7 @@ void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font)
     frame.setPosition(70, 130);
     window.draw(frame);
 
-    std::vector<float> columnWidths = { 50.f, 240.f, 130.f, 130.f, 100.f, 170.f, 120.f, 120.f, 150.f, 140.f};
+    std::vector<float> columnWidths = { 50.f, 240.f, 130.f, 130.f, 100.f, 200.f, 120.f, 110.f, 140.f, 130.f};
     float tableWidth = 1350.0f;
     float cellHeight = 50.0f;
     float startX = 70.0f;
@@ -42,7 +56,7 @@ void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font)
 
     // Draw vertical lines
     float x = startX;
-    for (size_t i = 0; i <= columnWidths.size(); ++i) {
+    for (size_t i = 0; i < columnWidths.size(); ++i) {
         sf::RectangleShape vLine(sf::Vector2f(2, cellHeight * (visibleRows + 1)));
         vLine.setFillColor(sf::Color::Black);
         vLine.setPosition(x, startY);
@@ -62,14 +76,13 @@ void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font)
         textX += columnWidths[i];
     }
 
-    int rowIndex = 1;
-    for (const auto& phone : phones) {
-        float rowY = adjustedStartY + rowIndex * cellHeight + 15;
+    int startRow = currentPage * rowsPerPage;
+    int endRow = min(static_cast<int>(phones.size()), startRow + rowsPerPage);
 
-        if (rowY + cellHeight < startY || rowY > startY + visibleRows * cellHeight) {
-            rowIndex++;
-            continue;
-        }
+    int rowIndex = 0;
+    for (int i = startRow; i < endRow; ++i) {
+        const auto& phone = phones[i];
+        float rowY = adjustedStartY + (rowIndex + 1) * cellHeight + 15;
 
         sf::Text line;
         line.setFont(font);
@@ -90,14 +103,28 @@ void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font)
         };
 
         float dataX = startX + 15;
-        for (size_t i = 0; i < data.size(); ++i) {
-            line.setString(data[i]);
+        for (size_t j = 0; j < data.size(); ++j) {
+            line.setString(data[j]);
             line.setPosition(dataX, rowY);
             window.draw(line);
-            dataX += columnWidths[i];
+            dataX += columnWidths[j];
         }
 
         rowIndex++;
     }
+
+    int totalPages = (phones.size() + rowsPerPage - 1) / rowsPerPage;
+    sf::Text pageInfo;
+    pageInfo.setFont(font);
+    pageInfo.setCharacterSize(16);
+    pageInfo.setFillColor(sf::Color::Black);
+    pageInfo.setString("Page " + std::to_string(currentPage + 1) + " / " + std::to_string(totalPages));
+
+    // Căn giữa dưới bảng
+    float pageInfoX = startX + tableWidth / 2 - pageInfo.getLocalBounds().width / 2;
+    float pageInfoY = startY + (rowsPerPage + 1) * cellHeight + 10;
+    pageInfo.setPosition(pageInfoX, pageInfoY);
+    window.draw(pageInfo);
+
 
 }
