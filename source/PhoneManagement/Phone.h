@@ -13,6 +13,7 @@
 #include <sstream>
 #include <stdexcept>
 #include <windows.h>
+#include <cmath>
 #include <sqlext.h>// SQL Server ODBC header
 
 #include <SFML/Graphics/RenderWindow.hpp>

@@ -1,31 +1,31 @@
 # Tên chương trình
-TARGET := app
+TARGET := build/app.exe
 
 # Trình biên dịch
 CXX := g++
 CXXFLAGS := -I./SFML/include -std=c++17
-LDFLAGS := -L./SFML/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lodbc32
+LDFLAGS := -mconsole -L./SFML/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lodbc32
 
-# Tìm tất cả các file .cpp
-SRC := $(wildcard source/**/*.cpp)
+# Tìm tất cả các file .cpp trong thư mục source và các thư mục con
+SRC := $(wildcard source/*.cpp) $(wildcard source/**/*.cpp)
 
-# Tạo danh sách object file trong build/, không có thư mục con
-OBJ := $(addprefix build/, $(notdir $(SRC:.cpp=.o)))
-
+# Danh sách file .o tương ứng trong thư mục build
+OBJ := $(patsubst source/%.cpp, build/%.o, $(SRC))
 
 # Mặc định build
 all: $(TARGET)
 
-# Biên dịch chương trình
+# Liên kết file object thành file thực thi (build/app.exe)
 $(TARGET): $(OBJ)
-	$(CXX) $(OBJ) -o $@ $(LDFLAGS) 
+	$(CXX) $(OBJ) -o $@ $(LDFLAGS)
 
-# Biên dịch từng file cpp thành .o trong build/
-build/%.o:
-	$(CXX) -c $(foreach src,$(SRC),$(if $(findstring /$*.cpp,$(src)),$(src))) -o $@ $(CXXFLAGS)
+# Biên dịch từng file .cpp thành .o trong thư mục build
+build/%.o: source/%.cpp
+	@if not exist "$(dir $@)" mkdir "$(dir $@)"
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-# Clean
+# Clean: xóa toàn bộ nội dung trong thư mục build
 clean:
-	del /Q build\*.o $(TARGET).exe
+	@if exist build rmdir /S /Q build
 
 .PHONY: all clean

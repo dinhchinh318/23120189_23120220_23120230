@@ -2,7 +2,7 @@
 
 void giaodien() 
 {
-    sf::RenderWindow window(sf::VideoMode(1200, 800), "Phone Management", sf::Style::Titlebar | sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(1500, 800), "Phone Management", sf::Style::Titlebar | sf::Style::Close);
     window.setFramerateLimit(60);
 
     sf::Font font;
@@ -48,6 +48,7 @@ void giaodien()
                 event.mouseButton.button == sf::Mouse::Left) {
                 menu.handleClick(mousePos, currentScreen, window);
             }
+
             else if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left) {
                 if (currentScreen == AppScreen::ADD_PHONE)
                     addScreen.handleBack(mousePos, currentScreen);

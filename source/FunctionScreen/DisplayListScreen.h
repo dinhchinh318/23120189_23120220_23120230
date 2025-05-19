@@ -8,6 +8,7 @@ class DisplayListScreen : public BaseScreen
 private:
     std::vector<Phone> phones;  // Danh sách điện thoại
     sf::Text title;
+    float scrollOffsetY = 0;
 
 public:
     DisplayListScreen(sf::Font& font, UITheme theme) : BaseScreen(font, theme) {
@@ -15,7 +16,7 @@ public:
         title.setString("DISPLAY PHONE LIST");
         title.setCharacterSize(28);
         title.setFillColor(sf::Color::Red);
-        title.setPosition(430, 65);
+        title.setPosition(560, 65);
 
         // Đọc dữ liệu từ DB (bạn phải gọi hàm tải trước đó)
         SQLHENV hEnv;
@@ -24,6 +25,10 @@ public:
     }
 
     void draw(sf::RenderWindow& window, sf::Font& font) override;
+    void handleEvent(const sf::Event& event);
+
 };
+
+
 
 #endif
