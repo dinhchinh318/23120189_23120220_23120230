@@ -14,6 +14,8 @@ public:
     MenuScreen(sf::Font& font, UITheme theme);
 
     void draw(sf::RenderWindow& window, sf::Font& font) override;
+    
+    void pollEvent(sf::RenderWindow& window, sf::Event& event) override;
 
     void update(sf::Vector2f mousePos);
 

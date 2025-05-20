@@ -1,24 +1,5 @@
 #include "Button.h"
 
-// Button::Button(const std::string& label, sf::Vector2f pos, sf::Vector2f size, sf::Font& f, UITheme theme)
-//     : font(f), theme(theme), currentColor(theme.buttonColor) {
-
-//     shape.setPosition(pos);
-//     shape.setSize(size);
-//     shape.setFillColor(currentColor);
-//     shape.setOutlineColor(theme.borderColor);
-//     shape.setOutlineThickness(theme.outlineThickness);
-
-//     text.setFont(font);
-//     text.setString(label);
-//     text.setCharacterSize(22);
-//     text.setFillColor(theme.textColor);
-
-//     auto bounds = text.getLocalBounds();
-//     text.setOrigin(bounds.left + bounds.width / 2.0f, bounds.top + bounds.height / 2.0f);
-//     text.setPosition(pos.x + size.x / 2.0f, pos.y + size.y / 2.0f);
-// }
-
 Button::Button(const std::string& label, sf::Vector2f pos, sf::Vector2f size, sf::Font& f, UITheme theme)
     : font(f), theme(theme), currentColor(theme.buttonColor) {
 

@@ -102,8 +102,6 @@ public:
     void RemoveTail();
     void Remove(const Phone&);
 
-    string wstringToString(const std::wstring& wstr);
-
     Phone* findByID(SQLHDBC db, const int& id);
     Phone* findByName(SQLHDBC db, const string& name);
     //DienThoai TimKiem(const string&);
@@ -157,6 +155,7 @@ public:
     }
 };
 
-
+string wstringToString(const std::wstring& wstr);
+std::wstring stringToWString(const std::string& str);
 std::vector<Phone> getPhonesFromDatabase();
 #endif

@@ -149,13 +149,18 @@ void PhoneManagement::Clear()
 } */
 
  // Hàm chuyển đổi std::wstring (chuỗi wide) sang std::string (UTF-8)
- std::string PhoneManagement::wstringToString(const std::wstring& wstr) {
+ std::string wstringToString(const std::wstring& wstr) {
      if (wstr.empty()) return std::string();
      int size_needed = WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), (int)wstr.size(), nullptr, 0, nullptr, nullptr);
      std::string result(size_needed, 0);
      WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), (int)wstr.size(), &result[0], size_needed, nullptr, nullptr);
      return result;
  }
+
+std::wstring stringToWString(const std::string& str) {
+    std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
+    return converter.from_bytes(str);
+}
 
 //#include <boost/locale.hpp>
 
@@ -471,7 +476,7 @@ void PhoneManagement::editPhoneInfor(SQLHDBC db, int id) {
 
     float fPrice = 0.0;
     try {
-        fPrice = std::stof(price);
+        fPrice = std::stoi(price);
     }
     catch (...) {
         std::cout << "Error: Price value invalid!\n";
@@ -519,7 +524,8 @@ std::vector<Phone> getPhonesFromDatabase() {
     SQLHSTMT stmt;
     SQLRETURN ret;
 
-    SQLCHAR connStr[] = "Driver={SQL Server};Server=localhost;Database=PhoneManagement;Trusted_Connection=yes;";
+    SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost\\SQLEXPRESS;Database=PhoneManagement;UID=sa;PWD=123;";
+    // SQLCHAR connStr[] = "Driver={SQL Server};Server=localhost;Database=PhoneManagement;Trusted_Connection=yes;";
     
     SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &env);
     SQLSetEnvAttr(env, SQL_ATTR_ODBC_VERSION, (void*)SQL_OV_ODBC3, 0);

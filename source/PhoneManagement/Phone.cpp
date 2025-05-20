@@ -137,7 +137,7 @@ Phone::Phone()
 	: _id(0), _name(""), _manufacturer(""), _config(), _price("0") {}
 
 Phone::Phone(const int id, const string name, const string manu, const ConfigPhone config, string price)
-	: _id(id), _name(name), _manufacturer(manu), _config(config), _price(price) {}
+	: _id(id), _name(name), _manufacturer(manu), _config(config), _price(priceStandardize(price)) {}
 
 Phone::~Phone()
 {
@@ -200,7 +200,7 @@ void Phone::insertToDB(SQLHDBC db) {
 		+ std::to_wstring(_id) + L", N'"
 		+ std::wstring(_name.begin(), _name.end()) + L"', N'"
 		+ std::wstring(_manufacturer.begin(), _manufacturer.end()) + L"', "
-		+ std::to_wstring(std::stof(_price)) + L", N'"
+		+ std::to_wstring(std::stoi(_price)) + L", N'"
 		+ std::wstring(_config.operatingSystem.begin(), _config.operatingSystem.end()) + L"', N'"
 		+ std::wstring(_config.cpu.begin(), _config.cpu.end()) + L"', "
 		+ std::to_wstring(_config.ram) + L", "

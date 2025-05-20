@@ -1,22 +1,22 @@
-#include "DisplayListScreen.h"
+#include "EditListScreen.h"
 
-DisplayListScreen::DisplayListScreen(sf::Font& font, UITheme theme) : BaseScreen(font, theme) 
+EditListScreen::EditListScreen(sf::Font& font, UITheme theme) : BaseScreen(font, theme)
 {
-    if (!connectToSQL(hEnv, hDbc)) 
+    for (int i = 0; i < phones.size(); i++)
     {
-        return;
+        editButtons.emplace_back("*", sf::Vector2f(1500 / 2.0f - 160.0f, 800 - 100.0f), sf::Vector2f(20, 20), font, theme);
     }
+}
 
-    phones = getPhonesFromDatabase();
-}   
-
-void DisplayListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
+void EditListScreen::update(sf::Vector2f mousePos)
 {
-    // if (event.type == sf::Event::MouseWheelScrolled) {
-    //     scrollOffsetY -= event.mouseWheelScroll.delta * 30;
-    // }
-    phones = getPhonesFromDatabase();
+    for (auto& btn : editButtons) {
+        btn.update(mousePos);
+    }
+}
 
+void EditListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
+{
     if (event.type == sf::Event::MouseButtonPressed) 
     {
         if (backButton.isClicked(mousePos))
@@ -51,9 +51,35 @@ void DisplayListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
     }
 }
 
-void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font)
+void EditListScreen::setPhones(const std::vector<Phone>& list) {
+    phones = list;
+    editButtons.clear();
+
+    sf::Font font;
+    font.loadFromFile("Fonts/ARIAL.ttf");
+    UITheme theme;  
+
+    float startX = 70 + 5;
+    float startY = 130 + 50;
+    float rowH   = 50;
+
+    for (int i = 0; i < (int)phones.size(); ++i) {
+        float y = startY + i * rowH;
+        editButtons.emplace_back(
+            "EDIT",
+            sf::Vector2f(startX, y),
+            sf::Vector2f(80, 80),
+            font,
+            theme
+        );
+    }
+}
+
+void EditListScreen::draw(sf::RenderWindow& window, sf::Font& font)
 {
-    sf::Text t("DISPLAY PHONE LIST", font, 28);
+    editButtons.clear();  // Xóa nút cũ trước khi vẽ lại
+
+    sf::Text t("PHONE LIST", font, 28);
     t.setFillColor(sf::Color::Red);
 
     sf::FloatRect textRect = t.getLocalBounds();
@@ -61,6 +87,10 @@ void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font)
     t.setPosition(1500 / 2.0f, 800 / 7.9f);
     window.draw(t);
     drawBackButton(window);
+
+    for (auto& btn : editButtons) {
+        btn.draw(window);
+    }
 
     mousePos = sf::Vector2f(sf::Mouse::getPosition(window));
 

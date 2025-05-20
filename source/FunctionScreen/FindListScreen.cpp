@@ -1,22 +1,12 @@
-#include "DisplayListScreen.h"
+#include "FindListScreen.h"
 
-DisplayListScreen::DisplayListScreen(sf::Font& font, UITheme theme) : BaseScreen(font, theme) 
+FindListScreen::FindListScreen(sf::Font& font, UITheme theme) : BaseScreen(font, theme)
 {
-    if (!connectToSQL(hEnv, hDbc)) 
-    {
-        return;
-    }
+    
+}  
 
-    phones = getPhonesFromDatabase();
-}   
-
-void DisplayListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
+void FindListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
 {
-    // if (event.type == sf::Event::MouseWheelScrolled) {
-    //     scrollOffsetY -= event.mouseWheelScroll.delta * 30;
-    // }
-    phones = getPhonesFromDatabase();
-
     if (event.type == sf::Event::MouseButtonPressed) 
     {
         if (backButton.isClicked(mousePos))
@@ -51,9 +41,9 @@ void DisplayListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
     }
 }
 
-void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font)
+void FindListScreen::draw(sf::RenderWindow& window, sf::Font& font)
 {
-    sf::Text t("DISPLAY PHONE LIST", font, 28);
+    sf::Text t("PHONE LIST", font, 28);
     t.setFillColor(sf::Color::Red);
 
     sf::FloatRect textRect = t.getLocalBounds();

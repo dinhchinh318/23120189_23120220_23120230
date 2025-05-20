@@ -2,7 +2,9 @@
 
 int main() 
 {
-    giaodien();
+    App app;
+    app.initWindow();
+    app.run();
 
     return 0;
 }

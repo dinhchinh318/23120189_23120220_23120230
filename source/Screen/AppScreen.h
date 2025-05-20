@@ -7,8 +7,10 @@ enum class AppScreen
     ADD_PHONE,
     DISPLAY_LIST,
     SEARCH_PHONE,
+    FIND_LIST,
     DELETE_PHONE,
-    EDIT_PHONE
+    EDIT_PHONE,
+    EDIT_LIST
 };
 
 #endif
