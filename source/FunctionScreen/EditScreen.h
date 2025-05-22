@@ -22,14 +22,21 @@ private:
     sf::Clock inputClock;
 public:
     EditScreen(sf::Font& font, UITheme theme);
-    void draw(sf::RenderWindow& window, sf::Font& font) override;
+    void draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen) override;
     void pollEvent(sf::RenderWindow& window, sf::Event& event) override;
 
     std::vector<Phone> handleFindButton(SQLHDBC db, vector<Phone>& pList);
 
     vector<Phone> getPhone();
 
-    void update(sf::Vector2f mousePos);
+    void update(sf::Vector2f mousePos) override
+    {
+        for (auto& btn : buttons)
+            btn.update(mousePos);
+        findButton.update(mousePos);
+        popup.update();
+    }
+
     void handleClick(sf::Vector2f mousePos, AppScreen& screen, sf::RenderWindow& window);
 };
 

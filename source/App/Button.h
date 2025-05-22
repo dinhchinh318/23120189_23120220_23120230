@@ -6,18 +6,17 @@
 using namespace std;
 
 struct UITheme {
-    sf::Color background = sf::Color(34, 40, 49);
-    sf::Color buttonColor = sf::Color(57, 62, 70);
-    sf::Color hoverColor = sf::Color(0, 173, 181);
-    sf::Color textColor = sf::Color::White;
-    sf::Color textColor1 = sf::Color::Red;
-    sf::Color borderColor = sf::Color(0, 173, 181);
-    float borderRadius = 16.f;
-    int outlineThickness = 2;
+    sf::Color background = sf::Color(24, 26, 27);  // Đen xám tinh tế
+    sf::Color buttonColor = sf::Color(44, 62, 90);  // Xanh navy trầm
+    sf::Color hoverColor = sf::Color(52, 152, 219);  // Xanh biển nhạt (hiệu ứng hover)
+    sf::Color textColor = sf::Color(236, 240, 241);  // Trắng xám nhẹ
+    sf::Color textColor1 = sf::Color(231, 76, 60);  // Đỏ san hô (để làm điểm nhấn)
+    sf::Color borderColor = sf::Color(41, 128, 185);  // Xanh dương đậm
+    float borderRadius = 12.f;  // Bo góc nhẹ nhàng
+    int outlineThickness = 3;  // Độ dày viền vừa phải
 
-    unsigned int characterSize = 22;  // 👈 Thêm dòng này để dùng trong Button
+    unsigned int characterSize = 22;  // Kích thước chữ rõ nét
 };
-
 
 class Button {
 private:
@@ -76,6 +75,10 @@ public:
 
     std::string getLabel() const {
         return text.getString();
+    }
+
+    void setButtonColor(sf::Color color) {
+        shape.setFillColor(color);
     }
     
     bool isMouseOver(sf::RenderWindow &window);

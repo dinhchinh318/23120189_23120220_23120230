@@ -3,7 +3,7 @@
 
 enum class AppScreen 
 {
-    MENU,
+    INIT_SCREEN,
     ADD_PHONE,
     DISPLAY_LIST,
     SEARCH_PHONE,

@@ -30,16 +30,9 @@ AddPhoneScreen::AddPhoneScreen(sf::Font& font, UITheme theme) :
     pList = getPhonesFromDatabase();
 }
 
-void AddPhoneScreen::draw(sf::RenderWindow& window, sf::Font& font)
+void AddPhoneScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen)
 {
-    sf::Text t("ADD NEW PHONE", font, 28);
-    t.setFillColor(sf::Color::Red);
-
-    sf::FloatRect textRect = t.getLocalBounds();
-    t.setOrigin(textRect.left + textRect.width / 2.0f, textRect.top + textRect.height / 2.0f);
-    t.setPosition(1500 / 2.0f, 800 / 7.0f);
-    window.draw(t);
-    drawBackButton(window);
+    drawDefaultScreen(window, screen);
     addButton.draw(window);
 
     mousePos = sf::Vector2f(sf::Mouse::getPosition(window));
@@ -60,7 +53,39 @@ void AddPhoneScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
             addPhone(hDbc);
         }
 
-        if (backButton.isClicked(mousePos))
+        if (buttons[0].isClicked(mousePos))
+        {
+            for (auto& field : fields) {
+                field.setText("");
+                field.setContent("");
+                field.setSelected(false);
+            }
+        }
+        if (buttons[1].isClicked(mousePos))
+        {
+            for (auto& field : fields) {
+                field.setText("");
+                field.setContent("");
+                field.setSelected(false);
+            }
+        }
+        if (buttons[2].isClicked(mousePos))
+        {
+            for (auto& field : fields) {
+                field.setText("");
+                field.setContent("");
+                field.setSelected(false);
+            }
+        }
+        if (buttons[3].isClicked(mousePos))
+        {
+            for (auto& field : fields) {
+                field.setText("");
+                field.setContent("");
+                field.setSelected(false);
+            }
+        }
+        if (buttons[4].isClicked(mousePos))
         {
             for (auto& field : fields) {
                 field.setText("");
@@ -107,12 +132,6 @@ bool AddPhoneScreen::validateFields() {
         }
     }
     return true;
-}
-
-void AddPhoneScreen::update(sf::Vector2f mousePos) 
-{
-    addButton.update(mousePos);
-    popup.update();
 }
 
 void AddPhoneScreen::addPhone(SQLHDBC db) 

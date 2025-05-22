@@ -7,42 +7,66 @@
 class BaseScreen 
 {
 protected:
-    Button backButton;
     SQLHENV hEnv;
     SQLHDBC hDbc;
+
+    std::vector<Button> buttons;
+    UITheme theme;
+    sf::Text title;
 
 public:
     BaseScreen(sf::Font& font, UITheme theme);
 
     virtual ~BaseScreen() = default;
 
-    virtual void draw(sf::RenderWindow& window, sf::Font& font) = 0;
+    virtual void draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen) = 0;
     virtual void pollEvent(sf::RenderWindow& window, sf::Event& event) = 0;
 
-    virtual bool handleBack(sf::Vector2f mousePos, AppScreen& screen) 
+    virtual bool handleClicked(sf::Vector2f mousePos, AppScreen& screen, sf::RenderWindow& window) 
     {
-        if (!backButton.isClicked(mousePos))
-            return false;
+        for (auto& btn : buttons) {
+            if (btn.isClicked(mousePos)) {
+                std::string label = btn.getLabel();
+                std::cout << "Clicked: " << label << std::endl;
 
-        switch (screen) {
-            case AppScreen::EDIT_LIST:
-                screen = AppScreen::EDIT_PHONE;
-                return true;
-                break;
-            case AppScreen::FIND_LIST:
-                screen = AppScreen::SEARCH_PHONE;
-                return true;
-                break;         
-            default:
-                screen = AppScreen::MENU;
-                return true;
+                if (label == "ADD")
+                {
+                    screen = AppScreen::ADD_PHONE;
+                    return true;
+                }
+                else if (label == "DISPLAY")
+                {
+                    screen = AppScreen::DISPLAY_LIST;
+                    return true;
+                }
+                else if (label == "SEARCH")
+                {
+                    screen = AppScreen::SEARCH_PHONE;
+                    return true;
+                }
+                else if (label == "DELETE")
+                {
+                    screen = AppScreen::DELETE_PHONE;
+                    return true;
+                }
+                else if (label == "EDIT")
+                {
+                    screen = AppScreen::EDIT_PHONE;
+                    return true;
+                }
+                else if (label == "EXIT")
+                {
+                    window.close();
+                    return true;
+                }
+            }
         }
+        return false;
     }
 
+    virtual void update(sf::Vector2f mousePos) = 0;
 
-    virtual void update(sf::Vector2f) {} // Optional override
-
-    void drawBackButton(sf::RenderWindow& window);
+    void drawDefaultScreen(sf::RenderWindow& window, AppScreen& screen);
 };
 
 #endif

@@ -41,16 +41,9 @@ bool DeleteScreen::validateFields()
     return true;
 }
 
-void DeleteScreen::draw(sf::RenderWindow& window, sf::Font& font) 
+void DeleteScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen) 
 {
-    sf::Text t("DELETE PHONE", font, 28);
-    t.setFillColor(sf::Color::Red);
-
-    sf::FloatRect textRect = t.getLocalBounds();
-    t.setOrigin(textRect.left + textRect.width / 2.0f, textRect.top + textRect.height / 2.0f);
-    t.setPosition(1500 / 2.0f, 800 / 7.0f);
-    window.draw(t);
-    drawBackButton(window);
+    drawDefaultScreen(window, screen);
     deleteButton.draw(window);
     findButton.draw(window);
 
@@ -58,13 +51,6 @@ void DeleteScreen::draw(sf::RenderWindow& window, sf::Font& font)
     for (auto& field : fields) field.draw(window);
 
     popup.draw(window);
-}
-
-void DeleteScreen::update(sf::Vector2f mousePos) 
-{
-    deleteButton.update(mousePos);
-    findButton.update(mousePos);
-    popup.update();
 }
 
 void DeleteScreen::handleFindButton(SQLHDBC db)
@@ -193,14 +179,46 @@ void DeleteScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
             handleFindButton(hDbc);
         }
 
-        if (backButton.isClicked(mousePos))
+        if (buttons[0].isClicked(mousePos))
         {
             for (auto& field : fields) {
                 field.setText("");
                 field.setContent("");
                 field.setSelected(false);
             }
-    }
+        }
+        if (buttons[1].isClicked(mousePos))
+        {
+            for (auto& field : fields) {
+                field.setText("");
+                field.setContent("");
+                field.setSelected(false);
+            }
+        }
+        if (buttons[2].isClicked(mousePos))
+        {
+            for (auto& field : fields) {
+                field.setText("");
+                field.setContent("");
+                field.setSelected(false);
+            }
+        }
+        if (buttons[3].isClicked(mousePos))
+        {
+            for (auto& field : fields) {
+                field.setText("");
+                field.setContent("");
+                field.setSelected(false);
+            }
+        }
+        if (buttons[4].isClicked(mousePos))
+        {
+            for (auto& field : fields) {
+                field.setText("");
+                field.setContent("");
+                field.setSelected(false);
+            }
+        }
     }
 
     if (event.type == sf::Event::TextEntered) {

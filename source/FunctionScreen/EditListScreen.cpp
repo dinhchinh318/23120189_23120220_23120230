@@ -1,25 +1,106 @@
 #include "EditListScreen.h"
 
+// chooseButton::chooseButton()
+// {
+// }
+
+// chooseButton::chooseButton(sf::Vector2f pos, sf::Vector2f size, UITheme theme)
+// {
+//     shape.setSize(size);
+//     shape.setPosition(pos);
+//     shape.setFillColor(theme.buttonColor);
+//     shape.setOutlineThickness(theme.outlineThickness);
+//     shape.setOutlineColor(theme.borderColor);
+
+//     this->theme = theme;
+//     currentColor = theme.buttonColor;
+// }
+
+// void chooseButton::draw(sf::RenderWindow& window)
+// {
+//     shape.setFillColor(currentColor);
+//     window.draw(shape);
+// }
+// void chooseButton::update(sf::Vector2f mousePos)
+// {
+//     if (isClicked(mousePos))
+//     {
+//         currentColor = theme.hoverColor;
+//     }
+//     else
+//     {
+//         currentColor = theme.buttonColor;
+//     }
+// }
+// bool chooseButton::isClicked(sf::Vector2f mousePos)
+// {
+//     float xMouse = mousePos.x;
+//     float yMouse = mousePos.y;
+
+//     float topLeftX = shape.getPosition().x - shape.getLocalBounds().width / 2;
+//     float topLeftY = shape.getPosition().y - shape.getLocalBounds().height / 2;
+
+//     float limitRangeX = topLeftX + shape.getLocalBounds().width;
+//     float limitRangeY = topLeftY + shape.getLocalBounds().height;
+
+//     if (topLeftX < xMouse && xMouse < limitRangeX && topLeftY < yMouse && yMouse < limitRangeY)
+//     {
+//         return true;
+//     }
+//     return false;
+// }
+
+// void chooseButton::setPosition(float x, float y)
+// {
+//     this->setOriginToCenter();
+//     shape.setPosition(x, y);
+// }
+
+// void chooseButton::setSize(float width, float height)
+// {
+//     shape.setSize(sf::Vector2f(width, height));
+//     this->setOriginToCenter();
+// }
+
+// void chooseButton::setScale(float w, float h)
+// {
+//     this->shape.setScale(w, h);
+// }
+
+/*-------------------------------------------------------------------------------------*/
 EditListScreen::EditListScreen(sf::Font& font, UITheme theme) : BaseScreen(font, theme)
 {
-    for (int i = 0; i < phones.size(); i++)
-    {
-        editButtons.emplace_back("*", sf::Vector2f(1500 / 2.0f - 160.0f, 800 - 100.0f), sf::Vector2f(20, 20), font, theme);
-    }
-}
-
-void EditListScreen::update(sf::Vector2f mousePos)
-{
-    for (auto& btn : editButtons) {
-        btn.update(mousePos);
-    }
+    // float cellHeight = 50.0f;
+    // float startX = 70.0f;
+    // float startY = 130.0f;
+    // for (int i = 0; i < 12; ++i)
+    // {
+    //     chooseButton btn(sf::Vector2f(startX, startY + i * cellHeight), sf::Vector2f(1350, cellHeight), theme);
+    //     eBtns[i] = btn;
+    // }
 }
 
 void EditListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
 {
     if (event.type == sf::Event::MouseButtonPressed) 
     {
-        if (backButton.isClicked(mousePos))
+        if (buttons[0].isClicked(mousePos))
+        {
+            currentPage = 0;
+        }
+        if (buttons[1].isClicked(mousePos))
+        {
+            currentPage = 0;
+        }
+        if (buttons[2].isClicked(mousePos))
+        {
+            currentPage = 0;
+        }
+        if (buttons[3].isClicked(mousePos))
+        {
+            currentPage = 0;
+        }
+        if (buttons[4].isClicked(mousePos))
         {
             currentPage = 0;
         }
@@ -53,44 +134,14 @@ void EditListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
 
 void EditListScreen::setPhones(const std::vector<Phone>& list) {
     phones = list;
-    editButtons.clear();
-
-    sf::Font font;
-    font.loadFromFile("Fonts/ARIAL.ttf");
-    UITheme theme;  
-
-    float startX = 70 + 5;
-    float startY = 130 + 50;
-    float rowH   = 50;
-
-    for (int i = 0; i < (int)phones.size(); ++i) {
-        float y = startY + i * rowH;
-        editButtons.emplace_back(
-            "EDIT",
-            sf::Vector2f(startX, y),
-            sf::Vector2f(80, 80),
-            font,
-            theme
-        );
-    }
 }
 
-void EditListScreen::draw(sf::RenderWindow& window, sf::Font& font)
+void EditListScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen)
 {
-    editButtons.clear();  // Xóa nút cũ trước khi vẽ lại
-
-    sf::Text t("PHONE LIST", font, 28);
-    t.setFillColor(sf::Color::Red);
-
-    sf::FloatRect textRect = t.getLocalBounds();
-    t.setOrigin(textRect.left + textRect.width / 2.0f, textRect.top + textRect.height / 2.0f);
-    t.setPosition(1500 / 2.0f, 800 / 7.9f);
-    window.draw(t);
-    drawBackButton(window);
-
-    for (auto& btn : editButtons) {
-        btn.draw(window);
-    }
+    // for (auto& btn : buttons)
+    //     btn.draw(window);
+    
+    drawDefaultScreen(window, screen);
 
     mousePos = sf::Vector2f(sf::Mouse::getPosition(window));
 
@@ -147,6 +198,8 @@ void EditListScreen::draw(sf::RenderWindow& window, sf::Font& font)
 
     int startRow = currentPage * rowsPerPage;
     int endRow = min(static_cast<int>(phones.size()), startRow + rowsPerPage);
+
+    UITheme theme;
 
     int rowIndex = 0;
     for (int i = startRow; i < endRow; ++i) {

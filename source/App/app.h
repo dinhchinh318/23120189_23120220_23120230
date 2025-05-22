@@ -1,7 +1,7 @@
 #ifndef _APP_H_
 #define _APP_H_
 
-#include "../Screen/MenuScreen.h"
+#include "../FunctionScreen/InitScreen.h"
 #include "../FunctionScreen/AddPhoneScreen.h"
 #include "../FunctionScreen/DisplayListScreen.h"
 #include "../FunctionScreen/DeleteScreen.h"
@@ -21,12 +21,11 @@ private:
     sf::Sprite bgSprite;
     UITheme theme;
 
-    MenuScreen* menu;
+    InitScreen* init;
     AddPhoneScreen* addScreen;
     DisplayListScreen* displayScreen;
     SearchScreen* searchScreen;
     FindListScreen* findScreen;
-
     DeleteScreen* deleteScreen;
     EditScreen* editScreen;
     EditListScreen* editListScreen;

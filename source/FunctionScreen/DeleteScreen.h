@@ -26,13 +26,21 @@ private:
 public:
     DeleteScreen(sf::Font& font, UITheme theme);
     
-    void draw(sf::RenderWindow& window, sf::Font& font) override;
+    void draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen) override;
     void pollEvent(sf::RenderWindow& window, sf::Event& event) override;
 
     bool validateFields();
     void handleFindButton(SQLHDBC db);
 
-    void update(sf::Vector2f mousePos);
+    void update(sf::Vector2f mousePos) override
+    {
+        for (auto& btn : buttons)
+            btn.update(mousePos);
+        deleteButton.update(mousePos);
+        findButton.update(mousePos);
+        popup.update();
+    }
+    
     void deletePhone(SQLHDBC db, const int& id); 
 };
 

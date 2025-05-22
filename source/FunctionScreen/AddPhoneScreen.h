@@ -19,10 +19,16 @@ private:
     sf::Clock inputClock;
 public:
     AddPhoneScreen(sf::Font& font, UITheme theme);
-    void draw(sf::RenderWindow& window, sf::Font& font) override;
+    void draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen) override;
     void pollEvent(sf::RenderWindow& window, sf::Event& event) override;
 
-    void update(sf::Vector2f mousePos);
+    void update(sf::Vector2f mousePos) override 
+    {
+        for (auto& btn : buttons)
+            btn.update(mousePos);
+        addButton.update(mousePos);
+        popup.update();
+    }
 
     bool validateFields();
     bool checkFields();

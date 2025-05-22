@@ -14,7 +14,7 @@ void App::initWindow()
     }
 
     // Init and set background
-    if (!bgTexture.loadFromFile("Pictures/background.jpg")) 
+    if (!bgTexture.loadFromFile("Pictures/background1.jpg")) 
     {
         std::cerr << "Can't load file background.jpg" << std::endl;
         return;
@@ -28,7 +28,7 @@ void App::initWindow()
     );
 
     // Init Screen
-    menu = new MenuScreen(font, theme);
+    init = new InitScreen(font, theme);
     addScreen = new AddPhoneScreen(font, theme);
     displayScreen = new DisplayListScreen(font, theme);
     searchScreen = new SearchScreen(font, theme);
@@ -37,8 +37,8 @@ void App::initWindow()
     editScreen = new EditScreen(font, theme);
     editListScreen = new EditListScreen(font, theme);
 
-    // set Screen default
-    currentScreen = AppScreen::MENU;
+    // Set Screen default
+    currentScreen = AppScreen::INIT_SCREEN;
 }
 
 void App::run()
@@ -91,94 +91,94 @@ void App::run()
                 editScreen->handleClick(mousePos, currentScreen, window);
             }
 
-
-
-            if (currentScreen == AppScreen::MENU &&
+            if (currentScreen == AppScreen::INIT_SCREEN &&
                 event.type == sf::Event::MouseButtonPressed &&
                 event.mouseButton.button == sf::Mouse::Left) 
             {
-                menu->handleClick(mousePos, currentScreen, window);
+                init->handleClicked(mousePos, currentScreen, window);
             }
             else if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left) 
             {
                 if (currentScreen == AppScreen::ADD_PHONE)
                 {
-                    addScreen->handleBack(mousePos, currentScreen);
+                    addScreen->handleClicked(mousePos, currentScreen, window);
                 }
                 else if (currentScreen == AppScreen::DISPLAY_LIST)
                 {
-                    displayScreen->handleBack(mousePos, currentScreen);
+                    displayScreen->handleClicked(mousePos, currentScreen, window);
                 }
                 else if (currentScreen == AppScreen::SEARCH_PHONE)
                 {
-                    searchScreen->handleBack(mousePos, currentScreen);
+                    searchScreen->handleClicked(mousePos, currentScreen, window);
                 }
                 else if (currentScreen == AppScreen::FIND_LIST)
                 {
-                    findScreen->handleBack(mousePos, currentScreen);
+                    findScreen->handleClicked(mousePos, currentScreen, window);
                 }
                 else if (currentScreen == AppScreen::DELETE_PHONE)
                 {
-                    deleteScreen->handleBack(mousePos, currentScreen);
+                    deleteScreen->handleClicked(mousePos, currentScreen, window);
                 }
                 else if (currentScreen == AppScreen::EDIT_PHONE)
                 {
-                    editScreen->handleBack(mousePos, currentScreen);
+                    editScreen->handleClicked(mousePos, currentScreen, window);
                 }
                 else if (currentScreen == AppScreen::EDIT_LIST)
                 {
-                    editListScreen->handleBack(mousePos, currentScreen);
+                    editListScreen->handleClicked(mousePos, currentScreen, window);
                 }
             }
 
             if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape) 
             {
-                currentScreen = AppScreen::MENU;
+                currentScreen = AppScreen::INIT_SCREEN;
             }
         }
 
         window.clear();
         window.draw(bgSprite);
 
-        if (currentScreen == AppScreen::MENU) 
+        if (currentScreen == AppScreen::INIT_SCREEN) 
         {
-            menu->update(mousePos);
-            menu->draw(window, font);
+            init->update(mousePos);
+            init->draw(window, font, currentScreen);
         }
         else if (currentScreen == AppScreen::ADD_PHONE) 
         {
-            addScreen->draw(window, font);
+            addScreen->draw(window, font, currentScreen);
             addScreen->update(mousePos);
         }
         else if (currentScreen == AppScreen::DISPLAY_LIST) 
         {
-            displayScreen->draw(window, font);
+            displayScreen->draw(window, font, currentScreen);
+            displayScreen->update(mousePos);
         }
         else if (currentScreen == AppScreen::SEARCH_PHONE) 
         {
-            searchScreen->draw(window, font);
+            searchScreen->draw(window, font, currentScreen);
             searchScreen->update(mousePos);  
         }
         else if (currentScreen == AppScreen::FIND_LIST) 
         {
             findScreen->setPhones(pList);
-            findScreen->draw(window, font);
+            findScreen->draw(window, font, currentScreen);
+            findScreen->update(mousePos);
         }
         else if (currentScreen == AppScreen::DELETE_PHONE) 
         {
-            deleteScreen->draw(window, font);
+            deleteScreen->draw(window, font, currentScreen);
             deleteScreen->update(mousePos);
         }
         else if (currentScreen == AppScreen::EDIT_PHONE) 
         {
-            editScreen->draw(window, font);
+            editScreen->draw(window, font, currentScreen);
             editScreen->update(mousePos);
         }
         
         else if (currentScreen == AppScreen::EDIT_LIST) 
         {
             editListScreen->setPhones(pList);
-            editListScreen->draw(window, font);
+            editListScreen->draw(window, font, currentScreen);
             editListScreen->update(mousePos);
         }
 
@@ -193,8 +193,8 @@ App::App()
 
 App::~App()
 {
-    if (this->menu)
-        delete this->menu;
+    if (this->init)
+        delete this->init;
     if (this->addScreen)
         delete this->addScreen;
     if (this->displayScreen)
@@ -207,4 +207,6 @@ App::~App()
         delete this->editScreen;
     if (this->findScreen)
         delete this->findScreen;
+    if (this->editListScreen)
+        delete this->editListScreen;
 }

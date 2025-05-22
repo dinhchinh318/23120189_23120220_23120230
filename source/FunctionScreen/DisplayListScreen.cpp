@@ -12,14 +12,27 @@ DisplayListScreen::DisplayListScreen(sf::Font& font, UITheme theme) : BaseScreen
 
 void DisplayListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
 {
-    // if (event.type == sf::Event::MouseWheelScrolled) {
-    //     scrollOffsetY -= event.mouseWheelScroll.delta * 30;
-    // }
     phones = getPhonesFromDatabase();
 
     if (event.type == sf::Event::MouseButtonPressed) 
     {
-        if (backButton.isClicked(mousePos))
+        if (buttons[0].isClicked(mousePos))
+        {
+            currentPage = 0;
+        }
+        if (buttons[1].isClicked(mousePos))
+        {
+            currentPage = 0;
+        }
+        if (buttons[2].isClicked(mousePos))
+        {
+            currentPage = 0;
+        }
+        if (buttons[3].isClicked(mousePos))
+        {
+            currentPage = 0;
+        }
+        if (buttons[4].isClicked(mousePos))
         {
             currentPage = 0;
         }
@@ -51,16 +64,9 @@ void DisplayListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
     }
 }
 
-void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font)
+void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen)
 {
-    sf::Text t("DISPLAY PHONE LIST", font, 28);
-    t.setFillColor(sf::Color::Red);
-
-    sf::FloatRect textRect = t.getLocalBounds();
-    t.setOrigin(textRect.left + textRect.width / 2.0f, textRect.top + textRect.height / 2.0f);
-    t.setPosition(1500 / 2.0f, 800 / 7.9f);
-    window.draw(t);
-    drawBackButton(window);
+    drawDefaultScreen(window, screen);
 
     mousePos = sf::Vector2f(sf::Mouse::getPosition(window));
 

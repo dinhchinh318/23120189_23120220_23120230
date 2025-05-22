@@ -27,28 +27,55 @@ SearchScreen::SearchScreen(sf::Font& font, UITheme theme) : BaseScreen(font, the
     }
 }
 
-void SearchScreen::draw(sf::RenderWindow& window, sf::Font& font)
+void SearchScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen)
 {
-    sf::Text t("SEARCH PHONE", font, 28);
-    t.setFillColor(sf::Color::Red);
-
-    sf::FloatRect textRect = t.getLocalBounds();
-    t.setOrigin(textRect.left + textRect.width / 2.0f, textRect.top + textRect.height / 2.0f);
-    t.setPosition(1500 / 2.0f, 800 / 7.0f);
-    window.draw(t);
-    drawBackButton(window);
+    if (buttons[0].isClicked(mousePos))
+    {
+        for (auto& field : fields) {
+            field.setText("");
+            field.setContent("");
+            field.setSelected(false);
+        }
+    }
+    if (buttons[1].isClicked(mousePos))
+    {
+        for (auto& field : fields) {
+            field.setText("");
+            field.setContent("");
+            field.setSelected(false);
+        }
+    }
+    if (buttons[2].isClicked(mousePos))
+    {
+        for (auto& field : fields) {
+            field.setText("");
+            field.setContent("");
+            field.setSelected(false);
+        }
+    }
+    if (buttons[3].isClicked(mousePos))
+    {
+        for (auto& field : fields) {
+            field.setText("");
+            field.setContent("");
+            field.setSelected(false);
+        }
+    }
+    if (buttons[4].isClicked(mousePos))
+    {
+        for (auto& field : fields) {
+            field.setText("");
+            field.setContent("");
+            field.setSelected(false);
+        }
+    }
+    drawDefaultScreen(window, screen);
     findButton.draw(window);
 
     mousePos = sf::Vector2f(sf::Mouse::getPosition(window));
     for (auto& field : fields) field.draw(window);
 
     popup.draw(window); 
-}
-
-void SearchScreen::update(sf::Vector2f mousePos) 
-{
-    findButton.update(mousePos);
-    popup.update();
 }
 
 std::vector<Phone> SearchScreen::handleFindButton(SQLHDBC db, std::vector<Phone>& phones)
@@ -179,7 +206,39 @@ void SearchScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
             pList = handleFindButton(hDbc, pList);
         }
 
-        if (backButton.isClicked(mousePos))
+        if (buttons[0].isClicked(mousePos))
+        {
+            for (auto& field : fields) {
+                field.setText("");
+                field.setContent("");
+                field.setSelected(false);
+            }
+        }
+        if (buttons[1].isClicked(mousePos))
+        {
+            for (auto& field : fields) {
+                field.setText("");
+                field.setContent("");
+                field.setSelected(false);
+            }
+        }
+        if (buttons[2].isClicked(mousePos))
+        {
+            for (auto& field : fields) {
+                field.setText("");
+                field.setContent("");
+                field.setSelected(false);
+            }
+        }
+        if (buttons[3].isClicked(mousePos))
+        {
+            for (auto& field : fields) {
+                field.setText("");
+                field.setContent("");
+                field.setSelected(false);
+            }
+        }
+        if (buttons[4].isClicked(mousePos))
         {
             for (auto& field : fields) {
                 field.setText("");
