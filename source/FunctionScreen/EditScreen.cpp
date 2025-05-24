@@ -70,7 +70,7 @@ void EditScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& scree
         }
     }
 
-    drawDefaultScreen(window, screen);
+    drawDefaultScreen(window, screen, font);
     findButton.draw(window);
 
     mousePos = sf::Vector2f(sf::Mouse::getPosition(window));

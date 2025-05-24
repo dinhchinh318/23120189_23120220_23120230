@@ -59,7 +59,7 @@ void FindListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
 
 void FindListScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen)
 {
-    drawDefaultScreen(window, screen);
+    drawDefaultScreen(window, screen, font);
 
     mousePos = sf::Vector2f(sf::Mouse::getPosition(window));
 

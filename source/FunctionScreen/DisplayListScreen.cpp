@@ -66,7 +66,7 @@ void DisplayListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
 
 void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen)
 {
-    drawDefaultScreen(window, screen);
+    drawDefaultScreen(window, screen, font);
 
     mousePos = sf::Vector2f(sf::Mouse::getPosition(window));
 
@@ -133,6 +133,9 @@ void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen
         line.setFont(font);
         line.setCharacterSize(15);
         line.setFillColor(sf::Color::Black);
+        std::ostringstream screenSizeStream;
+        screenSizeStream << std::fixed << std::setprecision(2) << phone.getConfig().screenSize;
+        std::string screenSizeStr = screenSizeStream.str() + " inch";
 
         std::vector<std::string> data = {
             std::to_string(phone.getID()),
@@ -143,11 +146,11 @@ void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen
             phone.getConfig().cpu,
             std::to_string(phone.getConfig().ram) + "GB",
             std::to_string(phone.getConfig().rom) + "GB",
-            std::to_string(phone.getConfig().screenSize) + " inch",
+            screenSizeStr,
             std::to_string(phone.getConfig().pin) + " mAh"
         };
 
-        float dataX = startX + 15;
+        float dataX = startX + 20;
         for (size_t j = 0; j < data.size(); ++j) {
             line.setString(data[j]);
             line.setPosition(dataX, rowY);
@@ -157,7 +160,7 @@ void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen
 
         rowIndex++;
     }
-
+    
     int totalPages = (phones.size() + rowsPerPage - 1) / rowsPerPage;
     sf::Text pageInfo;
     pageInfo.setFont(font);

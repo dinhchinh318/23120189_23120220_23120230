@@ -141,7 +141,7 @@ void EditListScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& s
     // for (auto& btn : buttons)
     //     btn.draw(window);
     
-    drawDefaultScreen(window, screen);
+    drawDefaultScreen(window, screen, font);
 
     mousePos = sf::Vector2f(sf::Mouse::getPosition(window));
 

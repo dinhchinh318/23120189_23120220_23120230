@@ -32,7 +32,7 @@ AddPhoneScreen::AddPhoneScreen(sf::Font& font, UITheme theme) :
 
 void AddPhoneScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen)
 {
-    drawDefaultScreen(window, screen);
+    drawDefaultScreen(window, screen, font);
     addButton.draw(window);
 
     mousePos = sf::Vector2f(sf::Mouse::getPosition(window));

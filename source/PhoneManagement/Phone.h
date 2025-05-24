@@ -8,9 +8,11 @@
 #include <cstdlib>
 #include <stdlib.h>
 #include <thread>
+#include <iomanip>
 #include <algorithm>
 #include <exception>
 #include <sstream>
+#include <cmath>
 #include <stdexcept>
 #include <windows.h>
 #include <sqlext.h>// SQL Server ODBC header
@@ -37,6 +39,8 @@ using std::vector;
 using std::ostream;
 using std::out_of_range;
 using std::forward_iterator_tag;
+
+float round_to_decimal(float var, int decimal_places);
 
 struct ConfigPhone
 {
@@ -104,7 +108,7 @@ public:
         _config.cpu = cpu;
         _config.ram = ram;
         _config.rom = rom;
-        _config.screenSize = screenSize;
+        _config.screenSize = round_to_decimal(screenSize, 2);
         _config.pin = pin;
 
     }

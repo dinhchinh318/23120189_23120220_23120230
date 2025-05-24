@@ -394,6 +394,7 @@ void PhoneManagement::getPhoneList(SQLHDBC db) {
             SQLGetData(stmt, 9, SQL_C_FLOAT, &screenSize, 0, NULL);
             SQLGetData(stmt, 10, SQL_C_SLONG, &pin, 0, NULL);
 
+            round_to_decimal(screenSize, 2); // Làm tròn kích th
             Phone p;
             p.setID(std::stoi(idStr));
             p.setName(wstringToString(name));
@@ -552,7 +553,8 @@ std::vector<Phone> getPhonesFromDatabase() {
             SQLGetData(stmt, 8, SQL_C_LONG, &rom, 0, NULL);
             SQLGetData(stmt, 9, SQL_C_FLOAT, &screenSize, 0, NULL);
             SQLGetData(stmt, 10, SQL_C_LONG, &pin, 0, NULL);
-
+            
+            screenSize = round_to_decimal(screenSize, 2);
             ConfigPhone config = {os, cpu, ram, rom, screenSize, pin};
             phones.push_back(Phone(id, name, manu, config, price));
         }

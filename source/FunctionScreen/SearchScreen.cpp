@@ -69,7 +69,7 @@ void SearchScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& scr
             field.setSelected(false);
         }
     }
-    drawDefaultScreen(window, screen);
+    drawDefaultScreen(window, screen, font);
     findButton.draw(window);
 
     mousePos = sf::Vector2f(sf::Mouse::getPosition(window));

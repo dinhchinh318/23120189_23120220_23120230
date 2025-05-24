@@ -43,7 +43,7 @@ bool DeleteScreen::validateFields()
 
 void DeleteScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen) 
 {
-    drawDefaultScreen(window, screen);
+    drawDefaultScreen(window, screen, font);
     deleteButton.draw(window);
     findButton.draw(window);
 

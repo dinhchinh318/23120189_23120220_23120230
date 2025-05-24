@@ -24,6 +24,11 @@
 // 	return result;
 // }
 
+float round_to_decimal(float var, int decimal_places) {
+      float factor = pow(10.0f, decimal_places);
+      return round(var * factor) / factor;
+}
+
 string priceStandardize(const string& price) {
 	string digits;
 	for (char c : price) {

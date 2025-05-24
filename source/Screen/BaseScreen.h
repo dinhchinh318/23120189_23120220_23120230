@@ -66,7 +66,16 @@ public:
 
     virtual void update(sf::Vector2f mousePos) = 0;
 
-    void drawDefaultScreen(sf::RenderWindow& window, AppScreen& screen);
+    void drawDefaultScreen(sf::RenderWindow& window, AppScreen& screen, sf::Font& font);
+
+    void drawBoxWithText(sf::RenderWindow& window, sf::Font& font, 
+                     const std::string& textStr,
+                     sf::Vector2f position, sf::Vector2f size,
+                     unsigned int fontSize = 20,
+                     sf::Color boxColor = sf::Color(255, 255, 255, 180),
+                     sf::Color outlineColor = sf::Color::Black,
+                     sf::Color textColor = sf::Color::Black);
+
 };
 
 #endif
