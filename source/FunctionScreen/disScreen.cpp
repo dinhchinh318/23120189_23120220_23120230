@@ -34,6 +34,23 @@ void DisplayListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event, Ap
     {
         sf::Vector2f mousePos = window.mapPixelToCoords(sf::Mouse::getPosition(window));
 
+        for (auto btn : buttons)
+        {
+            if (btn.isClicked(mousePos))
+            {
+                mode = DisplayMode::None;
+                showManufacturerInputs = false;
+                showPriceInput = false;
+                showResultTable = false;
+                currentPage = 0;
+
+                // Xóa dữ liệu cũ ở các ô nhập
+                manufacturerInput.setText("");
+                orderInput.setText("");
+                priceInput.setText("");
+            }
+        }
+
         if (allButton.isClicked(mousePos)) {
             mode = DisplayMode::All;
             showManufacturerInputs = false;
@@ -125,6 +142,9 @@ void DisplayListScreen::update(sf::Vector2f mousePos)
 {
     this->mousePos = mousePos;
 
+    for (auto& btn : buttons)
+        btn.update(mousePos);
+
     // Cập nhật giao diện người dùng
     allButton.update(mousePos);
     byManufacturerButton.update(mousePos);
@@ -140,12 +160,18 @@ void DisplayListScreen::update(sf::Vector2f mousePos)
 
     // Lọc danh sách theo chế độ
     if (mode == DisplayMode::All) {
+        for (auto& btn : buttons)
+            btn.update(mousePos);
         phones = getPhonesFromDatabase();
     } else if (mode == DisplayMode::ByManufacturer) {
+        for (auto& btn : buttons)
+            btn.update(mousePos);
         std::string manu = manufacturerInput.getText();
         std::string order = orderInput.getText();
         phones = getPhonesByManuAndPriceOrder(order,manu);
     } else if (mode == DisplayMode::ByPrice) {
+        for (auto& btn : buttons)
+            btn.update(mousePos);
         std::string priceStr = priceInput.getText();
         try {
             float maxPrice = std::stof(priceStr);

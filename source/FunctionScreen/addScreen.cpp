@@ -134,23 +134,60 @@ bool AddPhoneScreen::isPhoneIDExisted(SQLHDBC db, int id) {
     return exists;
 }
 
+bool isValidInteger(const std::string& str) {
+    if (str.empty()) return false;
+    return std::all_of(str.begin(), str.end(), ::isdigit);
+}
+
+bool isValidFloat(const std::string& str) {
+    std::istringstream iss(str);
+    float f;
+    return (iss >> f) && iss.eof();
+}
 
 void AddPhoneScreen::addPhone(SQLHDBC db) {
     if (!validateFields()) return;
 
     try {
         // Lấy dữ liệu
-        int id = std::stoi(fields[0].getText());
+        // int id = std::stoi(fields[0].getText());
+        std::string idStr = fields[0].getText();
+        if (!isValidInteger(idStr)) {
+            popup.show("ID must be a valid number!", sf::Color::Red);
+            return;
+        }
+
+        int id = std::stoi(idStr);
         std::string name = fields[1].getText();
         std::string manu = fields[2].getText();
         std::string price = fields[3].getText();
+        // ConfigPhone cfg = {
+        //     fields[4].getText(),
+        //     fields[5].getText(),
+        //     std::stoi(fields[6].getText()),
+        //     std::stoi(fields[7].getText()),
+        //     std::stof(fields[8].getText()),
+        //     std::stoi(fields[9].getText())
+        // };
+
+        std::string ramStr = fields[6].getText();
+        std::string romStr = fields[7].getText();
+        std::string screenStr = fields[8].getText();
+        std::string pinStr = fields[9].getText();
+
+        if (!isValidInteger(ramStr) || !isValidInteger(romStr) || 
+            !isValidFloat(screenStr) || !isValidInteger(pinStr)) {
+            popup.show("RAM, ROM, Pin must be return integer. Screen must be return float!", sf::Color::Red);
+            return;
+        }
+
         ConfigPhone cfg = {
-            fields[4].getText(),
-            fields[5].getText(),
-            std::stoi(fields[6].getText()),
-            std::stoi(fields[7].getText()),
-            std::stof(fields[8].getText()),
-            std::stoi(fields[9].getText())
+            fields[4].getText(),  // OS
+            fields[5].getText(),  // CPU
+            std::stoi(ramStr),
+            std::stoi(romStr),
+            std::stof(screenStr),
+            std::stoi(pinStr)
         };
 
         // Kiểm tra ID
