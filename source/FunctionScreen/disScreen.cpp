@@ -83,6 +83,11 @@ void DisplayListScreen::pollEvent(sf::RenderWindow& window, sf::Event& event, Ap
             showPriceInput = false;
             showResultTable = false;
             currentPage = 0;
+
+            // Xóa dữ liệu cũ ở các ô nhập
+            manufacturerInput.setText("");
+            orderInput.setText("");
+            priceInput.setText("");
         }
     }
 
@@ -186,6 +191,47 @@ void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen
         mode == DisplayMode::All ||
         (showResultTable && (mode == DisplayMode::ByManufacturer || mode == DisplayMode::ByPrice))
     ) {
+        // Nếu không có kết quả thì chỉ hiện "Not found" và return, KHÔNG vẽ bảng
+        if (phones.empty()) {
+            // VẼ LẠI 3 NÚT CHỨC NĂNG
+            allButton.draw(window);
+            byManufacturerButton.draw(window);
+            byPriceButton.draw(window);
+
+            // VẼ KHUNG VÀ CHỮ "NOT FOUND"
+            sf::Vector2f boxSize(250.f, 60.f);
+            sf::Vector2f boxPos(600.f, 290.f);
+
+            sf::RectangleShape box(boxSize);
+            box.setPosition(boxPos);
+            box.setFillColor(sf::Color(0, 0, 0, 230)); // Nền đen
+            box.setOutlineColor(sf::Color::Red);
+            box.setOutlineThickness(3.f);
+
+            window.draw(box);
+
+            sf::Text notFoundText("NOT FOUND", font, 24);
+            notFoundText.setFillColor(sf::Color::Red); // Chữ đỏ
+            notFoundText.setStyle(sf::Text::Bold);
+
+            // Căn giữa chữ trong khung
+            sf::FloatRect textRect = notFoundText.getLocalBounds();
+            notFoundText.setPosition(
+                boxPos.x + (boxSize.x - textRect.width) / 2 - textRect.left,
+                boxPos.y + (boxSize.y - textRect.height) / 2 - textRect.top
+            );
+
+            window.draw(notFoundText);
+
+             // XÓA NỘI DUNG ĐÃ NHẬP TRƯỚC ĐÓ
+            manufacturerInput.setText("");
+            orderInput.setText("");
+            priceInput.setText("");
+
+            //backButton.draw(window);
+            return;
+        }
+
         // --- Phần vẽ bảng giữ nguyên ---
         sf::RectangleShape frame;
         frame.setSize(sf::Vector2f(1350, 600));

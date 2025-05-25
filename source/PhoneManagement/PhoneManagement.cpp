@@ -1,5 +1,6 @@
 #include "PhoneManagement.h"
-
+SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost\\SQLEXPRESS;Database=PhoneManagement;UID=sa;PWD=123;";
+//SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=PhoneManagement;UID=sa;PWD=123;";
 PhoneManagement::PhoneManagement()
 {
     _pHead = _pTail = nullptr;
@@ -524,8 +525,6 @@ std::vector<Phone> getPhonesFromDatabase() {
     SQLHDBC dbc;
     SQLHSTMT stmt;
     SQLRETURN ret;
-
-    SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost\\SQLEXPRESS;Database=PhoneManagement;UID=sa;PWD=123;";
     // SQLCHAR connStr[] = "Driver={SQL Server};Server=localhost;Database=PhoneManagement;Trusted_Connection=yes;";
     
     SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &env);
@@ -581,9 +580,6 @@ std::vector<Phone> getPhonesByManuAndPriceOrder(const std::string& order, const 
     SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &env);
     SQLSetEnvAttr(env, SQL_ATTR_ODBC_VERSION, (void*)SQL_OV_ODBC3, 0);
     SQLAllocHandle(SQL_HANDLE_DBC, env, &dbc);
-
-    SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=PhoneManagement;UID=sa;PWD=123;";
-
     ret = SQLDriverConnectA(dbc, NULL, connStr, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_COMPLETE);
 
     if (!SQL_SUCCEEDED(ret)) {
@@ -659,8 +655,6 @@ std::vector<Phone> getPhonesByMaxPriceDesc(float maxPrice) {
     SQLSetEnvAttr(env, SQL_ATTR_ODBC_VERSION, (void*)SQL_OV_ODBC3, 0);
     SQLAllocHandle(SQL_HANDLE_DBC, env, &dbc);
 
-    SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=PhoneManagement;UID=sa;PWD=123;";
-
     ret = SQLDriverConnectA(dbc, NULL, connStr, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_COMPLETE);
 
     if (!SQL_SUCCEEDED(ret)) {
@@ -718,4 +712,23 @@ std::vector<Phone> getPhonesByMaxPriceDesc(float maxPrice) {
     SQLFreeHandle(SQL_HANDLE_ENV, env);
 
     return phones;
+}
+bool connectToSQL(SQLHENV& hEnv, SQLHDBC& dbc) {
+	SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &hEnv);
+	SQLSetEnvAttr(hEnv, SQL_ATTR_ODBC_VERSION, (void*)SQL_OV_ODBC3, 0);
+	SQLAllocHandle(SQL_HANDLE_DBC, hEnv, &dbc);
+
+	/*std::wstring connStr = L"Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=QLDienThoai;UID=sa;PWD=123;";
+	SQLRETURN ret = SQLDriverConnectW(hDbc, nullptr, (SQLWCHAR*)connStr.c_str(), SQL_NTS, nullptr, 0, nullptr, SQL_DRIVER_COMPLETE);*/
+
+	SQLRETURN ret = SQLDriverConnect(dbc, NULL, connStr, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_COMPLETE);
+
+	if (SQL_SUCCEEDED(ret)) {
+		std::wcout << L"Connect to SQL server successful.\n";
+		return true;
+	}
+	else {
+		std::wcout << L"Connect failed.\n";
+		return false;
+	}
 }
