@@ -27,7 +27,7 @@ DisplayListScreen::DisplayListScreen(sf::Font& font, UITheme theme)
     showPriceInput = false;         // không hiển thị ô nhập giá
     mode = DisplayMode::None;        // chế độ mặc định là chưa chọn
     currentPage = 0;                // bắt đầu từ trang đầu tiên
-    rowsPerPage = 10;               // số dòng mỗi trang
+    rowsPerPage = 11;               // số dòng mỗi trang
     scrollOffsetY = 0.f;            // không cuộn
 }
 
@@ -284,7 +284,7 @@ void DisplayListScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen
         pageInfo.setString("Page " + std::to_string(currentPage + 1) + " / " + std::to_string(totalPages));
 
         float pageInfoX = startX + tableWidth / 2 - pageInfo.getLocalBounds().width / 2;
-        float pageInfoY = startY + (rowsPerPage + 1) * cellHeight + 60;
+        float pageInfoY = startY + (rowsPerPage + 1) * cellHeight + 20;
         pageInfo.setPosition(pageInfoX, pageInfoY);
         window.draw(pageInfo);
 

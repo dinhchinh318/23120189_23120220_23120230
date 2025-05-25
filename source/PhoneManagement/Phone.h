@@ -132,6 +132,5 @@ public:
 
 string priceStandardize(const string& price);
 int inputIntegerNumber(const string& notice);
-bool connectToSQL(SQLHENV& hEnv, SQLHDBC& hDbc);
 
 #endif
