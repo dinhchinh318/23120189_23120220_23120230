@@ -1,5 +1,5 @@
 #include "Phone.h"
-
+//const SQLWCHAR* GLOBAL_CONN_STR = L"Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=PhoneManagement;UID=sa;PWD=123;";
 // string priceStandardize(string& price) {
 // 	string digits;
 // 	for (char c : price) {
@@ -77,6 +77,7 @@ bool connectToSQL(SQLHENV& hEnv, SQLHDBC& hDbc) {
 	/*std::wstring connStr = L"Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=QLDienThoai;UID=sa;PWD=123;";
 	SQLRETURN ret = SQLDriverConnectW(hDbc, nullptr, (SQLWCHAR*)connStr.c_str(), SQL_NTS, nullptr, 0, nullptr, SQL_DRIVER_COMPLETE);*/
 
+	//SQLWCHAR connStr[] = L"Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=PhoneManagement;UID=sa;PWD=123;";
 	SQLWCHAR connStr[] = L"Driver={ODBC Driver 17 for SQL Server};Server=localhost\\SQLEXPRESS;Database=PhoneManagement;UID=sa;PWD=123;";
 	SQLRETURN ret = SQLDriverConnectW(hDbc, NULL, connStr, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_COMPLETE);
 

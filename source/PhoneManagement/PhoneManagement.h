@@ -158,4 +158,6 @@ public:
 string wstringToString(const std::wstring& wstr);
 std::wstring stringToWString(const std::string& str);
 std::vector<Phone> getPhonesFromDatabase();
+std::vector<Phone> getPhonesByMaxPriceDesc(float maxPrice);
+std::vector<Phone> getPhonesByManuAndPriceOrder(const std::string& order, const std::string& manufacturer);
 #endif

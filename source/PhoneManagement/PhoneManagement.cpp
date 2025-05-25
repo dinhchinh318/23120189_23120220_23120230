@@ -524,8 +524,8 @@ std::vector<Phone> getPhonesFromDatabase() {
     SQLHDBC dbc;
     SQLHSTMT stmt;
     SQLRETURN ret;
-
     SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost\\SQLEXPRESS;Database=PhoneManagement;UID=sa;PWD=123;";
+    //SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=PhoneManagement;UID=sa;PWD=123;";
     // SQLCHAR connStr[] = "Driver={SQL Server};Server=localhost;Database=PhoneManagement;Trusted_Connection=yes;";
     
     SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &env);
@@ -562,6 +562,156 @@ std::vector<Phone> getPhonesFromDatabase() {
         SQLFreeHandle(SQL_HANDLE_STMT, stmt);
     }
 
+    SQLDisconnect(dbc);
+    SQLFreeHandle(SQL_HANDLE_DBC, dbc);
+    SQLFreeHandle(SQL_HANDLE_ENV, env);
+
+    return phones;
+}
+
+std::vector<Phone> getPhonesByManuAndPriceOrder(const std::string& order, const std::string& manufacturer) {
+    std::vector<Phone> phones;
+
+    // Tạo môi trường và kết nối ODBC
+    SQLHENV env;
+    SQLHDBC dbc;
+    SQLHSTMT stmt;
+    SQLRETURN ret;
+
+    SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &env);
+    SQLSetEnvAttr(env, SQL_ATTR_ODBC_VERSION, (void*)SQL_OV_ODBC3, 0);
+    SQLAllocHandle(SQL_HANDLE_DBC, env, &dbc);
+    SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost\\SQLEXPRESS;Database=PhoneManagement;UID=sa;PWD=123;";
+    //SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=PhoneManagement;UID=sa;PWD=123;";
+    ret = SQLDriverConnectA(dbc, NULL, connStr, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_COMPLETE);
+
+    if (!SQL_SUCCEEDED(ret)) {
+        // Xử lý lỗi kết nối (nếu cần)
+        SQLFreeHandle(SQL_HANDLE_DBC, dbc);
+        SQLFreeHandle(SQL_HANDLE_ENV, env);
+        return phones; // trả về rỗng
+    }
+
+    SQLAllocHandle(SQL_HANDLE_STMT, dbc, &stmt);
+
+    std::wstring wOrder = (order == "desc" || order == "DESC") ? L"DESC" : L"ASC";
+    std::wstring manuWStr(manufacturer.begin(), manufacturer.end());
+
+    std::wstring query = L"SELECT * FROM PHONE WHERE Manufacturer = N'" + manuWStr + L"' ORDER BY Price " + wOrder;
+
+    ret = SQLExecDirectW(stmt, (SQLWCHAR*)query.c_str(), SQL_NTS);
+
+    if (SQL_SUCCEEDED(ret)) {
+        int id;
+        wchar_t name[100], manu[50], operatingSys[50], cpu[50];
+        float price, screenSize;
+        int ram, rom, pin;
+
+        while (SQLFetch(stmt) == SQL_SUCCESS) {
+            SQLGetData(stmt, 1, SQL_C_SLONG, &id, 0, NULL);
+            SQLGetData(stmt, 2, SQL_C_WCHAR, name, sizeof(name), NULL);
+            SQLGetData(stmt, 3, SQL_C_WCHAR, manu, sizeof(manu), NULL);
+            SQLGetData(stmt, 4, SQL_C_FLOAT, &price, 0, NULL);
+            SQLGetData(stmt, 5, SQL_C_WCHAR, operatingSys, sizeof(operatingSys), NULL);
+            SQLGetData(stmt, 6, SQL_C_WCHAR, cpu, sizeof(cpu), NULL);
+            SQLGetData(stmt, 7, SQL_C_SLONG, &ram, 0, NULL);
+            SQLGetData(stmt, 8, SQL_C_SLONG, &rom, 0, NULL);
+            SQLGetData(stmt, 9, SQL_C_FLOAT, &screenSize, 0, NULL);
+            SQLGetData(stmt, 10, SQL_C_SLONG, &pin, 0, NULL);
+
+            Phone p;
+            p.setID(id);
+            p.setName(wstringToString(name));
+            p.setManu(wstringToString(manu));
+            p.setPrice(priceStandardize(std::to_string(static_cast<long long>(price))));
+            p.setConfig(
+                wstringToString(operatingSys),
+                wstringToString(cpu),
+                ram,
+                rom,
+                screenSize,
+                pin
+            );
+
+            phones.push_back(p);
+        }
+    }
+
+    SQLFreeHandle(SQL_HANDLE_STMT, stmt);
+    SQLDisconnect(dbc);
+    SQLFreeHandle(SQL_HANDLE_DBC, dbc);
+    SQLFreeHandle(SQL_HANDLE_ENV, env);
+
+    return phones;
+}
+
+std::vector<Phone> getPhonesByMaxPriceDesc(float maxPrice) {
+    std::vector<Phone> phones;
+
+    // Tạo môi trường và kết nối ODBC
+    SQLHENV env;
+    SQLHDBC dbc;
+    SQLHSTMT stmt;
+    SQLRETURN ret;
+
+    SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &env);
+    SQLSetEnvAttr(env, SQL_ATTR_ODBC_VERSION, (void*)SQL_OV_ODBC3, 0);
+    SQLAllocHandle(SQL_HANDLE_DBC, env, &dbc);
+
+    //SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=PhoneManagement;UID=sa;PWD=123;";
+    SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost\\SQLEXPRESS;Database=PhoneManagement;UID=sa;PWD=123;";
+    ret = SQLDriverConnectA(dbc, NULL, connStr, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_COMPLETE);
+
+    if (!SQL_SUCCEEDED(ret)) {
+        // Xử lý lỗi kết nối (nếu cần)
+        SQLFreeHandle(SQL_HANDLE_DBC, dbc);
+        SQLFreeHandle(SQL_HANDLE_ENV, env);
+        return phones; // trả về rỗng
+    }
+
+    SQLAllocHandle(SQL_HANDLE_STMT, dbc, &stmt);
+
+    std::wstring query = L"SELECT * FROM PHONE WHERE Price < " + std::to_wstring(maxPrice) + L" ORDER BY Price DESC";
+
+    ret = SQLExecDirectW(stmt, (SQLWCHAR*)query.c_str(), SQL_NTS);
+
+    if (SQL_SUCCEEDED(ret)) {
+        int id;
+        wchar_t name[100], manu[50], operatingSys[50], cpu[50];
+        float price, screenSize;
+        int ram, rom, pin;
+
+        while (SQLFetch(stmt) == SQL_SUCCESS) {
+            SQLGetData(stmt, 1, SQL_C_SLONG, &id, 0, NULL);
+            SQLGetData(stmt, 2, SQL_C_WCHAR, name, sizeof(name), NULL);
+            SQLGetData(stmt, 3, SQL_C_WCHAR, manu, sizeof(manu), NULL);
+            SQLGetData(stmt, 4, SQL_C_FLOAT, &price, 0, NULL);
+            SQLGetData(stmt, 5, SQL_C_WCHAR, operatingSys, sizeof(operatingSys), NULL);
+            SQLGetData(stmt, 6, SQL_C_WCHAR, cpu, sizeof(cpu), NULL);
+            SQLGetData(stmt, 7, SQL_C_SLONG, &ram, 0, NULL);
+            SQLGetData(stmt, 8, SQL_C_SLONG, &rom, 0, NULL);
+            SQLGetData(stmt, 9, SQL_C_FLOAT, &screenSize, 0, NULL);
+            SQLGetData(stmt, 10, SQL_C_SLONG, &pin, 0, NULL);
+
+            Phone p;
+            p.setID(id);
+            p.setName(wstringToString(name));
+            p.setManu(wstringToString(manu));
+            p.setPrice(priceStandardize(std::to_string(static_cast<long long>(price))));
+            p.setConfig(
+                wstringToString(operatingSys),
+                wstringToString(cpu),
+                ram,
+                rom,
+                screenSize,
+                pin
+            );
+
+            phones.push_back(p);
+        }
+    }
+
+    SQLFreeHandle(SQL_HANDLE_STMT, stmt);
     SQLDisconnect(dbc);
     SQLFreeHandle(SQL_HANDLE_DBC, dbc);
     SQLFreeHandle(SQL_HANDLE_ENV, env);

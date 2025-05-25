@@ -41,7 +41,6 @@ using std::out_of_range;
 using std::forward_iterator_tag;
 
 float round_to_decimal(float var, int decimal_places);
-
 struct ConfigPhone
 {
     string operatingSystem;         // Hệ điều hành
