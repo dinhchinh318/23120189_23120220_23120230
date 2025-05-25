@@ -12,6 +12,6 @@ void InitScreen::draw(sf::RenderWindow& window, sf::Font& font, AppScreen& scree
         sf::Vector2f(450, 200), sf::Vector2f(600, 500)); */
 }
 
-void InitScreen::pollEvent(sf::RenderWindow& window, sf::Event& event)
+void InitScreen::pollEvent(sf::RenderWindow& window, sf::Event& event, AppScreen& screen)
 {
 }

@@ -2,14 +2,14 @@
 #define _APP_H_
 
 #include "../FunctionScreen/InitScreen.h"
-#include "../FunctionScreen/AddPhoneScreen.h"
-#include "../FunctionScreen/DisplayListScreen.h"
-#include "../FunctionScreen/DeleteScreen.h"
-#include "../FunctionScreen/EditScreen.h"
-#include "../FunctionScreen/SearchScreen.h"
-#include "../FunctionScreen/FindListScreen.h"
-#include "../FunctionScreen/EditListScreen.h"
-
+#include "../FunctionScreen/addScreen.h"
+#include "../FunctionScreen/disScreen.h"
+#include "../FunctionScreen/delScreen.h"
+#include "../FunctionScreen/editScreen.h"
+#include "../FunctionScreen/searchScreen.h"
+#include "../FunctionScreen/search-listScreen.h"
+#include "../FunctionScreen/edit-listScreen.h"
+#include "../FunctionScreen/edit-exec.h"
 
 
 class App
@@ -29,6 +29,7 @@ private:
     DeleteScreen* deleteScreen;
     EditScreen* editScreen;
     EditListScreen* editListScreen;
+    EditExecute* editExec;
 
     AppScreen currentScreen;
 
@@ -38,13 +39,12 @@ private:
     SQLHDBC hDbc;
 
     vector<Phone> pList;
+    int index;
 public:
     App();
     void initWindow();
     void run();
     ~App();
 };
-
-void run();
 
 #endif

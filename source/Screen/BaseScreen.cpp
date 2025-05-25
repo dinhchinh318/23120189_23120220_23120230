@@ -1,6 +1,6 @@
 #include "BaseScreen.h"
 
-BaseScreen::BaseScreen(sf::Font& font, UITheme theme)
+BaseScreen::BaseScreen(sf::Font& font, UITheme theme) : backButton("BACK", sf::Vector2f(70.f, 20.f), sf::Vector2f(80.f, 30.f), font, theme)
 {
     float startX = 70;
     float spacing = 230;
@@ -50,10 +50,13 @@ void BaseScreen::drawBoxWithText(sf::RenderWindow& window, sf::Font& font,
     window.draw(text);
 }
 
+void BaseScreen::drawBack(sf::RenderWindow& window)
+{
+    backButton.draw(window);
+}
 
 void BaseScreen::drawDefaultScreen(sf::RenderWindow& window, AppScreen& screen, sf::Font& font) {
     window.draw(title);
-
 
     // Thiết lập chỉ mục của nút được chọn
     int selectedButtonIndex = -1;
@@ -102,7 +105,6 @@ void BaseScreen::drawDefaultScreen(sf::RenderWindow& window, AppScreen& screen, 
 
         window.draw(sprite);
 
-
         sf::Text welcome;
         welcome.setFont(font);  // Đảm bảo font đã load
         welcome.setString("WELCOME TO PHONE MANAGEMENT");
@@ -149,54 +151,5 @@ void BaseScreen::drawDefaultScreen(sf::RenderWindow& window, AppScreen& screen, 
         welcome.setPosition(570, 530);  // Tùy vị trí
         window.draw(welcome);
     }
-
-
-    /* if (screen == AppScreen::INIT_SCREEN) {
-        sf::Text welcome;
-        welcome.setFont(font);  // Đảm bảo font đã load
-        welcome.setString("WELCOME TO PHONE MANAGEMENT");
-        welcome.setCharacterSize(36);
-        welcome.setFillColor(sf::Color::Red);
-        welcome.setPosition(450, 200);  // Tùy vị trí
-
-        window.draw(welcome);
-
-        
-        welcome.setString("PROJECT PHONE MANAGEMENT");
-        welcome.setCharacterSize(26);
-        welcome.setFillColor(sf::Color::Red);
-        welcome.setPosition(550, 300);  // Tùy vị trí
-        window.draw(welcome);
-
-        welcome.setString("THANH VIEN:");
-        welcome.setCharacterSize(26);
-        welcome.setFillColor(sf::Color::Red);
-        welcome.setPosition(660, 350);  // Tùy vị trí
-        window.draw(welcome);
-
-        welcome.setString("TRAN VU DINH CHINH");
-        welcome.setCharacterSize(26);
-        welcome.setFillColor(sf::Color::Red);
-        welcome.setPosition(613, 400);  // Tùy vị trí
-        window.draw(welcome);
-
-        welcome.setString("HOANG QUOC VIET");
-        welcome.setCharacterSize(26);
-        welcome.setFillColor(sf::Color::Red);
-        welcome.setPosition(613, 450);  // Tùy vị trí
-        window.draw(welcome);
-
-        welcome.setString("NGUYEN THE DAT");
-        welcome.setCharacterSize(26);
-        welcome.setFillColor(sf::Color::Red);
-        welcome.setPosition(613, 500);  // Tùy vị trí
-        window.draw(welcome);
-
-        welcome.setString("GIAO VIEN HUONG DAN: TRAN DUY QUANG");
-        welcome.setCharacterSize(26);
-        welcome.setFillColor(sf::Color::Red);
-        welcome.setPosition(490, 550);  // Tùy vị trí
-        window.draw(welcome);
-    } */
 
 }

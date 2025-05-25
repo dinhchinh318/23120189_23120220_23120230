@@ -1,5 +1,5 @@
 #include "Phone.h"
-//const SQLWCHAR* GLOBAL_CONN_STR = L"Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=PhoneManagement;UID=sa;PWD=123;";
+
 // string priceStandardize(string& price) {
 // 	string digits;
 // 	for (char c : price) {
@@ -65,6 +65,28 @@ int inputIntegerNumber(const std::string& notice) {
 			std::cin.ignore(1000, '\n');
 			return number;
 		}
+	}
+}
+
+// Hàm kết nối đến database
+bool connectToSQL(SQLHENV& hEnv, SQLHDBC& hDbc) {
+	SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &hEnv);
+	SQLSetEnvAttr(hEnv, SQL_ATTR_ODBC_VERSION, (void*)SQL_OV_ODBC3, 0);
+	SQLAllocHandle(SQL_HANDLE_DBC, hEnv, &hDbc);
+
+	/*std::wstring connStr = L"Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=QLDienThoai;UID=sa;PWD=123;";
+	SQLRETURN ret = SQLDriverConnectW(hDbc, nullptr, (SQLWCHAR*)connStr.c_str(), SQL_NTS, nullptr, 0, nullptr, SQL_DRIVER_COMPLETE);*/
+
+	SQLWCHAR connStr[] = L"Driver={ODBC Driver 17 for SQL Server};Server=localhost\\SQLEXPRESS;Database=PhoneManagement;UID=sa;PWD=123;";
+	SQLRETURN ret = SQLDriverConnectW(hDbc, NULL, connStr, SQL_NTS, NULL, 0, NULL, SQL_DRIVER_COMPLETE);
+
+	if (SQL_SUCCEEDED(ret)) {
+		std::wcout << L"Connect to SQL server successful.\n";
+		return true;
+	}
+	else {
+		std::wcout << L"Connect failed.\n";
+		return false;
 	}
 }
 

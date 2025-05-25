@@ -11,6 +11,8 @@ protected:
     SQLHDBC hDbc;
 
     std::vector<Button> buttons;
+
+    Button backButton;
     UITheme theme;
     sf::Text title;
 
@@ -20,7 +22,7 @@ public:
     virtual ~BaseScreen() = default;
 
     virtual void draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen) = 0;
-    virtual void pollEvent(sf::RenderWindow& window, sf::Event& event) = 0;
+    virtual void pollEvent(sf::RenderWindow& window, sf::Event& event, AppScreen& screen) = 0;
 
     virtual bool handleClicked(sf::Vector2f mousePos, AppScreen& screen, sf::RenderWindow& window) 
     {
@@ -65,6 +67,8 @@ public:
     }
 
     virtual void update(sf::Vector2f mousePos) = 0;
+
+    void drawBack(sf::RenderWindow& window);
 
     void drawDefaultScreen(sf::RenderWindow& window, AppScreen& screen, sf::Font& font);
 

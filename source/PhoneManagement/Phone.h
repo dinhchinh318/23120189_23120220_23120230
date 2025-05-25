@@ -8,6 +8,7 @@
 #include <cstdlib>
 #include <stdlib.h>
 #include <thread>
+#include <chrono>
 #include <iomanip>
 #include <algorithm>
 #include <exception>
@@ -41,6 +42,7 @@ using std::out_of_range;
 using std::forward_iterator_tag;
 
 float round_to_decimal(float var, int decimal_places);
+
 struct ConfigPhone
 {
     string operatingSystem;         // Hệ điều hành
@@ -132,5 +134,6 @@ public:
 
 string priceStandardize(const string& price);
 int inputIntegerNumber(const string& notice);
+bool connectToSQL(SQLHENV& hEnv, SQLHDBC& hDbc);
 
 #endif

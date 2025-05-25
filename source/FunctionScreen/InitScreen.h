@@ -12,7 +12,7 @@ public:
 
     void draw(sf::RenderWindow& window, sf::Font& font, AppScreen& screen) override;
     
-    void pollEvent(sf::RenderWindow& window, sf::Event& event) override;
+    void pollEvent(sf::RenderWindow& window, sf::Event& event, AppScreen& screen) override;
 
     void update(sf::Vector2f mousePos) override
     {

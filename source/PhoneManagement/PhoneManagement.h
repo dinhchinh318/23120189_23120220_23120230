@@ -154,8 +154,7 @@ public:
         return os;
     }
 };
-extern SQLCHAR connStr[];
-bool connectToSQL(SQLHENV& hEnv, SQLHDBC& hDbc);
+
 string wstringToString(const std::wstring& wstr);
 std::wstring stringToWString(const std::string& str);
 std::vector<Phone> getPhonesFromDatabase();
