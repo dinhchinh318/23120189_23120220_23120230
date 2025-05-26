@@ -1,5 +1,5 @@
 # Tên chương trình
-TARGET := build/app.exe
+TARGET := build/PhoneManagement.exe
 
 # Trình biên dịch
 CXX := g++
