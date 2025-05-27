@@ -1,8 +1,8 @@
 #include "PhoneManagement.h"
 
 // Define the ODBC connection string for SQL Server
-SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost\\SQLEXPRESS;Database=PhoneManagement;UID=sa;PWD=123;";
-//SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=PhoneManagement;UID=sa;PWD=123;";
+//SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost\\SQLEXPRESS;Database=PhoneManagement;UID=sa;PWD=123;";
+SQLCHAR connStr[] = "Driver={ODBC Driver 17 for SQL Server};Server=localhost;Database=PhoneManagement;UID=sa;PWD=123;";
 
 PhoneManagement::PhoneManagement()
 {
