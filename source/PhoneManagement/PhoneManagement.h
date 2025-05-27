@@ -3,6 +3,8 @@
 
 #include "Phone.h"
 
+extern SQLCHAR connStr[];
+
 class PhoneManagement {
 private:
     struct Node

@@ -41,7 +41,7 @@ test: $(TEST_TARGET)
 	@echo "====== Running Unit Tests ======"
 	@$(TEST_TARGET)
 
-TEST_DEP_OBJ := release/PhoneManagement/Phone.o release/FunctionScreen/addScreen_utils.o release/FunctionScreen/delScreen_utils.o release/FunctionScreen/edit_exec_utils.o
+TEST_DEP_OBJ := release/PhoneManagement/PhoneManagement.o release/PhoneManagement/Phone.o release/FunctionScreen/addScreen_utils.o release/FunctionScreen/delScreen_utils.o release/FunctionScreen/edit_exec_utils.o
 
 $(TEST_TARGET): $(TEST_OBJ) $(TEST_DEP_OBJ)
 	@if not exist release mkdir release
