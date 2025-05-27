@@ -33,6 +33,7 @@ TEST(SearchScreenUtilsTest, SearchInVector) {
 
 extern bool connectToSQLTest(SQLHENV &hEnv, SQLHDBC &hDbc);
 
+//Trường hợp tìm thấy
 TEST(SearchScreenUtilsTest, SearchPhoneInDB_Found) {
     SQLHENV hEnv;
     SQLHDBC hDbc;
@@ -48,6 +49,7 @@ TEST(SearchScreenUtilsTest, SearchPhoneInDB_Found) {
     EXPECT_EQ(err, "");
 }
 
+//Trường hợp không tìm thấy
 TEST(SearchScreenUtilsTest, SearchPhoneInDB_NotFound) {
     SQLHENV hEnv;
     SQLHDBC hDbc;
@@ -62,6 +64,8 @@ TEST(SearchScreenUtilsTest, SearchPhoneInDB_NotFound) {
     // EXPECT_EQ(err, "No result found or query error!");
 }
 
+
+//Test trường hợp khi nhập trống
 TEST(SearchScreenUtilsTest, SearchPhoneInDB_EmptyFields) {
     SQLHENV hEnv;
     SQLHDBC hDbc;
@@ -74,6 +78,8 @@ TEST(SearchScreenUtilsTest, SearchPhoneInDB_EmptyFields) {
     EXPECT_EQ(err, "No search fields provided!");
 }
 
+
+//Test trường hợp khi tìm ID
 TEST(SearchScreenUtilsTest, SearchPhoneInDB_ByID) {
     SQLHENV hEnv;
     SQLHDBC hDbc;
@@ -89,6 +95,7 @@ TEST(SearchScreenUtilsTest, SearchPhoneInDB_ByID) {
     EXPECT_EQ(err, "");
 }
 
+//Test trường hợp khi tìm tên
 TEST(SearchScreenUtilsTest, SearchPhoneInDB_ByName) {
     SQLHENV hEnv;
     SQLHDBC hDbc;
@@ -96,7 +103,7 @@ TEST(SearchScreenUtilsTest, SearchPhoneInDB_ByName) {
 
     // Giả sử đã có bản ghi với NamePhone là "iPhone"
     std::vector<std::string> fields(10, "");
-    fields[1] = "iPhone"; // Đúng vị trí trường tên
+    fields[1] = "v"; // Đúng vị trí trường tên
     std::vector<std::vector<std::string>> results;
     std::string err;
     EXPECT_TRUE(searchPhoneInDB(hDbc, fields, results, err));
@@ -104,6 +111,7 @@ TEST(SearchScreenUtilsTest, SearchPhoneInDB_ByName) {
     EXPECT_EQ(err, "");
 }
 
+//Test trường hợp khi tìm hãng
 TEST(SearchScreenUtilsTest, SearchPhoneInDB_ByManufacturer) {
     SQLHENV hEnv;
     SQLHDBC hDbc;
