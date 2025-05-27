@@ -179,7 +179,7 @@ void EditExecute::updatePhoneInDatabase(SQLHDBC db, AppScreen& screen)
     
     std::this_thread::sleep_for(std::chrono::milliseconds(2000));
     resetAllFields();
-    screen = AppScreen::EDIT_LIST;
+    screen = AppScreen::INIT_SCREEN;
 }
 
 

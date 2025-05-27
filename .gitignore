@@ -1,0 +1,61 @@
+# ==== Build files ====
+release/
+bin/
+out/
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# ==== CMake & Makefiles ====
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ==== Visual Studio specific ====
+*.sln
+*.vcxproj*
+*.user
+*.pdb
+*.ipch
+*.aps
+*.suo
+*.ncb
+*.cache
+*.log
+
+# ==== SFML resources ====
+*.log
+.DS_Store
+
+# ==== IDEs ====
+.vscode/
+.idea/
+*.swp
+
+# ==== Runtime generated ====
+*.db
+*.sqlite
+*.tmp
+*.bak
+
+# ==== SFML assets (optional, if not source) ====
+assets/*.png
+assets/*.jpg
+assets/*.wav
+assets/*.mp3
+Fonts/*.ttf
+Pictures/*.png
+Pictures/*.jpg
+
+# ==== System files ====
+Thumbs.db
+desktop.ini
+
+# ==== Personal settings ====
+*.code-workspace
+*.env
