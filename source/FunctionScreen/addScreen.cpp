@@ -134,97 +134,58 @@ bool AddPhoneScreen::isPhoneIDExisted(SQLHDBC db, int id) {
     return exists;
 }
 
-bool isValidInteger(const std::string& str) {
-    if (str.empty()) return false;
-    return std::all_of(str.begin(), str.end(), ::isdigit);
-}
-
-bool isValidFloat(const std::string& str) {
-    std::istringstream iss(str);
-    float f;
-    return (iss >> f) && iss.eof();
-}
-
 void AddPhoneScreen::addPhone(SQLHDBC db) {
-    if (!validateFields()) return;
+    std::vector<std::string> values;
+    for (auto& field : fields) values.push_back(field.getText());
 
-    try {
-        // Lấy dữ liệu
-        // int id = std::stoi(fields[0].getText());
-        std::string idStr = fields[0].getText();
-        if (!isValidInteger(idStr)) {
-            popup.show("ID must be a valid number!", sf::Color::Red);
-            return;
-        }
-
-        int id = std::stoi(idStr);
-        std::string name = fields[1].getText();
-        std::string manu = fields[2].getText();
-        std::string price = fields[3].getText();
-        // ConfigPhone cfg = {
-        //     fields[4].getText(),
-        //     fields[5].getText(),
-        //     std::stoi(fields[6].getText()),
-        //     std::stoi(fields[7].getText()),
-        //     std::stof(fields[8].getText()),
-        //     std::stoi(fields[9].getText())
-        // };
-
-        std::string ramStr = fields[6].getText();
-        std::string romStr = fields[7].getText();
-        std::string screenStr = fields[8].getText();
-        std::string pinStr = fields[9].getText();
-
-        if (!isValidInteger(ramStr) || !isValidInteger(romStr) || 
-            !isValidFloat(screenStr) || !isValidInteger(pinStr)) {
-            popup.show("RAM, ROM, Pin must be return integer. Screen must be return float!", sf::Color::Red);
-            return;
-        }
-
-        ConfigPhone cfg = {
-            fields[4].getText(),  // OS
-            fields[5].getText(),  // CPU
-            std::stoi(ramStr),
-            std::stoi(romStr),
-            std::stof(screenStr),
-            std::stoi(pinStr)
-        };
-
-        // Kiểm tra ID
-        if (isPhoneIDExisted(db, id)) {
-            popup.show("ID was existed!", sf::Color::Yellow);
-            resetAllFields();
-            return;
-        }
-
-        // Thực hiện insert
-        std::wstring query = L"INSERT INTO PHONE(ID, NamePhone, Manufacturer, Price, OperatingSystem, CPU, RAM, ROM, ScreenSize, Pin) VALUES ("
-            + std::to_wstring(id) + L", N'" + std::wstring(name.begin(), name.end()) + L"', N'"
-            + std::wstring(manu.begin(), manu.end()) + L"', "
-            + std::to_wstring(std::stoi(price)) + L", N'" + std::wstring(cfg.operatingSystem.begin(), cfg.operatingSystem.end()) + L"', N'"
-            + std::wstring(cfg.cpu.begin(), cfg.cpu.end()) + L"', "
-            + std::to_wstring(cfg.ram) + L", "
-            + std::to_wstring(cfg.rom) + L", "
-            + std::to_wstring(cfg.screenSize) + L", "
-            + std::to_wstring(cfg.pin) + L")";
-
-        SQLHSTMT stmt;
-        SQLAllocHandle(SQL_HANDLE_STMT, db, &stmt);
-        SQLRETURN ret = SQLExecDirectW(stmt, (SQLWCHAR*)query.c_str(), SQL_NTS);
-
-        if (ret == SQL_SUCCESS || ret == SQL_SUCCESS_WITH_INFO) {
-            popup.show("Save phone into database successful!", sf::Color::Green);
-            pList.emplace_back(id, name, manu, cfg, price);
-        } else {
-            popup.show("Error! Can't save into database!", sf::Color::Red);
-        }
-
-        SQLFreeHandle(SQL_HANDLE_STMT, stmt);
-        resetAllFields();
-
-    } catch (const std::invalid_argument&) {
-        popup.show("Invalid number format!", sf::Color::Red);
-    } catch (const std::out_of_range&) {
-        popup.show("Number out of range!", sf::Color::Red);
+    std::string errorMsg;
+    if (!validatePhoneFields(values, errorMsg)) {
+        popup.show(errorMsg, sf::Color::Red);
+        return;
     }
+
+    int id = std::stoi(values[0]);
+    std::string name = values[1];
+    std::string manu = values[2];
+    std::string price = values[3];
+    ConfigPhone cfg = {
+        values[4], // OS
+        values[5], // CPU
+        std::stoi(values[6]),
+        std::stoi(values[7]),
+        std::stof(values[8]),
+        std::stoi(values[9])
+    };
+
+    // Kiểm tra ID
+    if (isPhoneIDExisted(db, id)) {
+        popup.show("ID was existed!", sf::Color::Yellow);
+        resetAllFields();
+        return;
+    }
+
+    // Thực hiện insert
+    std::wstring query = L"INSERT INTO PHONE(ID, NamePhone, Manufacturer, Price, OperatingSystem, CPU, RAM, ROM, ScreenSize, Pin) VALUES ("
+        + std::to_wstring(id) + L", N'" + std::wstring(name.begin(), name.end()) + L"', N'"
+        + std::wstring(manu.begin(), manu.end()) + L"', "
+        + std::to_wstring(std::stoi(price)) + L", N'" + std::wstring(cfg.operatingSystem.begin(), cfg.operatingSystem.end()) + L"', N'"
+        + std::wstring(cfg.cpu.begin(), cfg.cpu.end()) + L"', "
+        + std::to_wstring(cfg.ram) + L", "
+        + std::to_wstring(cfg.rom) + L", "
+        + std::to_wstring(cfg.screenSize) + L", "
+        + std::to_wstring(cfg.pin) + L")";
+
+    SQLHSTMT stmt;
+    SQLAllocHandle(SQL_HANDLE_STMT, db, &stmt);
+    SQLRETURN ret = SQLExecDirectW(stmt, (SQLWCHAR*)query.c_str(), SQL_NTS);
+
+    if (ret == SQL_SUCCESS || ret == SQL_SUCCESS_WITH_INFO) {
+        popup.show("Save phone into database successful!", sf::Color::Green);
+        pList.emplace_back(id, name, manu, cfg, price);
+    } else {
+        popup.show("Error! Can't save into database!", sf::Color::Red);
+    }
+
+    SQLFreeHandle(SQL_HANDLE_STMT, stmt);
+    resetAllFields();
 }

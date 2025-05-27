@@ -1,31 +1,67 @@
-# Tên chương trình
-TARGET := build/PhoneManagement.exe
+# --------------------------
+# TÊN CHƯƠNG TRÌNH CHÍNH
+TARGET := release/PhoneManagement.exe
+TEST_TARGET := release/test_app.exe
 
-# Trình biên dịch
+# --------------------------
+# TRÌNH BIÊN DỊCH & CỜ BIÊN DỊCH
 CXX := g++
-CXXFLAGS := -I./SFML/include -std=c++17
+CXXFLAGS := -I./SFML/include -I./source -std=c++17
 LDFLAGS := -mconsole -L./SFML/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lodbc32
 
-# Tìm tất cả các file .cpp trong thư mục source và các thư mục con
+# --------------------------
+# NGUỒN CHƯƠNG TRÌNH CHÍNH
 SRC := $(wildcard source/*.cpp) $(wildcard source/**/*.cpp)
+OBJ := $(patsubst source/%.cpp, release/%.o, $(SRC))
 
-# Danh sách file .o tương ứng trong thư mục build
-OBJ := $(patsubst source/%.cpp, build/%.o, $(SRC))
+# --------------------------
+# NGUỒN TEST
+TEST_SRC := $(wildcard tests/*.cpp)
+GTEST_SRC := googletest/googletest/src/gtest-all.cc
+GTEST_MAIN_SRC := googletest/googletest/src/gtest_main.cc
+TEST_OBJ := $(patsubst tests/%.cpp, release/tests/%.o, $(TEST_SRC)) release/gtest-all.o release/gtest_main.o
 
-# Mặc định build
+# --------------------------
+# MẶC ĐỊNH
 all: $(TARGET)
 
-# Liên kết file object thành file thực thi (build/app.exe)
+# --------------------------
+# BIÊN DỊCH CHƯƠNG TRÌNH CHÍNH
 $(TARGET): $(OBJ)
+	@if not exist release mkdir release
 	$(CXX) $(OBJ) -o $@ $(LDFLAGS)
 
-# Biên dịch từng file .cpp thành .o trong thư mục build
-build/%.o: source/%.cpp
+release/%.o: source/%.cpp
 	@if not exist "$(dir $@)" mkdir "$(dir $@)"
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-# Clean: xóa toàn bộ nội dung trong thư mục build
-clean:
-	@if exist build rmdir /S /Q build
+# --------------------------
+# BUILD & RUN TEST
+test: $(TEST_TARGET)
+	@echo "====== Running Unit Tests ======"
+	@$(TEST_TARGET)
 
-.PHONY: all clean
+TEST_DEP_OBJ := release/PhoneManagement/Phone.o release/FunctionScreen/addScreen_utils.o release/FunctionScreen/delScreen_utils.o release/FunctionScreen/edit_exec_utils.o
+
+$(TEST_TARGET): $(TEST_OBJ) $(TEST_DEP_OBJ)
+	@if not exist release mkdir release
+	$(CXX) $^ -o $@ $(LDFLAGS)
+
+release/tests/%.o: tests/%.cpp
+	@if not exist "$(dir $@)" mkdir "$(dir $@)"
+	$(CXX) -Igoogletest/googletest/include -Igoogletest/googletest $(CXXFLAGS) -c $< -o $@
+
+release/gtest-all.o: googletest/googletest/src/gtest-all.cc
+	@if not exist "$(dir $@)" mkdir "$(dir $@)"
+	$(CXX) -Igoogletest/googletest/include -Igoogletest/googletest $(CXXFLAGS) -c $< -o $@
+
+release/gtest_main.o: googletest/googletest/src/gtest_main.cc
+	@if not exist "$(dir $@)" mkdir "$(dir $@)"
+	$(CXX) -Igoogletest/googletest/include -Igoogletest/googletest $(CXXFLAGS) -c $< -o $@
+
+# --------------------------
+# CLEAN
+clean:
+	@if exist release rmdir /S /Q release
+
+.PHONY: all clean test

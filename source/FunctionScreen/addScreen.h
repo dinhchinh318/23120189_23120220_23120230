@@ -4,6 +4,7 @@
 #include "../Screen/BaseScreen.h"
 #include "InputField.h"
 #include "Popup.h"
+#include "addScreen_utils.h"
 
 class AddPhoneScreen : public BaseScreen 
 {
@@ -36,6 +37,7 @@ public:
 
     void resetAllFields();
 
+    // filepath: source/FunctionScreen/addScreen.h
 
     bool validateFields();
     bool checkFields();
@@ -43,5 +45,9 @@ public:
     bool isPhoneIDExisted(SQLHDBC db, int id);
     void addPhone(SQLHDBC db);
 };
+
+bool isValidInteger(const std::string& str);
+bool isValidFloat(const std::string& str);
+bool validatePhoneFields(const std::vector<std::string>& fields, std::string& errorMsg);
 
 #endif

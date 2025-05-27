@@ -35,6 +35,13 @@ string priceStandardize(const string& price) {
         if (isdigit(c)) digits += c;
     }
 
+    // Loại bỏ số 0 ở đầu
+    int start = 0;
+    while (start < digits.length() && digits[start] == '0') {
+        ++start;
+    }
+
+    digits = digits.substr(start);
     int len = digits.length();
     if (len == 0) return "0";
 
