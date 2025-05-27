@@ -30,7 +30,18 @@ TEST(EditScreenTest, UpdatePhoneInDB) {
     EXPECT_EQ(err, "");
 }
 
-// ...existing code...
+//Test với dữ liệu sai format
+TEST(EditScreenTest, UpdatePhoneInDB_Error_format) {
+    SQLHENV hEnv;
+    SQLHDBC hDbc;
+    ASSERT_TRUE(connectToSQLTest(hEnv, hDbc)); // Hàm này bạn đã có
+
+    int testID = 50;
+    std::vector<std::string> newFields = {std::to_string(testID), "OnePlus 12R", "OnePlus", "13990000", "Android", "Snapdragon 8 Gen 2", "16", "256", "6.78", "Pin"};
+    std::string err;
+    EXPECT_TRUE(updatePhoneInDB(hDbc, testID, newFields, err));
+    EXPECT_EQ(err, "");
+}
 
 TEST(EditScreenTest, UpdatePhoneInDB_Fail) {
     SQLHENV hEnv;
