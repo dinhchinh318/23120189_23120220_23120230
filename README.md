@@ -365,7 +365,7 @@ $ make test
 - **Chức năng cài đặt chuẩn OOP:**  
   - (Mô tả các chức năng chính đã dựng: thêm, sửa, xóa, tìm kiếm điện thoại, giao diện menu rõ ràng...)
 - **Xem trực tiếp tại video demo** 
-  > [Xem video tại đây](https://link-video-demo.com)
+  > [Xem video tại đây](https://youtu.be/bZlcZDiNF-M)
 
 ### **3. Kiến trúc phần mềm + design pattern** (**20%**)
 #### **3.1. Tuân thủ nguyên lý OOP**
@@ -478,7 +478,77 @@ $ make test
 - **Unit Test**  
   > [Bấm vào để theo dõi các unit test](https://drive.google.com/drive/folders/1dqdo7ai-gtDjkHaNJfU6jaNoNwd73Tr8?usp=sharing)
 - **Coding Convention**  
-  > 
+#### Quy tắc Coding Convention
+
+---
+
+##### 1. Quy tắc đặt tên file và include
+
+- File header dùng đuôi `.h`, file nguồn dùng đuôi `.cpp`.
+- Khi include file header do người dùng định nghĩa, sử dụng dấu ngoặc kép `"..."`.
+- Đường dẫn include rõ ràng, tổ chức theo module/thư mục.
+
+---
+
+##### 2. Quy tắc đặt tên biến, hàm, lớp
+
+- **Tên lớp:** Viết hoa chữ cái đầu mỗi từ (PascalCase), ví dụ: `PhoneManagement`, `AddPhoneScreen`, `DeleteScreen`.
+- **Biến thành viên:** Thêm dấu gạch dưới ở đầu, ví dụ: `_id`, `_name`, `_pHead`.
+- **Tên hàm:** Viết kiểu camelCase hoặc PascalCase, ví dụ: `getPhonesFromDatabase`, `findByID`, `setTextColor`.
+- **Biến cục bộ:** Viết kiểu camelCase, ví dụ: `mousePos`, `currentPage`, `inputClock`.
+- **Hằng số:** Nếu cần, có thể dùng viết hoa toàn bộ (ví dụ: `MAX_SIZE`).
+
+---
+
+##### 3. Quy tắc dấu ngoặc nhọn và thụt lề
+
+- Dấu ngoặc nhọn mở `{` đặt ở cuối dòng khai báo hàm hoặc lớp.
+- Sử dụng 4 dấu cách (spaces) hoặc tab cho mỗi mức thụt lề (cần đồng nhất trong cùng file).
+- Dấu ngoặc nhọn đóng `}` căn thẳng hàng với dòng khai báo mở.
+
+---
+
+##### 4. Quy tắc chú thích
+
+- Sử dụng cả tiếng Việt và tiếng Anh để giải thích các đoạn code quan trọng hoặc phức tạp.
+- Thêm chú thích đầu file/lớp để mô tả chức năng tổng quan.
+
+---
+
+##### 5. Sử dụng namespace
+
+- Có thể dùng `using namespace std;` hoặc khai báo rõ từng thành phần chuẩn cần dùng.
+
+---
+
+##### 6. Quy tắc đặt tên Enum/Class
+
+- Tên kiểu enum viết hoa chữ cái đầu mỗi từ (PascalCase), ví dụ: `DisplayMode`.
+- Giá trị enum cũng viết hoa từng từ, ví dụ: `All`, `ByManufacturer`.
+
+---
+
+##### 7. Quy tắc đặt tên Getter/Setter
+
+- Getter: `getX() const`
+- Setter: `setX(...)`
+
+---
+
+##### 8. Quy tắc chống include lặp
+
+- Sử dụng macro định dạng `_TEN_FILE_H_` để tránh include nhiều lần.
+
+---
+
+##### 9. Quy tắc khác
+
+- Khai báo rõ ràng phạm vi truy cập `public`/`private` cho các hàm, biến thành viên.
+- Constructor và destructor đặt ở đầu phần public của lớp.
+- Sử dụng từ khóa `override` với các hàm ghi đè từ lớp cha.
+
+---
+
 
 ### 5. **Tài liệu mô tả kiến trúc phần mềm và các module** (**10%**)
 - **File tài liệu** (Doxygen/Markdown):  
@@ -543,7 +613,7 @@ Dự án đã triển khai và nghiên cứu một số chủ đề nâng cao nh
 ## **VI. 🎬 Video Demo**
 
 > 📺 **Link video demo:**  
-> [Xem video tại đây](https://link-video-demo.com)
+> [Xem video tại đây](https://youtu.be/bZlcZDiNF-M)
 
 **Nội dung video demo:**
 - Trình diễn giao diện chính và các chức năng nổi bật của chương trình.
